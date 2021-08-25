@@ -121,7 +121,8 @@
         "162989051622b1fbe1-2": {
           "type": "image",
           "settings": {
-            "link": "",
+            "image": "shopify:\/\/shop_images\/FREEDOM_of_movement.png",
+            "link": "shopify:\/\/pages\/hedgrenism",
             "title": "",
             "description": ""
           }
