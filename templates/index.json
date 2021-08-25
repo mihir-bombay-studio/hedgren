@@ -80,11 +80,28 @@
       "settings": {
         "colors": "white"
       }
+    },
+    "1629890403277e86eb": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Lineo_Website_d0c1da5a-eb40-47c5-a9c2-2d8eb7c7c1f4.jpg",
+        "image_height": "original",
+        "image_overlay_opacity": 0,
+        "parallax": false,
+        "title": "CROSSING THE LINE",
+        "text": "<p>Introducing the LINEO travel line<\/p>",
+        "colors": "white",
+        "textPosition": "right",
+        "textAlignment": "left",
+        "button_label": "DISCOVER THE COLLECTION",
+        "button_link": "shopify:\/\/pages\/lineo"
+      }
     }
   },
   "order": [
     "1629889722ed1e0231",
     "162989029920ed30b2",
-    "162989032889c7cbde"
+    "162989032889c7cbde",
+    "1629890403277e86eb"
   ]
 }
