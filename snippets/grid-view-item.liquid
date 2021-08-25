@@ -1,0 +1,131 @@
+<div class="grid-view-item">
+  <div class="grid-view-item-image">    
+ {% if section.settings.quick_shop_enable %}
+   <div class="shop-now-wrapper-2 mobile-hide">
+      <div class="shop-now-wrapper owl-carousel owl-theme">
+        {% include 'color-swatch' %}
+    {% include 'color-swatch-2' %}
+      </div>
+    </div>
+    {% endif %}
+    {% if section.settings.hover-effect and product.images.size > 1 %}
+      <div class="reveal">
+    {% endif %}        
+    <a href="{{ product.url | within: collection }}" title="{{product.title}}" class="grid__image grid__image__match">
+      {% capture props %}
+         style="max-width: {{ product.featured_image.width }}px"
+      {% endcapture %}
+      {% include 'responsive-image' with product.featured_image, alt: product.title, props: props %}
+
+      {% if section.settings.hover-effect and product.images.size > 1 %}
+        <div class="hidden">
+          {% capture props %}
+            style="max-width: {{ product.featured_image.width }}px"
+          {% endcapture %}
+          {% include 'responsive-image' with product.images[1], alt: product.images.last.alt, props: props %}
+        </div>
+      {% endif %}
+    </a>
+
+    {% if section.settings.hover-effect and product.images.size > 1 %}
+      </div>
+    {% endif %}
+
+
+   
+
+  </div>
+
+  <div class="grid-view-item--desc-wrapper hed-left-mar-3">
+    <div>
+      {% if section.settings.show-vendor %}
+        <div class="product-grid--vendor-text">{{ product.vendor }}</div>
+      {% endif %}
+      <p class="product-grid--title hed-title">
+        <a class="hed-grey" href="{{ product.url | within: collection }}">{{ product.title }}</a>
+        {% if product.tags contains "New" %}
+        <span style="background:#888;color:#fff;padding:0px 10px;float:right;font-size:11px;font-weight:700;letter-spacing:1.7px;margin-top:4px;">
+        NEW
+      </span>
+        {% endif %}
+        {% if product.tags contains "Outlet1" %}
+        <span style="background:#ff0000;color:#fff;padding:0px 10px;float:right;font-size:11px;font-weight:700;letter-spacing:1.7px;margin-top:4px;">
+        OUTLET
+      </span>
+        {% endif %}        
+         {% if product.tags contains "Corona1" %}
+        <span style="background:#4c7e87;color:#fff;padding:0px 10px;float:right;font-size:11px;font-weight:700;letter-spacing:1.7px;margin-top:4px;">
+        BUY 2, GET 30%
+      </span>
+        {% endif %}
+     <!--  {% if product.tags contains "Tie In" %}
+        <span style="background:#0e3970;color:#fff;padding:0px 10px;float:right;font-size:11px;font-weight:700;letter-spacing:1.7px;margin-top:4px;">
+        BUY 2, GET 30%
+      </span>
+        {% endif %}  !-->
+      </p>
+      <p class="product-grid--price hed-price">
+          {% if on_sale %}
+            {% if product.price_varies %}
+              {% capture sale_price %}
+                <span class="money">{{ product.price | money }}</span>
+              {% endcapture %}
+<!--               {{ 'products.product.on_sale_from_html' | t: price: sale_price }} --><!-- commented by mlveda -->
+				{{ 'products.product.on_sale_html' | t: price: sale_price }}
+            {% else %}
+              <span class="product-grid--compare-price"><span class="money">{{ product.compare_at_price | money }}</span></span>
+              <span class="money">{{ product.price | money }}</span>
+            {% endif %}
+          {% else %}
+            {% if product.price_varies %}
+              <span class="product-grid--from-wrapper">
+<!--                 	{{ 'products.general.from_text' | t }} --><!-- commented by mlveda -->
+			</span> <span class="money">{{ product.price | money }}</span>
+            {% else %}
+              <span class="money">{{ product.price | money }}</span>
+            {% endif %}
+          {% endif %}
+          {% if section.settings.show_reviews %}
+            <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+          {% endif %}
+      </p>       
+    </div>
+     <div class="shop-now-wrapper-2-mobile desktop-hide">
+      <div class="shop-now-wrapper-mobile owl-carousel owl-theme">        
+        
+    {% include 'color-swatch' %}
+    {% include 'color-swatch-2' %}
+      </div>
+    </div>
+   
+  </div>
+<!--
+    {% if product.compare_at_price_max > product.price and product.available %}
+        <div class="sale-badge">{{ 'products.product.on_sale' | t }}</div>
+    {% endif %}
+
+    {% unless product.available %}
+        <div class="sold-out-badge">{{ 'products.product.sold_out' | t }}</div>
+    {% endunless %}
+!-->
+</div>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:false,  
+    autoWidth:true,
+    margin: 25,
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    nav:true,    
+    responsive:{
+        0:{
+            items:1
+        },
+        300:{
+            items:3
+        },
+        300:{
+            items:6
+        }
+    }
+})
+</script>

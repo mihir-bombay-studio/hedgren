@@ -1,0 +1,722 @@
+{% assign menu = linklists[section.settings.main_linklist] %}
+
+{% for link in menu.links %}
+
+{% if link.title contains "Collections" %}
+    <div style="float:left" class="site-nav--has-dropdown" aria-haspopup="true">
+      <a href="{{ link.url }}" class="site-nav__link hed-pad-bot-24">
+        {{ link.title }}
+        <span class="icon icon-arrow-down" aria-hidden="true"></span>        
+        <div style="text-align:center;" class="hed-menu-arrow-colect"><img src='https://cdn.shopify.com/s/files/1/0042/5928/3011/files/download.png?4461641177225843864'></div>
+      </a>
+      {% case settings.mm1_columns %}
+    {% when '1' %}
+      <div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:50%;float:left;padding-left:45%;text-align:left;">
+        {% if linklists.mega-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>              
+    
+  </div>  
+  <a href="{{ settings.mega_image1_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image1 | img_url: '' }}">
+  </div>
+  </a>
+  </div>
+      {% when '2' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:50%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:50%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>             
+    
+  </div>  
+  <a href="{{ settings.mega_image1_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image1 | img_url: '' }}">
+  </div>
+  </a>
+  </div>
+      {% when '3' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>              
+  </div>
+  <a href="{{ settings.mega_image1_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image1 | img_url: '' }}">
+  </div>
+  </a>
+  </div>
+       {% when '4' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;">         
+        <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>    
+     <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-4.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-4.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-4.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div> 
+  </div>
+  <a href="{{ settings.mega_image1_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image1 | img_url: '' }}">
+  </div>
+  </a>
+  </div>
+       {% when '5' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;">         
+        <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>    
+     <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-4.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-4.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-4.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>  
+    <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega-5.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega-5.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega-5.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>     
+  </div>
+  <a href="{{ settings.mega_image1_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image1 | img_url: '' }}">
+  </div>
+  </a> 
+  </div>
+      {% endcase %}      
+</div>
+{% elsif link.title contains "Women" %}
+    <div style="float:left" class="site-nav--has-dropdown" aria-haspopup="true">
+      <a href="{{ link.url }}" class="site-nav__link hed-pad-bot-24">
+        {{ link.title }}
+        <span class="icon icon-arrow-down" aria-hidden="true"></span>
+                <div style="text-align:center;" class="hed-menu-arrow-women"><img src='https://cdn.shopify.com/s/files/1/0042/5928/3011/files/download.png?4461641177225843864'></div>
+      </a>
+      {% case settings.mm2_columns %}
+       {% when '1' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:50%;float:left;padding-left:45%;text-align:left;">
+        {% if linklists.mega2-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>     
+  
+  </div>
+<a href="{{ settings.mega_image2_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image2 | img_url: '' }}">
+  </div>
+  </a>
+  </div>
+    {% when '2' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:50%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:50%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega2-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>             
+  
+  </div>
+<a href="{{ settings.mega_image2_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image2 | img_url: '' }}">
+  </div>
+  </a>
+  </div>
+      {% when '3' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega2-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>  
+    </div>
+    <a href="{{ settings.mega_image2_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image2 | img_url: '' }}">
+  </div>
+  </a>
+   </div>
+       {% when '4' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;">         
+        <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega2-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>    
+     <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-4.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-4.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-4.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>      
+  </div>
+  <a href="{{ settings.mega_image2_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image2 | img_url: '' }}">
+  </div>
+  </a>
+  </div>
+       {% when '5' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;">         
+        <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega2-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>    
+     <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-4.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-4.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-4.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>  
+    <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega2-5.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega2-5.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega2-5.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>      
+  </div>   
+ <a href="{{ settings.mega_image2_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image2 | img_url: '' }}">
+  </div>
+  </a>
+      </div>
+       {% endcase %}
+</div>
+{% elsif link.title contains "Men" %}
+    <div style="float:left" class="site-nav--has-dropdown" aria-haspopup="true">
+      <a href="{{ link.url }}" class="site-nav__link hed-pad-bot-24">
+        {{ link.title }}
+        <span class="icon icon-arrow-down" aria-hidden="true"></span>
+                <div style="text-align:center;" class="hed-menu-arrow-men"><img src='https://cdn.shopify.com/s/files/1/0042/5928/3011/files/download.png?4461641177225843864'></div>
+      </a>
+      {% case settings.mm3_columns %}
+      {% when '1' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:50%;float:left;padding-left:45%;text-align:left;">
+        {% if linklists.mega3-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    
+  </div>
+<a href="{{ settings.mega_image3_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image3 | img_url: '' }}">
+    </div> 
+  </a>
+  </div>
+    {% when '2' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:50%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:50%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega3-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div> 
+  </div>
+<a href="{{ settings.mega_image3_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image3 | img_url: '' }}">
+    </div> 
+  </a>
+  </div>
+      {% when '3' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;float:left" class="hed-menu-auto-mar">          
+        <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega3-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:33%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>              
+  </div>
+  <a href="{{ settings.mega_image3_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image3 | img_url: '' }}">
+    </div> 
+  </a>
+  </div>
+       {% when '4' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;">         
+        <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega3-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>    
+     <div style="width:16.5%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-4.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-4.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-4.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>     
+  </div>
+  <a href="{{ settings.mega_image3_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image3 | img_url: '' }}">
+    </div> 
+  </a> 
+  </div>
+       {% when '5' %}
+<div class="hed-mega site-nav__dropdown">
+  <div style="margin:0 auto; width:66%;">         
+        <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-1.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-1.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-1.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+    <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-2.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;" >{{ linklists.mega3-2.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-2.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>
+      <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-3.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-3.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-3.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>    
+     <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-4.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-4.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-4.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>  
+    <div style="width:13.3%;float:left;padding-left:0px;text-align:left;">
+        {% if linklists.mega3-5.links %}
+        <h5 style="margin: 0 0 0.9em;padding-top:15px;color:#000;">{{ linklists.mega3-5.title }}</h5>
+        {% endif %}
+        {% for sub_link in linklists.mega3-5.links %}
+                    <div class="hed-menu-spacing">
+              <a href="{{ sub_link.url }}" >{{ sub_link.title | escape }}</a>
+            </div>
+       
+        {% endfor %}
+           </div>     
+  </div>
+  <a href="{{ settings.mega_image3_link }}">  
+    <div style="width:29%;float:right;margin-left:0px;">
+    <img src="{{  settings.mega_image3 | img_url: '' }}">
+    </div> 
+  </a>
+  </div>
+       {% endcase %}
+</div>
+{% elsif link.links != blank %}
+    <div class="site-nav--has-dropdown" aria-haspopup="true" style="float:left;">
+      <a href="{{ link.url }}" class="site-nav__link">
+        {{ link.title }}
+        <span class="icon icon-arrow-down" aria-hidden="true"></span>
+      </a>
+
+      <ul class="site-nav__dropdown" style="left:inherit !important;width:150px;">
+        {% for sub_link in link.links %}
+        {% if sub_link.levels > 0 %}
+            <li class="site-nav--has-dropdown" aria-haspopup="true">
+              <a href="{{ sub_link.url }}" class="site-nav__link">{{ sub_link.title | escape }}</a>
+              <ul class="site-nav__subdropdown">
+                {% for sub_sub_link in sub_link.links %}
+                  <li>
+                    <a href="{{ sub_sub_link.url }}" class="site-nav__link">{{ sub_sub_link.title | escape }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li>
+              <a href="{{ sub_link.url }}" class="site-nav__link">{{ sub_link.title | escape }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+
+    {% else %}
+
+    <div style="float:left">
+      <a href="{{ link.url }}" class="site-nav__link">{{ link.title }}</a>
+    </div>
+
+{% endif %}
+{% endfor %}

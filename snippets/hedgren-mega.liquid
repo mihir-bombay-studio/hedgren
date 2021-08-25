@@ -1,0 +1,33 @@
+   <script>
+    $(function() {
+    //caches a jQuery object containing the header element
+        var header = $(".hed-mega");
+     var header2 = $(".site-header");
+      var header3 = $(".hed-menu-arrow-colect");
+      var header4 = $(".hed-menu-arrow-men");
+      var header5 = $(".hed-menu-arrow-women");
+        $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+          header.addClass("hed-fix-top");  
+             header.removeClass("hed-meg-top");  
+           header2.addClass("pad-bot-0"); 
+          header3.addClass("hed-ar-12"); 
+          header3.removeClass("hed-ar-16"); 
+           header4.addClass("hed-ar-12"); 
+          header4.removeClass("hed-ar-16"); 
+           header5.addClass("hed-ar-12"); 
+          header5.removeClass("hed-ar-16"); 
+        } else {
+          header.removeClass("hed-fix-top");
+           header.addClass("hed-meg-top");
+          header3.removeClass("hed-ar-12"); 
+          header3.addClass("hed-ar-16"); 
+           header4.removeClass("hed-ar-12"); 
+          header4.addClass("hed-ar-16"); 
+           header5.removeClass("hed-ar-12"); 
+          header5.addClass("hed-ar-16"); 
+                  }
+    });
+});
+  </script> 
