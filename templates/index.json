@@ -169,6 +169,36 @@
       ],
       "settings": {
       }
+    },
+    "16298913640898c235": {
+      "type": "text-adverts",
+      "blocks": {
+        "16298913640898c235-0": {
+          "type": "text",
+          "settings": {
+            "heading": "SHIPPING",
+            "subheading": "24-7 Hours",
+            "link": "",
+            "image": "shopify:\/\/shop_images\/shipping.jpg"
+          }
+        },
+        "16298913640898c235-1": {
+          "type": "text",
+          "settings": {
+            "heading": "DELIVERY",
+            "subheading": "3-9 Working days",
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Delivery.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "16298913640898c235-0",
+        "16298913640898c235-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -178,6 +208,7 @@
     "1629890403277e86eb",
     "162989051622b1fbe1",
     "1629891012f15b85d6",
-    "16298912105c8306e9"
+    "16298912105c8306e9",
+    "16298913640898c235"
   ]
 }
