@@ -6,37 +6,22 @@
         "1629889722ed1e0231-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Back_to_school_1.png",
             "title": "",
             "text": "",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "SHOP",
+            "button_link": "shopify:\/\/collections\/great-american-heritage",
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#000000",
             "button-text": "#000000",
-            "button-background": "#ffffff",
-            "captionHorizontal": "left",
-            "captionAlignment": "left"
-          }
-        },
-        "1629889722ed1e0231-1": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#000000",
-            "button-text": "#000000",
-            "button-background": "#ffffff",
-            "captionHorizontal": "left",
+            "button-background": "#d6a519",
+            "captionHorizontal": "right",
             "captionAlignment": "left"
           }
         }
       },
       "block_order": [
-        "1629889722ed1e0231-0",
-        "1629889722ed1e0231-1"
+        "1629889722ed1e0231-0"
       ],
       "settings": {
         "slider-animation": "fade",
