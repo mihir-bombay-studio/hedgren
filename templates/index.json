@@ -136,6 +136,22 @@
       "settings": {
         "colors": "white"
       }
+    },
+    "1629891012f15b85d6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_Community_Esohe_Groen_copy.jpg",
+        "image_height": "original",
+        "image_overlay_opacity": 0,
+        "parallax": false,
+        "title": "Become part of our community",
+        "text": "<p>#WeAreHedgrenists<\/p>",
+        "colors": "white",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "button_label": "JOIN",
+        "button_link": "shopify:\/\/pages\/community"
+      }
     }
   },
   "order": [
@@ -143,6 +159,7 @@
     "162989029920ed30b2",
     "162989032889c7cbde",
     "1629890403277e86eb",
-    "162989051622b1fbe1"
+    "162989051622b1fbe1",
+    "1629891012f15b85d6"
   ]
 }
