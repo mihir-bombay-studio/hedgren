@@ -50,10 +50,41 @@
         "match-height": false,
         "show_reviews": false
       }
+    },
+    "162989032889c7cbde": {
+      "type": "image-bar",
+      "blocks": {
+        "162989032889c7cbde-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Women_Esohe.jpg",
+            "link": "shopify:\/\/pages\/women",
+            "title": "",
+            "description": ""
+          }
+        },
+        "162989032889c7cbde-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/men_Dieter_copy.jpg",
+            "link": "shopify:\/\/pages\/men",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "162989032889c7cbde-0",
+        "162989032889c7cbde-1"
+      ],
+      "settings": {
+        "colors": "white"
+      }
     }
   },
   "order": [
     "1629889722ed1e0231",
-    "162989029920ed30b2"
+    "162989029920ed30b2",
+    "162989032889c7cbde"
   ]
 }
