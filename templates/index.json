@@ -1,7 +1,56 @@
 {
   "sections": {
+    "1629889722ed1e0231": {
+      "type": "tie-in",
+      "blocks": {
+        "1629889722ed1e0231-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#000000",
+            "button-text": "#000000",
+            "button-background": "#ffffff",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        },
+        "1629889722ed1e0231-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#000000",
+            "button-text": "#000000",
+            "button-background": "#ffffff",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1629889722ed1e0231-0",
+        "1629889722ed1e0231-1"
+      ],
+      "settings": {
+        "slider-animation": "fade",
+        "slider-width": "full-width",
+        "slider-slide-time": 5,
+        "caption-heading-size": 56,
+        "caption-subheading-size": 18,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": false
+      }
+    }
   },
   "order": [
-
+    "1629889722ed1e0231"
   ]
 }

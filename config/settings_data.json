@@ -1,1 +1,1731 @@
-{"current":{"color_body_text":"#888888","color_primary":"#000000","color_body_bg":"#fff","color_body_bg_secondary":"#f8f8f8","sale_badge_color":"#f26c4f","sold_out_badge_color":"#000000","cart_color":"#f68e56","sliderArrowColor":"#a4a4a4","color_primary_navigation":"#7b7b7b","color_primary_navigation_hover":"#595959","color_secondary_navigation":"#333333","header-bg-color":"#ffffff","header-border-color":"#ffffff","color_primary_button_background":"#a4a4a4","color_primary_button_text":"#ffffff","color_primary_button_background_hover":"#3d3d3d","color_primary_button_text_hover":"#eeeeee","colorSchemeLightBackground":"#f3f3f3","colorSchemeLightText":"#414141","homepage-sections-accent-primary-color":"#727272","homepage-sections-accent-secondary-color":"#989a98","colorSchemeDarkBackground":"#242424","colorSchemeDarkText":"#ffffff","hero-heading-colour":"#ffffff","hero-description-colour":"#fff","pop-up-text-background-colour":"#fff","pop-up-text-header-text-colour":"#898989","color_footer_bg":"#4c4c4c","color_footer_text":"#b9b9b9","type_header_font":"cabin_n7","header-text-size":17,"header-underline":false,"type_base_font":"cabin_n4","typography-body-font-size":13,"type_navigation_font":"roboto_n5","header_font_size":13,"header_font_case":"normal","button_style":"square","button_text_case":"none","button_font_size":14,"button_font_style":"bold","product_page_font_size":24,"product_page_font_case":"normal","logo_font_size":18,"ajax_cart_method":"page","cart_vendor_enable":false,"cart_notes_enable":false,"share_image":"","sm_facebook_link":"https:\/\/www.facebook.com\/Hedgren.Bags\/","sm_twitter_link":"","sm_instagram_link":"https:\/\/www.instagram.com\/hedgren_global\/","sm_tumblr_link":"","sm_pinterest_link":"https:\/\/www.pinterest.com\/hedgrenglobal\/","sm_youtube_link":"https:\/\/www.youtube.com\/channel\/UCTo6PftxF3wFOM6MNoYaphA\/feed","sm_vimeo_link":"","sm_flickr_link":"","sm_snapchat_link":"","sm_houzz_link":"","sm_linkedin_link":"","sm_google_plus_link":"","enable_social_sharing":true,"social_sharing_blog":true,"share_facebook":true,"share_twitter":true,"share_pinterest":true,"popup--enable":false,"pop-up-time":"7","popup-newsletter-top":"","pop-up-text-header-text":"Get 10% off your first purchase when you sign up.","pop-up-text-description-text":"<p>Discount valid on full priced items for first order only.<\/p>","popup--show-social-icons":false,"popup--show-newsletter":true,"desktop-popup-style":"fullscreen","pop-up-delay":5,"popup--test-mode":false,"show_multiple_currencies":false,"currency_format":"money_format","supported_currencies":"INR GBP CAD USD AUD EUR JPY","default_currency":"EUR","favicon":"shopify:\/\/shop_images\/logo_32x32_778878b0-af85-410a-adf0-e5c76598e91c.jpg","animations_enabled":true,"mega_image1":"shopify:\/\/shop_images\/menu_collections.jpg","mega_image1_link":"shopify:\/\/collections\/midway","mm1_columns":"3","mega_image2":"shopify:\/\/shop_images\/menu_woman.jpg","mega_image2_link":"shopify:\/\/collections\/aura","mm2_columns":"1","mega_image3":"shopify:\/\/shop_images\/menu_men.jpg","mega_image3_link":"shopify:\/\/collections\/link","mm3_columns":"1","apricot_brandy_off_white":"","astro_print":"shopify:\/\/shop_images\/astro_print.jpg","blue_logica":"","blue_ripple_print":"","camo_print":"shopify:\/\/shop_images\/camo_print_240x240_ee17d869-037e-4c17-908e-6326abdc21a8.jpg","citadel_blue":"shopify:\/\/shop_images\/citadel_Blue.jpg","corsair":"shopify:\/\/shop_images\/corsair.jpg","cube_print":"shopify:\/\/shop_images\/cube_print_240x240_496f4e53-4978-4c58-8d42-35663f05286b.jpg","dolphin_blue":"","ermine_off_white":"","graphic_attack":"shopify:\/\/shop_images\/graphic_attack.jpg","malibu_blue":"shopify:\/\/shop_images\/malibu_blue.jpg","ccg":"shopify:\/\/shop_images\/charcoal_240x240_853a6457-6b2d-4887-a4c4-e9f16fe61b31.jpg","ocean_print":"shopify:\/\/shop_images\/ocean_print.jpg","purple_logica":"","rhubarb_off_white":"","stormy_sea":"shopify:\/\/shop_images\/stormy_sea.jpg","rose_ripple_print":"","wine":"","woven_print":"shopify:\/\/shop_images\/woven_print.jpg","grey_blue":"shopify:\/\/shop_images\/grey_blue.jpg","black_green":"shopify:\/\/shop_images\/black_green.jpg","black_grey":"shopify:\/\/shop_images\/black_grey.jpg","grape":"shopify:\/\/shop_images\/grape.jpg","zinc":"shopify:\/\/shop_images\/zinc_240x240_d03dd7fe-51d3-4074-86b2-ba64682d193a.jpg","special_black":"shopify:\/\/shop_images\/dark_grey_240x240_ce02ff1c-343d-4672-acb2-c31e848f856d.jpg","baked_apple":"shopify:\/\/shop_images\/baked_apple.jpg","khaki":"shopify:\/\/shop_images\/khaki_240x240_18afb639-dd7d-4622-b717-e35984d065e0.jpg","blue_sapphire":"shopify:\/\/shop_images\/blue_sapphire.jpg","sepia_brown":"shopify:\/\/shop_images\/sepia_240x240_1258adf8-de87-4e7c-8bc8-ebbe3db01847.jpg","dress_blue":"shopify:\/\/shop_images\/dress_blue_240x240_0a4089c6-5709-4c03-a4aa-dec1e43c5c7b.jpg","magnet":"shopify:\/\/shop_images\/magnet.jpg","falcon_grey":"shopify:\/\/shop_images\/grey.jpg","parisian_night_blue":"shopify:\/\/shop_images\/parisian_night.jpg","tango_red":"shopify:\/\/shop_images\/tango_red.jpg","dark_denim":"shopify:\/\/shop_images\/dark_denim_240x240_3cf0e834-b429-4b18-be84-ca8ca61bc567.jpg","phantom":"shopify:\/\/shop_images\/Phantom_240x240_158765b9-6e0f-4825-8247-c57d32121474.jpg","chili_pepper":"shopify:\/\/shop_images\/chilli_pepper.jpg","tornado_grey":"shopify:\/\/shop_images\/tornado_grey_240x240_9d71603c-42bb-431e-924b-7ee13f8eccf4.jpg","purple_passion":"shopify:\/\/shop_images\/purple_passion_240x240_e7b9e401-81d0-4e56-93bd-2a5ef36cd451.jpg","black_red":"shopify:\/\/shop_images\/black_red.jpg","silver_red":"shopify:\/\/shop_images\/silver_red.jpg","red_silver":"shopify:\/\/shop_images\/red_silver.jpg","golden_olive":"shopify:\/\/shop_images\/golden_olive.jpg","rooibos_tea":"shopify:\/\/shop_images\/rooibos_tea.jpg","nautical_blue":"shopify:\/\/shop_images\/nautical_blue_240x240_d1c313f5-97db-4f5a-88ad-75f39a8f5060.jpg","anthracite":"shopify:\/\/shop_images\/anthracite.jpg","ecru_olive":"shopify:\/\/shop_images\/ecru_olive.jpg","chinois_green":"shopify:\/\/shop_images\/chinois_green.jpg","almond":"shopify:\/\/shop_images\/almond_240x240_1cec085c-ba79-4b13-9c6e-9098efe37750.png","mauvewood":"shopify:\/\/shop_images\/mauvewood.jpg","sunset_gold":"shopify:\/\/shop_images\/sunset_gold.jpg","castle_rock":"shopify:\/\/shop_images\/castle_rock.jpg","deep_lavander":"shopify:\/\/shop_images\/deep_lavender.jpg","blue_bird":"shopify:\/\/shop_images\/blue_bird.jpg","pavement":"shopify:\/\/shop_images\/pavement_240x240_be56f3ba-b957-4fec-b244-55c408fec0ce.jpg","pomegranate":"shopify:\/\/shop_images\/pomegranate.jpg","pink_jungle":"shopify:\/\/shop_images\/pink_jungle.jpg","curry":"shopify:\/\/shop_images\/curry.jpg","sun_dried_tomato":"shopify:\/\/shop_images\/sun_dried_tomato.jpg","titanium":"shopify:\/\/shop_images\/titanium_240x240_72cf9ebd-be0d-4d8e-a409-a2571649c547.jpg","dark_blue_woven_print":"shopify:\/\/shop_images\/woven_print.jpg","asphalt":"shopify:\/\/shop_images\/asphalt_240x240_515e3cda-aa91-420c-9a24-5c5a8bf86c30.jpg","emberglow_coral":"shopify:\/\/shop_images\/emberglow.jpg","navy_peony":"shopify:\/\/shop_images\/navy_peony_240x240_68a61f1d-d3f9-4981-9b05-6171c4faa916.jpg","legion_blue":"shopify:\/\/shop_images\/legion_blue_240x240_cf247256-9b91-48b6-bc31-c54c7991ec7b.jpg","light_grey":"shopify:\/\/shop_images\/light_grey_240x240_86c5b271-c5e3-45d6-bec8-69beab04035e.jpg","dark_grey":"shopify:\/\/shop_images\/dark_grey_240x240_28c160a0-6bdd-4ae6-af70-3bccfec9738a.jpg","baroquerose":"shopify:\/\/shop_images\/baroque_rose_240x240_05e0519c-8462-4e8e-976b-89b18e0060e3.jpg","brightnavy":"shopify:\/\/shop_images\/bright_navy_240x240_af715528-3f66-4f3e-9b72-91fde71824ef.jpg","timberwolfbeige":"shopify:\/\/shop_images\/timber_wolf_240x240_c5847d5a-5ca5-4b8c-8643-e8f8aff80c82.jpg","oasisprint":"shopify:\/\/shop_images\/oasis_print_240x240_58c7719b-f21e-4697-be33-8462d3cba7f7.jpg","anemone":"shopify:\/\/shop_images\/anemone_240x240_d7751883-55ac-4595-a74a-e48f6f617e02.jpg","garnetrose":"shopify:\/\/shop_images\/garnet_rose_240x240_aa8ba225-6418-43d2-aa58-29286f79dff2.jpg","capers":"shopify:\/\/shop_images\/capers_240x240_0e39afa7-ac81-4ca0-896a-31001ca55cb1.jpg","brittaneyblue":"shopify:\/\/shop_images\/brittany_blue_240x240_daa50508-622f-4b6e-91c2-4a6fbad58f19.jpg","aquaprint":"shopify:\/\/shop_images\/aqua_print_240x240_178fd2b3-5cfe-4572-ad00-3e09de1a45b8.jpg","lizard":"shopify:\/\/shop_images\/lizard_240x240_b545bba7-9b60-4563-bae5-e1c9f63ba4d8.jpg","sunburn":"shopify:\/\/shop_images\/sunburn_240x240_24061cf5-5044-42cd-929c-b87a00e3e582.jpg","bluemirage":"shopify:\/\/shop_images\/blue_mirage_240x240_57eeb19f-3065-4dc5-b2a3-92931bd7e9e4.jpg","darkblue":"shopify:\/\/shop_images\/dark_blue_240x240_1926d336-8d7e-4966-923d-d9e6f5ef1804.jpg","mahoganyred":"shopify:\/\/shop_images\/mahogany_red_240x240_7fe71b35-deb2-4530-b356-26594a2c1c5b.jpg","darkiron":"shopify:\/\/shop_images\/dark_iron_240x240_65c63831-a372-4995-96cf-37af00ed5041.jpg","beechkhaki":"shopify:\/\/shop_images\/beech_khaki_240x240_7e72af72-cc5d-4dc8-b301-70b824b7c957.jpg","rubbercamel":"shopify:\/\/shop_images\/rubber_camel_240x240_bac89f8a-8357-4ef8-b189-52c8269c6233.jpg","beetred":"shopify:\/\/shop_images\/beet_red_240x240_a91f727d-fdb2-4075-9f63-9f1c0ff27aa3.jpg","blueopal":"shopify:\/\/shop_images\/blue_opal_240x240_75879564-ca27-4a5f-bb70-49c89f65c69d.jpg","volcanicglassgrey":"shopify:\/\/shop_images\/volcanic_glass_240x240_a0f372ac-c69f-44b8-88c7-c880d1223472.jpg","blush":"shopify:\/\/shop_images\/blush_240x240_1b7dee03-a87a-4dd8-9b7f-f299e9481f3c.jpg","darkchampagne":"shopify:\/\/shop_images\/dark_Champagne_240x240_dc92036b-2c2d-47cb-b381-3155e98ef2dc.jpg","black":"shopify:\/\/shop_images\/black_240x240_7ebe9a89-3af4-4130-acaa-1ef0b7b98c92.jpg","grey":"shopify:\/\/shop_images\/grey.jpg","beige":"shopify:\/\/shop_images\/beige.jpg","blue":"shopify:\/\/shop_images\/blue.jpg","brown":"shopify:\/\/shop_images\/brown.jpg","green":"shopify:\/\/shop_images\/green.jpg","olive":"shopify:\/\/shop_images\/olive.jpg","orange":"shopify:\/\/shop_images\/orange.jpg","pink":"shopify:\/\/shop_images\/pink.jpg","purple":"shopify:\/\/shop_images\/purple.jpg","red":"shopify:\/\/shop_images\/red.jpg","silver":"shopify:\/\/shop_images\/silver.jpg","turquoise":"shopify:\/\/shop_images\/turquoise.jpg","yellow":"shopify:\/\/shop_images\/yellow.jpg","gradient":"shopify:\/\/shop_images\/gradient_print.jpg","tartan":"shopify:\/\/shop_images\/tartan_print_a1184661-46e9-49f9-96a8-4bd8576b2272.jpg","activeb":"shopify:\/\/shop_images\/activeblue_bb934136-4db8-40c1-bf36-3b15011b6915.jpg","bronze":"shopify:\/\/shop_images\/bronze_607f319d-f3a5-46e7-8cd0-7a70ac85c2e5.jpg","flintb":"shopify:\/\/shop_images\/flint_blue_63c7ea3e-9728-4808-bd94-afc67f912a6b.jpg","mbrown":"shopify:\/\/shop_images\/mahogany_49b4cf46-53ef-43a2-9248-3338d4f2f4fb.jpg","rustp":"shopify:\/\/shop_images\/rust_paisley_print_ff8c29eb-5679-452a-a9e8-4cfd4c2bb0b7.jpg","moodi":"shopify:\/\/shop_images\/mood_indigo_fb8cc38d-fcaa-44e7-a029-38861073d044.jpg","urbanc":"shopify:\/\/shop_images\/urban_camo.jpg","marmalade":"shopify:\/\/shop_images\/marmalade_240x240_308c09e6-abb4-42f7-9f1d-371549b1787d.jpg","silver-lin":"","egreen":"shopify:\/\/shop_images\/earth_green.jpg","ggrey":"shopify:\/\/shop_images\/galaxy_grey.jpg","hblue":"shopify:\/\/shop_images\/halo_blue.jpg","cbprint":"shopify:\/\/shop_images\/craft_blue_print.jpg","sailorp":"shopify:\/\/shop_images\/sailor_print.jpg","activeg":"shopify:\/\/shop_images\/active_grey.jpg","rosewood":"shopify:\/\/shop_images\/rosewood.jpg","mlavender":"shopify:\/\/shop_images\/misty_lavender_100bc385-2db9-45c5-8c4f-4e93cede1609.jpg","vineyard":"shopify:\/\/shop_images\/vineyard_wine.jpg","onight":"shopify:\/\/shop_images\/Olive_Night_block.jpg","wcraftprint":"shopify:\/\/shop_images\/winter_craft_print.jpg","aebony":"shopify:\/\/shop_images\/active_ebony.jpg","fig":"shopify:\/\/shop_images\/fig.jpg","tandoorir":"shopify:\/\/shop_images\/tandoori_red.jpg","igate":"shopify:\/\/shop_images\/iron_gate.jpg","stylishg":"shopify:\/\/shop_images\/stylish_grey.jpg","ppink":"shopify:\/\/shop_images\/powder_pink_block.jpg","scarabg":"shopify:\/\/shop_images\/scarab_green.jpg","marsr":"shopify:\/\/shop_images\/mars_red.jpg","lunarr":"shopify:\/\/shop_images\/lunar_rock.jpg","spicedc":"shopify:\/\/shop_images\/spiced_coral.jpg","cashmb":"shopify:\/\/shop_images\/cashmere_beige.jpg","lindene":"shopify:\/\/shop_images\/linden_essence.jpg","mossp":"shopify:\/\/shop_images\/moss_print.jpg","bamboop":"shopify:\/\/shop_images\/bamboo_print.jpg","elegantb":"shopify:\/\/shop_images\/elegant_blue.jpg","blackstr":"shopify:\/\/shop_images\/hgah_black.jpg","mustardo":"shopify:\/\/shop_images\/mustard_olive.jpg","denimb":"shopify:\/\/shop_images\/denim_blue.jpg","salsar":"shopify:\/\/shop_images\/salsa_red.jpg","bamboom":"shopify:\/\/shop_images\/bamboo_mix.jpg","classicm":"shopify:\/\/shop_images\/classic_mix.jpg","coktailm":"shopify:\/\/shop_images\/coktail_mix.jpg","floralpr":"shopify:\/\/shop_images\/floral_pattern.jpg","slvr":"shopify:\/\/shop_images\/silvery.jpg","copper":"shopify:\/\/shop_images\/copper.jpg","cometb":"shopify:\/\/shop_images\/comet_beige.jpg","lavar":"shopify:\/\/shop_images\/lavar.jpg","malachiteg":"shopify:\/\/shop_images\/malachite.jpg","neptuneb":"shopify:\/\/shop_images\/neptuneb.jpg","saffron":"shopify:\/\/shop_images\/saffron.jpg","sienna":"shopify:\/\/shop_images\/sienna.jpg","auberginap":"shopify:\/\/shop_images\/aubergina.jpg","ebirch":"shopify:\/\/shop_images\/essbirch.jpg","essmix":"shopify:\/\/shop_images\/essentials_mix.jpg","toscansun":"shopify:\/\/shop_images\/toscan.jpg","cosmicm":"shopify:\/\/shop_images\/cosmic_mix.jpg","smokeym":"shopify:\/\/shop_images\/smokey_mauve.jpg","bikingr":"shopify:\/\/shop_images\/biking_red.jpg","cabernet":"shopify:\/\/shop_images\/cabernet.jpg","hed-slideshowlink":"shopify:\/\/collections\/great-american-heritage","hed-videolink":"shopify:\/\/collections\/midway","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"right","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#197bbd","checkout_button_color":"#197bbd","checkout_error_color":"#e32c2b","dark-grey":"shopify:\/\/shop_images\/dark_grey.jpg","chili-pepper":"","purple-passion":"shopify:\/\/shop_images\/purple_passion.jpg","castle-rock":"","blue-ripple-print":"","sepia-brown":"shopify:\/\/shop_images\/sepia.jpg","falcon-grey":"","pink-jungle":"","parisian-night-blue":"","tornado-grey":"shopify:\/\/shop_images\/tornado_grey.jpg","deep-lavander":"","color_advert_text":"#ffffff","chinois-green":"","stormy-sea":"","ecru-olive":"","astro-print":"","black-grey":"","rose-ripple-print":"","sunset-gold":"","rooibos-tea":"","mega_image":"shopify:\/\/shop_images\/Banner_40f453f3-340f-4686-b63d-58fd90e70996.jpg","emberglow-coral":"","woven-print":"","black-red":"","mlvedaACS_messageContent":"<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.","mlvedaACS_positionTop":"10px","baked-apple":"","ermine-off-white":"","sun-dried-tomato":"shopify:\/\/shop_images\/sun_dried_tomato.jpg","navy-peony":"shopify:\/\/shop_images\/navy_peony.jpg","purple-logica":"","dark-blue-woven-print":"","black-green":"","cube-print":"shopify:\/\/shop_images\/cube_print.jpg","mlvedaACS_positionLeft":"10px","mlvedaACS_defaultCurrency":"EUR","mlvedaACS_messageBackgroundColor":"inherit","mlvedaACS_position":"hide","mlvedaACS_enable":true,"mlvedaACS_supportedCurrencies":"EUR","special-black":"shopify:\/\/shop_images\/special_black.jpg","mlvedaACS_currencyFormat":"money_with_currency_format","color_advert_bg":"#6988a1","mlvedaACS_displayFlag":false,"mlvedaACS_autoSwitch":false,"camo-print":"","golden-olive":"","blue-bird":"","blue-logica":"","dolphin-blue":"","mlvedaACS_isCustomized":true,"silver-red":"","tango-red":"","mlvedaACS_borderLook":false,"color_hero_menu_text":"#333","dark-denim":"shopify:\/\/shop_images\/dark_denim.jpg","graphic-attack":"","grey-blue":"","mlvedaACS_textColor":"inherit","mlvedaACS_flagStyle":"circle","mlvedaACS_isMessageDisplay":true,"citadel-blue":"","mlvedaACS_messageColor":"inherit","dress-blue":"shopify:\/\/shop_images\/dress_blue.jpg","malibu-blue":"","mlvedaACS_roundDecimal":false,"legion-blue":"shopify:\/\/shop_images\/legion_blue.jpg","red-silver":"","rhubarb-off-white":"","apricot-brandy-off-white":"","blue-sapphire":"","nautical-blue":"shopify:\/\/shop_images\/nautical_blue.jpg","mlvedaACS_positionRight":"10px","mega_menu1":"Collections","mlvedaACS_positionBottom":"10px","mlvedaACS_roundDecimalValue":1,"mlvedaACS_backgroundColor":"inherit","mlvedaACS_textHoverColor":"inherit","ocean-print":"","mlvedaACS_hideDecimal":false,"mlvedaACS_hoverBackgroundColor":"inherit","mlvedaACS_borderLineColor":"inherit","light-grey":"shopify:\/\/shop_images\/light_grey.jpg","sections":{"footer":{"type":"footer","blocks":{"footer-2":{"type":"newsletter","settings":{"footer_newsletter_description":""}},"footer-1":{"type":"menu","settings":{"menu_title":"LINKS","footer_linklist":"customer-services"}},"footer-0":{"type":"text","settings":{"title":"HEDGREN","richtext":"<p><\/p><p>Hedgren began designing bags in 1993 with one simple philosophy in mind: make bags that serve the functional needs of everyday life, and make them look good while doing it. Over the years we’ve grown to realize that functionality isn’t determined by the number of compartments, or pockets, or zippers a bag has. Functionality is defined by the experience someone has while using our bags. <\/p>"}},"1539263598884":{"type":"social","settings":{}}},"block_order":["footer-0","footer-1","footer-2","1539263598884"],"settings":{"footer_text":"","show_methods_of_payment":true,"show_wetheme":false,"alignment":"left"}},"video":{"type":"video","settings":{"colors":"light","title":"","richtext":"","width_classes":75,"url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","autoplay":false,"loop":true,"mute":false,"image":"","video_overlay_opacity":50}},"1553000707606":{"type":"image-with-text-overlay","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/0220HED007_FreeTotebags-header2_dadcf83c-be70-4901-ab61-fd6861f04816.jpg","image_height":"original","image_overlay_opacity":0,"parallax":false,"title":"","text":"","colors":"white","textPosition":"center","textAlignment":"center","button_label":"","button_link":"shopify:\/\/collections"}},"1559914942880":{"type":"tie-in","blocks":{"3d79d023-5d84-407f-b19e-31dcbb5247ee":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Back_to_school_1.png","title":"","text":"","button_label":"SHOP","button_link":"shopify:\/\/collections\/great-american-heritage","caption-background":"rgba(0,0,0,0)","caption-text":"#000000","button-text":"#000000","button-background":"#d6a519","captionHorizontal":"right","captionAlignment":"left"}}},"block_order":["3d79d023-5d84-407f-b19e-31dcbb5247ee"],"settings":{"slider-animation":"fade","slider-width":"full-width","slider-slide-time":5,"caption-heading-size":56,"caption-subheading-size":18,"caption-button-size":14,"show-slide-dots":false,"show-slide-arrows":false}},"1582637039519":{"type":"custom-html","blocks":{"1582637039519-0":{"type":"html","settings":{"code":"<br>\n<h2 class=\"homepage-sections--title\">Share your style with #Hedgren for a chance to get featured on our Instagram account @Hedgren_Global<\/h2>\n<div id=\"insta-feed\"><\/div>","width":"100%"}}},"block_order":["1582637039519-0"],"settings":{}},"article-template":{"type":"article-template","settings":{"show_blog_tags":false,"show_recent_posts":true}},"product-template":{"type":"product-template","settings":{"show_quantity_selector":true,"show_tags":false,"show_collections":false,"show_type":false,"show_vendor":false,"show_sku":false,"show_smart_checkout":true,"enable_image_zoom":true,"cart-button-location":"above","images-position":"left","image-display":"full-size","thumbnail_changes_variant":false,"show_reviews":true,"enable_related_products":false,"related_products_title":"You may also like...","quick_shop_enable":false,"match-height":false,"enable_social_sharing":true,"social_sharing_title":"Share the love","social_sharing_facebook":true,"social_sharing_twitter":true,"social_sharing_pinterest":true}},"home-hero":{"type":"home-hero","blocks":{"text-1":{"type":"text","settings":{"hero-menu-heading":"Title","hero-menu-subheading":"Link to any collection, product or page","hero-menu-link":"","featured_image":"","featured_image_size":"medium","hero-menu-image":""}},"text-0":{"type":"text","settings":{"hero-menu-heading":"Title","hero-menu-subheading":"Link to any collection, product or page","hero-menu-link":"","featured_image":"","featured_image_size":"medium","hero-menu-image":""}}},"block_order":["text-0","text-1"],"settings":{"homepage-hero-featured-content":"homepage-hero-image-selection","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","homepage-hero-video-autoplay":true,"homepage-hero-video-loop":true,"homepage-hero-video-mute":false,"home-page-hero-image":"","image_overlay_opacity":0,"homepage-hero-image-heading":"","homepage-hero-image-description":"","homepage-hero-image-button-label":"","homepage-hero-image-link":"","zoom_on_hover":true}},"1550836660723":{"type":"video","disabled":true,"settings":{"colors":"white","title":"","richtext":"","width_classes":100,"url":"","autoplay":false,"loop":false,"mute":false,"image":"shopify:\/\/shop_images\/Banner_Community_copy.jpg","video_overlay_opacity":0}},"cart-template":{"type":"cart-template","settings":{}},"1538130863656":{"type":"image-bar","blocks":{"1538130863656-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/FREEDOM_of_movement.png","link":"shopify:\/\/pages\/hedgrenism","title":"","description":""}},"1538130863656-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/FREEDOM_of_movement_4.png","link":"shopify:\/\/blogs\/blog\/corona-essentials","title":"","description":""}},"1597413317794":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/FREEDOM_of_movement_5.png","link":"shopify:\/\/collections\/spring-summer-2021-new-arrivals","title":"","description":""}}},"block_order":["1597413317794","1538130863656-2","1538130863656-0"],"settings":{"colors":"white"}},"1550836582129":{"type":"slideshow","disabled":true,"blocks":{"1550836582129-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Banner_Community_copy.jpg","title":"","text":"","button_label":"","button_link":"shopify:\/\/products\/advance-2-way-backpack-shoulder-bag-black","caption-background":"rgba(0,0,0,0)","caption-text":"#000000","button-text":"#000000","button-background":"#ffffff","captionHorizontal":"right","captionAlignment":"left"}}},"block_order":["1550836582129-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","slider-slide-time":5,"caption-heading-size":30,"caption-subheading-size":16,"caption-button-size":14,"show-slide-dots":false,"show-slide-arrows":false}},"list-collections-template":{"type":"list-collections-template","blocks":{"1538842915532":{"type":"collection","settings":{"collection":""}}},"block_order":["1538842915532"],"settings":{"show_options":"selected","show_title":true,"banner_image":"","layout":"grid","items_per_row":4,"match-height":false}},"announcement-bar":{"type":"announcement-bar","settings":{"enable_announcement_bar":false,"message_text":"<p><em>Dear customers, we are currently moving our warehouse in Belgium to a new location in Antwerp. <br\/>This may cause some delays in the delivery of your orders. We apologize for this inconvenience which should only last a few days. <br\/>Thank you for your understanding. <br\/>The Hedgren team<\/em>  <\/p>","message_link":"","notification-bar--background-colour":"#b8b2b2","notification-bar--text-colour":"#ffffff","enable_social_icons":false}},"text-with-image-overlay3":{"type":"image-with-text-overlay","settings":{"image":"shopify:\/\/shop_images\/Banner_Community_Esohe_Groen_copy.jpg","image_height":"original","image_overlay_opacity":0,"parallax":false,"title":"Become part of our community","text":"<p>#WeAreHedgrenists<\/p>","colors":"white","textPosition":"left","textAlignment":"left","button_label":"JOIN","button_link":"shopify:\/\/pages\/community"}},"1538055007737":{"type":"image-bar","blocks":{"1538055007737-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Women_Esohe.jpg","link":"shopify:\/\/pages\/women","title":"","description":""}},"1538055007737-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/men_Dieter_copy.jpg","link":"shopify:\/\/pages\/men","title":"","description":""}}},"block_order":["1538055007737-0","1538055007737-1"],"settings":{"colors":"white"}},"text-with-image-overlay2":{"type":"image-with-text-overlay","settings":{"image":"shopify:\/\/shop_images\/Lineo_Website.jpg","image_height":"original","image_overlay_opacity":0,"parallax":false,"title":"CROSSING THE LINE","text":"<p>Introducing the LINEO travel line<\/p>","colors":"white","textPosition":"right","textAlignment":"left","button_label":"DISCOVER THE COLLECTION","button_link":"shopify:\/\/pages\/lineo"}},"text-with-image-overlay1":{"type":"image-with-text-overlay","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Lineo_Website.jpg","image_height":"original","image_overlay_opacity":10,"parallax":false,"title":"CROSSING THE LINE","text":"<p>Discover our new Travel Line collection<\/p>","colors":"white","textPosition":"left","textAlignment":"right","button_label":"Discover Lineo","button_link":"shopify:\/\/collections\/lineo"}},"collection-template":{"type":"collection-template","settings":{"collection-layout":"sidebar","collection-show-sort-by":true,"tags_enable":true,"collection-products-per-row":"3","collection-products-per-page":6,"enable_infinite_scrolling":false,"quick_shop_enable":true,"hover-effect":true,"show-vendor":false,"match-height":false,"show_reviews":false}},"1597413428992":{"type":"featured-products","settings":{"colors":"white","title":"","richtext":"","collection":"great-american-heritage","grid-desktop":3,"grid-mobile":1,"rows":1,"quick_shop_enable":true,"hover-effect":false,"show-vendor":false,"match-height":false,"show_reviews":false}},"text-adverts":{"type":"text-adverts","blocks":{"advert-2":{"type":"text","settings":{"heading":"DELIVERY","subheading":"3-9 Working days","link":"","image":"shopify:\/\/shop_images\/Delivery.jpg"}},"advert-1":{"type":"text","settings":{"heading":"SHIPPING","subheading":"24-7 Hours","link":"","image":"shopify:\/\/shop_images\/shipping.jpg"}}},"block_order":["advert-1","advert-2"],"settings":{"colors":"white"}},"feature-row":{"type":"feature-row","settings":{"colors":"white","image":"","parallax":true,"layout":"full-width","image_height":"40vw","title":"Share brand or product details","text":"<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"","button_link":""}},"image-bar":{"type":"image-bar","blocks":{"image-1":{"type":"image","settings":{"image":"","link":"","title":"","description":""}},"image-0":{"type":"image","settings":{"image":"","link":"","title":"","description":""}}},"block_order":["image-0","image-1"],"settings":{"colors":"white"}},"header":{"type":"header","settings":{"logo":"shopify:\/\/shop_images\/Hedgren_Black_Logo_1.png","logo_max_width":150,"logo_padding":5,"main_linklist":"menu","sticky_header":true,"overlay_header":false,"enable_search":true,"logo-placement":"left","dropdown_alignment":"left"}},"1550167735415":{"type":"custom-html","disabled":true,"blocks":{"1550167735415-0":{"type":"html","settings":{"code":"<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }<\/style><div class=\"embed-container\"><iframe src=\"https:\/\/player.vimeo.com\/video\/317245824\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"><\/iframe><\/div>","width":"100%"}}},"block_order":["1550167735415-0"],"settings":{}}},"content_for_index":["1550167735415","1559914942880","1597413428992","text-with-image-overlay1","1538055007737","1553000707606","1550836582129","1550836660723","text-with-image-overlay2","1538130863656","text-with-image-overlay3","1582637039519","text-adverts"]},"presets":{"Byron":{"color_body_bg_secondary":"#f8f8f8","type_navigation_font":"roboto_n5","color_secondary_navigation":"#333333","color_advert_text":"#ffffff","header_font_size":13,"color_primary_button_background_hover":"#9f9f9f","color_body_text":"#333333","color_footer_bg":"#ffffff","color_primary_navigation":"#000000","typography-body-font-size":15,"color_primary_button_text":"#ffffff","color_footer_text":"#636363","header-border-color":"#ffffff","button_font_size":14,"button_font_style":"bold","color_primary_button_text_hover":"#eeeeee","header-underline":false,"header-text-size":24,"color_primary":"#000000","type_base_font":"roboto_n4","sections":{"newsletter":{"settings":{"colors":"dark"},"type":"newsletter"},"announcement-bar":{"settings":{"notification-bar--text-colour":"#858282","message_text":"<p>Announce something here.<\/p>","enable_social_icons":false,"message_link":"","notification-bar--background-colour":"#f9f9f9","enable_announcement_bar":true},"type":"announcement-bar"},"footer":{"settings":{},"blocks":{"footer-2":{"settings":{},"type":"newsletter"},"footer-1":{"settings":{},"type":"menu"},"footer-0":{"settings":{},"type":"text"}},"type":"footer","block_order":["footer-0","footer-1","footer-2"]},"featured-blog":{"settings":{"colors":"white"},"type":"featured-blog"},"instagram":{"settings":{"instagram-homepage-width":"full-width","grid":5,"rows":2,"colors":"white"},"type":"instagram"},"video":{"settings":{"width_classes":75,"colors":"light"},"type":"video"},"text-with-image-overlay3":{"settings":{"image_height":"40vw","textPosition":"center","parallax":true,"textAlignment":"center","button_label":"Shop now","image_overlay_opacity":0,"colors":"dark"},"type":"image-with-text-overlay"},"text-with-image-overlay2":{"settings":{"image_height":"40vw","textPosition":"center","parallax":true,"textAlignment":"center","button_label":"Shop now","image_overlay_opacity":0,"colors":"dark"},"type":"image-with-text-overlay"},"text-with-image-overlay1":{"settings":{"image_height":"50vw","textPosition":"right","parallax":true,"textAlignment":"right","button_label":"Shop now","image_overlay_opacity":0,"colors":"dark"},"type":"image-with-text-overlay"},"featured-products-2":{"settings":{"grid-desktop":4,"rows":1},"type":"featured-products"},"text-adverts":{"settings":{"colors":"dark"},"blocks":{"advert-0":{"settings":{"heading":"Free Delivery Worldwide","subheading":"Click here for more info"},"type":"text"},"advert-2":{"settings":{"heading":"Promotional Link 3","subheading":"Link to a collection, product, blog post..."},"type":"text"},"advert-1":{"settings":{"heading":"Final Clearance Sale","subheading":"Up to 70% off"},"type":"text"}},"type":"text-adverts","block_order":["advert-0","advert-1","advert-2"]},"home-hero":{"settings":{},"blocks":{"text-1":{"settings":{"hero-menu-heading":"Title","hero-menu-subheading":"Link to any collection, product or page"},"type":"text"},"text-0":{"settings":{"hero-menu-heading":"Title","hero-menu-subheading":"Link to any collection, product or page"},"type":"text"}},"type":"home-hero","block_order":["text-0","text-1"]},"feature-row":{"settings":{"layout":"full-width","colors":"white"},"type":"feature-row"},"image-bar":{"settings":{"colors":"white"},"blocks":{"image-1":{"settings":{},"type":"image"},"image-0":{"settings":{},"type":"image"}},"type":"image-bar","block_order":["image-0","image-1"]},"rich-text":{"settings":{},"type":"rich-text"},"header":{"settings":{"logo-placement":"center","logo_padding":5,"sticky_header":true,"enable_search":true},"type":"header"},"featured-products":{"settings":{"grid-desktop":4,"rows":1},"type":"featured-products"},"indiv-product":{"settings":{},"type":"indiv-product"},"collection-list":{"settings":{},"blocks":{"collection-0":{"settings":{},"type":"featured_collection"},"collection-1":{"settings":{},"type":"featured_collection"},"collection-2":{"settings":{},"type":"featured_collection"}},"type":"collection-list","block_order":["collection-0","collection-1","collection-2"]},"map":{"settings":{},"type":"map"}},"header-bg-color":"#ffffff","color_body_bg":"#fff","content_for_index":["text-with-image-overlay1","rich-text","featured-products","text-with-image-overlay2","collection-list","featured-products-2","text-with-image-overlay3","indiv-product","newsletter","featured-blog","map","instagram","text-adverts"],"color_advert_bg":"#6988a1","color_primary_button_background":"#3e3e3e","type_header_font":"roboto_n7","color_hero_menu_text":"#333"},"Cannes":{"color_body_bg_secondary":"#efefef","type_navigation_font":"harmonia_sans_n7","color_advert_text":"#ffffff","header_font_size":15,"color_secondary_navigation":"#ffffff","color_primary_button_background_hover":"#9f9f9f","homepage-sections-accent-primary-color":"#000000","color_body_text":"#000000","homepage-sections-accent-secondary-color":"#ffffff","color_footer_bg":"#ffffff","typography-body-font-size":16,"color_primary_navigation":"#ffffff","color_primary_button_text":"#ffffff","color_footer_text":"#636363","header-border-color":"#282828","button_style":"rounded","button_font_size":14,"button_font_style":"bold","color_primary_button_text_hover":"#eeeeee","header-text-size":22,"sale_badge_color":"#000000","color_primary":"#000000","type_base_font":"nunito_n4","sections":{"newsletter":{"settings":{"colors":"dark"},"type":"newsletter"},"footer":{"settings":{},"blocks":{"footer-2":{"settings":{},"type":"newsletter"},"footer-1":{"settings":{},"type":"menu"},"footer-0":{"settings":{},"type":"text"}},"type":"footer","block_order":["footer-0","footer-1","footer-2"]},"featured-blog":{"settings":{"post_limit":3},"type":"featured-blog"},"indiv-product-1":{"settings":{},"type":"indiv-product"},"instagram":{"settings":{"rows":2,"colors":"dark"},"type":"instagram"},"video":{"settings":{"colors":"dark"},"type":"video"},"text-adverts":{"settings":{"colors":"light"},"blocks":{"advert-0":{"settings":{"heading":"Free Delivery Worldwide","subheading":"Click here for more info"},"type":"text"},"advert-2":{"settings":{"heading":"Promotional Link 3","subheading":"Link to a collection, product, blog post..."},"type":"text"},"advert-1":{"settings":{"heading":"Final Clearance Sale","subheading":"Up to 70% off"},"type":"text"}},"type":"text-adverts","block_order":["advert-0","advert-1","advert-2"]},"home-hero":{"settings":{"homepage-hero-image-heading":"Title","homepage-hero-image-description":"Link to any collection, product or page","image_overlay_opacity":20},"blocks":{"text-1":{"settings":{"hero-menu-heading":"Title","hero-menu-subheading":"Link to any collection, product or page"},"type":"text"},"text-0":{"settings":{"hero-menu-heading":"Title","hero-menu-subheading":"Link to any collection, product or page"},"type":"text"}},"type":"home-hero","block_order":["text-0","text-1"]},"feature-row":{"settings":{},"type":"feature-row"},"image-bar":{"settings":{"colors":"light"},"blocks":{"image-1":{"settings":{},"type":"image"},"image-0":{"settings":{},"type":"image"}},"type":"image-bar","block_order":["image-0","image-1"]},"products-block":{"settings":{},"type":"products-block"},"rich-text":{"settings":{},"type":"rich-text"},"header":{"settings":{"logo-placement":"left"},"type":"header"},"featured-products":{"settings":{"rows":1},"type":"featured-products"},"collection-list":{"settings":{},"blocks":{"collection-0":{"settings":{},"type":"featured_collection"},"collection-1":{"settings":{},"type":"featured_collection"},"collection-2":{"settings":{},"type":"featured_collection"}},"type":"collection-list","block_order":["collection-0","collection-1","collection-2"]},"text-with-image-overlay":{"settings":{"image_height":"50vw","textPosition":"left","parallax":true,"textAlignment":"left","button_label":"Shop now","image_overlay_opacity":0,"colors":"dark"},"type":"image-with-text-overlay"}},"header-bg-color":"#ffffff","color_body_bg":"#edeef0","content_for_index":["home-hero","featured-products","newsletter","text-with-image-overlay","indiv-product-1","featured-blog","video","instagram"],"color_primary_navigation_hover":"#bfbfbf","color_advert_bg":"#000000","color_primary_button_background":"#528901","type_header_font":"neue_haas_unica_n6","color_hero_menu_text":"#543131"},"Queenstown":{"color_body_bg_secondary":"#f8f8f8","type_navigation_font":"neuzeit_office_soft_rounded_n7","color_secondary_navigation":"#363a44","color_advert_text":"#ffffff","header_font_size":14,"color_primary_button_background_hover":"#9f9f9f","color_body_text":"#333333","color_footer_bg":"#f2f2f2","color_primary_navigation":"#303339","typography-body-font-size":14,"color_primary_button_text":"#ffffff","color_footer_text":"#636363","header-border-color":"#ffffff","color_primary_button_text_hover":"#eeeeee","header-underline":false,"header-text-size":28,"color_primary":"#333333","type_base_font":"neuzeit_office_n4","sections":{"text-with-image-overlay-2":{"settings":{"image_height":"30vw","textPosition":"left","parallax":true,"textAlignment":"left","button_label":"Shop now","image_overlay_opacity":35,"colors":"dark"},"type":"image-with-text-overlay"},"announcement-bar":{"settings":{"notification-bar--text-colour":"#f0f0f0","message_text":"<p>Announce something here<\/p>","notification-bar--background-colour":"#363a44","enable_announcement_bar":true},"type":"announcement-bar"},"footer":{"settings":{},"blocks":{"footer-2":{"settings":{},"type":"newsletter"},"footer-1":{"settings":{},"type":"menu"},"footer-0":{"settings":{},"type":"text"}},"type":"footer","block_order":["footer-0","footer-1","footer-2"]},"text-with-image-overlay-1":{"settings":{"image_height":"40vw","textPosition":"center","parallax":true,"textAlignment":"center","button_label":"Shop now","image_overlay_opacity":35,"colors":"white"},"type":"image-with-text-overlay"},"feature-row-2":{"settings":{},"type":"feature-row"},"featured-blog":{"settings":{"post_limit":3},"type":"featured-blog"},"instagram":{"settings":{"rows":1,"colors":"dark"},"type":"instagram"},"video":{"settings":{"colors":"light"},"type":"video"},"text-adverts":{"settings":{"colors":"dark"},"blocks":{"advert-0":{"settings":{"heading":"Free Delivery Worldwide","subheading":"Click here for more info"},"type":"text"},"advert-2":{"settings":{"heading":"Promotional Link 3","subheading":"Link to a collection, product, blog post..."},"type":"text"},"advert-1":{"settings":{"heading":"Final Clearance Sale","subheading":"Up to 70% off"},"type":"text"}},"type":"text-adverts","block_order":["advert-0","advert-1","advert-2"]},"product-template":{"settings":{"image-display":"thumbnails"},"type":"product-template"},"home-hero":{"settings":{},"blocks":{"text-1":{"settings":{"hero-menu-heading":"Title","hero-menu-subheading":"Link to any collection, product or page"},"type":"text"},"text-0":{"settings":{"hero-menu-heading":"Title","hero-menu-subheading":"Link to any collection, product or page"},"type":"text"}},"type":"home-hero","block_order":["text-0","text-1"]},"products-block":{"settings":{},"type":"products-block"},"rich-text":{"settings":{},"type":"rich-text"},"header":{"settings":{"overlay_header":true,"logo-placement":"center","logo_padding":15},"type":"header"},"featured-products":{"settings":{"grid-desktop":3,"rows":2},"type":"featured-products"},"collection-list":{"settings":{},"blocks":{"collection-0":{"settings":{},"type":"featured_collection"},"collection-1":{"settings":{},"type":"featured_collection"},"collection-2":{"settings":{},"type":"featured_collection"}},"type":"collection-list","block_order":["collection-0","collection-1","collection-2"]},"text-with-image-overlay":{"settings":{"image_height":"50vw","textPosition":"right","parallax":true,"textAlignment":"right","button_label":"Shop now","image_overlay_opacity":35,"colors":"white"},"type":"image-with-text-overlay"}},"header-bg-color":"#ffffff","color_body_bg":"#fff","content_for_index":["text-with-image-overlay","rich-text","feature-row-2","featured-products","text-with-image-overlay-1","featured-blog","text-with-image-overlay-2","instagram","text-adverts"],"color_advert_bg":"#000000","color_primary_button_background":"#3e3e3e","type_header_font":"neuzeit_office_soft_rounded_n7","color_hero_menu_text":"#333"}}}
+{
+  "current": {
+    "color_body_text": "#888888",
+    "color_primary": "#000000",
+    "color_body_bg": "#fff",
+    "color_body_bg_secondary": "#f8f8f8",
+    "sale_badge_color": "#f26c4f",
+    "sold_out_badge_color": "#000000",
+    "cart_color": "#f68e56",
+    "sliderArrowColor": "#a4a4a4",
+    "color_primary_navigation": "#7b7b7b",
+    "color_primary_navigation_hover": "#595959",
+    "color_secondary_navigation": "#333333",
+    "header-bg-color": "#ffffff",
+    "header-border-color": "#ffffff",
+    "color_primary_button_background": "#a4a4a4",
+    "color_primary_button_text": "#ffffff",
+    "color_primary_button_background_hover": "#3d3d3d",
+    "color_primary_button_text_hover": "#eeeeee",
+    "colorSchemeLightBackground": "#f3f3f3",
+    "colorSchemeLightText": "#414141",
+    "homepage-sections-accent-primary-color": "#727272",
+    "homepage-sections-accent-secondary-color": "#989a98",
+    "colorSchemeDarkBackground": "#242424",
+    "colorSchemeDarkText": "#ffffff",
+    "hero-heading-colour": "#ffffff",
+    "hero-description-colour": "#fff",
+    "pop-up-text-background-colour": "#fff",
+    "pop-up-text-header-text-colour": "#898989",
+    "color_footer_bg": "#4c4c4c",
+    "color_footer_text": "#b9b9b9",
+    "type_header_font": "cabin_n7",
+    "header-text-size": 17,
+    "header-underline": false,
+    "type_base_font": "cabin_n4",
+    "typography-body-font-size": 13,
+    "type_navigation_font": "roboto_n5",
+    "header_font_size": 13,
+    "header_font_case": "normal",
+    "button_style": "square",
+    "button_text_case": "none",
+    "button_font_size": 14,
+    "button_font_style": "bold",
+    "product_page_font_size": 24,
+    "product_page_font_case": "normal",
+    "logo_font_size": 18,
+    "ajax_cart_method": "page",
+    "cart_vendor_enable": false,
+    "cart_notes_enable": false,
+    "share_image": "",
+    "sm_facebook_link": "https:\/\/www.facebook.com\/Hedgren.Bags\/",
+    "sm_twitter_link": "",
+    "sm_instagram_link": "https:\/\/www.instagram.com\/hedgren_global\/",
+    "sm_tumblr_link": "",
+    "sm_pinterest_link": "https:\/\/www.pinterest.com\/hedgrenglobal\/",
+    "sm_youtube_link": "https:\/\/www.youtube.com\/channel\/UCTo6PftxF3wFOM6MNoYaphA\/feed",
+    "sm_vimeo_link": "",
+    "sm_flickr_link": "",
+    "sm_snapchat_link": "",
+    "sm_houzz_link": "",
+    "sm_linkedin_link": "",
+    "sm_google_plus_link": "",
+    "enable_social_sharing": true,
+    "social_sharing_blog": true,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "popup--enable": false,
+    "pop-up-time": "7",
+    "popup-newsletter-top": "",
+    "pop-up-text-header-text": "Get 10% off your first purchase when you sign up.",
+    "pop-up-text-description-text": "<p>Discount valid on full priced items for first order only.<\/p>",
+    "popup--show-social-icons": false,
+    "popup--show-newsletter": true,
+    "desktop-popup-style": "fullscreen",
+    "pop-up-delay": 5,
+    "popup--test-mode": false,
+    "show_multiple_currencies": false,
+    "currency_format": "money_format",
+    "supported_currencies": "INR GBP CAD USD AUD EUR JPY",
+    "default_currency": "EUR",
+    "favicon": "shopify:\/\/shop_images\/logo_32x32_778878b0-af85-410a-adf0-e5c76598e91c.jpg",
+    "animations_enabled": true,
+    "mega_image1": "shopify:\/\/shop_images\/menu_collections.jpg",
+    "mega_image1_link": "shopify:\/\/collections\/midway",
+    "mm1_columns": "3",
+    "mega_image2": "shopify:\/\/shop_images\/menu_woman.jpg",
+    "mega_image2_link": "shopify:\/\/collections\/aura",
+    "mm2_columns": "1",
+    "mega_image3": "shopify:\/\/shop_images\/menu_men.jpg",
+    "mega_image3_link": "shopify:\/\/collections\/link",
+    "mm3_columns": "1",
+    "apricot_brandy_off_white": "",
+    "astro_print": "shopify:\/\/shop_images\/astro_print.jpg",
+    "blue_logica": "",
+    "blue_ripple_print": "",
+    "camo_print": "shopify:\/\/shop_images\/camo_print_240x240_ee17d869-037e-4c17-908e-6326abdc21a8.jpg",
+    "citadel_blue": "shopify:\/\/shop_images\/citadel_Blue.jpg",
+    "corsair": "shopify:\/\/shop_images\/corsair.jpg",
+    "cube_print": "shopify:\/\/shop_images\/cube_print_240x240_496f4e53-4978-4c58-8d42-35663f05286b.jpg",
+    "dolphin_blue": "",
+    "ermine_off_white": "",
+    "graphic_attack": "shopify:\/\/shop_images\/graphic_attack.jpg",
+    "malibu_blue": "shopify:\/\/shop_images\/malibu_blue.jpg",
+    "ccg": "shopify:\/\/shop_images\/charcoal_240x240_853a6457-6b2d-4887-a4c4-e9f16fe61b31.jpg",
+    "ocean_print": "shopify:\/\/shop_images\/ocean_print.jpg",
+    "purple_logica": "",
+    "rhubarb_off_white": "",
+    "stormy_sea": "shopify:\/\/shop_images\/stormy_sea.jpg",
+    "rose_ripple_print": "",
+    "wine": "",
+    "woven_print": "shopify:\/\/shop_images\/woven_print.jpg",
+    "grey_blue": "shopify:\/\/shop_images\/grey_blue.jpg",
+    "black_green": "shopify:\/\/shop_images\/black_green.jpg",
+    "black_grey": "shopify:\/\/shop_images\/black_grey.jpg",
+    "grape": "shopify:\/\/shop_images\/grape.jpg",
+    "zinc": "shopify:\/\/shop_images\/zinc_240x240_d03dd7fe-51d3-4074-86b2-ba64682d193a.jpg",
+    "special_black": "shopify:\/\/shop_images\/dark_grey_240x240_ce02ff1c-343d-4672-acb2-c31e848f856d.jpg",
+    "baked_apple": "shopify:\/\/shop_images\/baked_apple.jpg",
+    "khaki": "shopify:\/\/shop_images\/khaki_240x240_18afb639-dd7d-4622-b717-e35984d065e0.jpg",
+    "blue_sapphire": "shopify:\/\/shop_images\/blue_sapphire.jpg",
+    "sepia_brown": "shopify:\/\/shop_images\/sepia_240x240_1258adf8-de87-4e7c-8bc8-ebbe3db01847.jpg",
+    "dress_blue": "shopify:\/\/shop_images\/dress_blue_240x240_0a4089c6-5709-4c03-a4aa-dec1e43c5c7b.jpg",
+    "magnet": "shopify:\/\/shop_images\/magnet.jpg",
+    "falcon_grey": "shopify:\/\/shop_images\/grey.jpg",
+    "parisian_night_blue": "shopify:\/\/shop_images\/parisian_night.jpg",
+    "tango_red": "shopify:\/\/shop_images\/tango_red.jpg",
+    "dark_denim": "shopify:\/\/shop_images\/dark_denim_240x240_3cf0e834-b429-4b18-be84-ca8ca61bc567.jpg",
+    "phantom": "shopify:\/\/shop_images\/Phantom_240x240_158765b9-6e0f-4825-8247-c57d32121474.jpg",
+    "chili_pepper": "shopify:\/\/shop_images\/chilli_pepper.jpg",
+    "tornado_grey": "shopify:\/\/shop_images\/tornado_grey_240x240_9d71603c-42bb-431e-924b-7ee13f8eccf4.jpg",
+    "purple_passion": "shopify:\/\/shop_images\/purple_passion_240x240_e7b9e401-81d0-4e56-93bd-2a5ef36cd451.jpg",
+    "black_red": "shopify:\/\/shop_images\/black_red.jpg",
+    "silver_red": "shopify:\/\/shop_images\/silver_red.jpg",
+    "red_silver": "shopify:\/\/shop_images\/red_silver.jpg",
+    "golden_olive": "shopify:\/\/shop_images\/golden_olive.jpg",
+    "rooibos_tea": "shopify:\/\/shop_images\/rooibos_tea.jpg",
+    "nautical_blue": "shopify:\/\/shop_images\/nautical_blue_240x240_d1c313f5-97db-4f5a-88ad-75f39a8f5060.jpg",
+    "anthracite": "shopify:\/\/shop_images\/anthracite.jpg",
+    "ecru_olive": "shopify:\/\/shop_images\/ecru_olive.jpg",
+    "chinois_green": "shopify:\/\/shop_images\/chinois_green.jpg",
+    "almond": "shopify:\/\/shop_images\/almond_240x240_1cec085c-ba79-4b13-9c6e-9098efe37750.png",
+    "mauvewood": "shopify:\/\/shop_images\/mauvewood.jpg",
+    "sunset_gold": "shopify:\/\/shop_images\/sunset_gold.jpg",
+    "castle_rock": "shopify:\/\/shop_images\/castle_rock.jpg",
+    "deep_lavander": "shopify:\/\/shop_images\/deep_lavender.jpg",
+    "blue_bird": "shopify:\/\/shop_images\/blue_bird.jpg",
+    "pavement": "shopify:\/\/shop_images\/pavement_240x240_be56f3ba-b957-4fec-b244-55c408fec0ce.jpg",
+    "pomegranate": "shopify:\/\/shop_images\/pomegranate.jpg",
+    "pink_jungle": "shopify:\/\/shop_images\/pink_jungle.jpg",
+    "curry": "shopify:\/\/shop_images\/curry.jpg",
+    "sun_dried_tomato": "shopify:\/\/shop_images\/sun_dried_tomato.jpg",
+    "titanium": "shopify:\/\/shop_images\/titanium_240x240_72cf9ebd-be0d-4d8e-a409-a2571649c547.jpg",
+    "dark_blue_woven_print": "shopify:\/\/shop_images\/woven_print.jpg",
+    "asphalt": "shopify:\/\/shop_images\/asphalt_240x240_515e3cda-aa91-420c-9a24-5c5a8bf86c30.jpg",
+    "emberglow_coral": "shopify:\/\/shop_images\/emberglow.jpg",
+    "navy_peony": "shopify:\/\/shop_images\/navy_peony_240x240_68a61f1d-d3f9-4981-9b05-6171c4faa916.jpg",
+    "legion_blue": "shopify:\/\/shop_images\/legion_blue_240x240_cf247256-9b91-48b6-bc31-c54c7991ec7b.jpg",
+    "light_grey": "shopify:\/\/shop_images\/light_grey_240x240_86c5b271-c5e3-45d6-bec8-69beab04035e.jpg",
+    "dark_grey": "shopify:\/\/shop_images\/dark_grey_240x240_28c160a0-6bdd-4ae6-af70-3bccfec9738a.jpg",
+    "baroquerose": "shopify:\/\/shop_images\/baroque_rose_240x240_05e0519c-8462-4e8e-976b-89b18e0060e3.jpg",
+    "brightnavy": "shopify:\/\/shop_images\/bright_navy_240x240_af715528-3f66-4f3e-9b72-91fde71824ef.jpg",
+    "timberwolfbeige": "shopify:\/\/shop_images\/timber_wolf_240x240_c5847d5a-5ca5-4b8c-8643-e8f8aff80c82.jpg",
+    "oasisprint": "shopify:\/\/shop_images\/oasis_print_240x240_58c7719b-f21e-4697-be33-8462d3cba7f7.jpg",
+    "anemone": "shopify:\/\/shop_images\/anemone_240x240_d7751883-55ac-4595-a74a-e48f6f617e02.jpg",
+    "garnetrose": "shopify:\/\/shop_images\/garnet_rose_240x240_aa8ba225-6418-43d2-aa58-29286f79dff2.jpg",
+    "capers": "shopify:\/\/shop_images\/capers_240x240_0e39afa7-ac81-4ca0-896a-31001ca55cb1.jpg",
+    "brittaneyblue": "shopify:\/\/shop_images\/brittany_blue_240x240_daa50508-622f-4b6e-91c2-4a6fbad58f19.jpg",
+    "aquaprint": "shopify:\/\/shop_images\/aqua_print_240x240_178fd2b3-5cfe-4572-ad00-3e09de1a45b8.jpg",
+    "lizard": "shopify:\/\/shop_images\/lizard_240x240_b545bba7-9b60-4563-bae5-e1c9f63ba4d8.jpg",
+    "sunburn": "shopify:\/\/shop_images\/sunburn_240x240_24061cf5-5044-42cd-929c-b87a00e3e582.jpg",
+    "bluemirage": "shopify:\/\/shop_images\/blue_mirage_240x240_57eeb19f-3065-4dc5-b2a3-92931bd7e9e4.jpg",
+    "darkblue": "shopify:\/\/shop_images\/dark_blue_240x240_1926d336-8d7e-4966-923d-d9e6f5ef1804.jpg",
+    "mahoganyred": "shopify:\/\/shop_images\/mahogany_red_240x240_7fe71b35-deb2-4530-b356-26594a2c1c5b.jpg",
+    "darkiron": "shopify:\/\/shop_images\/dark_iron_240x240_65c63831-a372-4995-96cf-37af00ed5041.jpg",
+    "beechkhaki": "shopify:\/\/shop_images\/beech_khaki_240x240_7e72af72-cc5d-4dc8-b301-70b824b7c957.jpg",
+    "rubbercamel": "shopify:\/\/shop_images\/rubber_camel_240x240_bac89f8a-8357-4ef8-b189-52c8269c6233.jpg",
+    "beetred": "shopify:\/\/shop_images\/beet_red_240x240_a91f727d-fdb2-4075-9f63-9f1c0ff27aa3.jpg",
+    "blueopal": "shopify:\/\/shop_images\/blue_opal_240x240_75879564-ca27-4a5f-bb70-49c89f65c69d.jpg",
+    "volcanicglassgrey": "shopify:\/\/shop_images\/volcanic_glass_240x240_a0f372ac-c69f-44b8-88c7-c880d1223472.jpg",
+    "blush": "shopify:\/\/shop_images\/blush_240x240_1b7dee03-a87a-4dd8-9b7f-f299e9481f3c.jpg",
+    "darkchampagne": "shopify:\/\/shop_images\/dark_Champagne_240x240_dc92036b-2c2d-47cb-b381-3155e98ef2dc.jpg",
+    "black": "shopify:\/\/shop_images\/black_240x240_7ebe9a89-3af4-4130-acaa-1ef0b7b98c92.jpg",
+    "grey": "shopify:\/\/shop_images\/grey.jpg",
+    "beige": "shopify:\/\/shop_images\/beige.jpg",
+    "blue": "shopify:\/\/shop_images\/blue.jpg",
+    "brown": "shopify:\/\/shop_images\/brown.jpg",
+    "green": "shopify:\/\/shop_images\/green.jpg",
+    "olive": "shopify:\/\/shop_images\/olive.jpg",
+    "orange": "shopify:\/\/shop_images\/orange.jpg",
+    "pink": "shopify:\/\/shop_images\/pink.jpg",
+    "purple": "shopify:\/\/shop_images\/purple.jpg",
+    "red": "shopify:\/\/shop_images\/red.jpg",
+    "silver": "shopify:\/\/shop_images\/silver.jpg",
+    "turquoise": "shopify:\/\/shop_images\/turquoise.jpg",
+    "yellow": "shopify:\/\/shop_images\/yellow.jpg",
+    "gradient": "shopify:\/\/shop_images\/gradient_print.jpg",
+    "tartan": "shopify:\/\/shop_images\/tartan_print_a1184661-46e9-49f9-96a8-4bd8576b2272.jpg",
+    "activeb": "shopify:\/\/shop_images\/activeblue_bb934136-4db8-40c1-bf36-3b15011b6915.jpg",
+    "bronze": "shopify:\/\/shop_images\/bronze_607f319d-f3a5-46e7-8cd0-7a70ac85c2e5.jpg",
+    "flintb": "shopify:\/\/shop_images\/flint_blue_63c7ea3e-9728-4808-bd94-afc67f912a6b.jpg",
+    "mbrown": "shopify:\/\/shop_images\/mahogany_49b4cf46-53ef-43a2-9248-3338d4f2f4fb.jpg",
+    "rustp": "shopify:\/\/shop_images\/rust_paisley_print_ff8c29eb-5679-452a-a9e8-4cfd4c2bb0b7.jpg",
+    "moodi": "shopify:\/\/shop_images\/mood_indigo_fb8cc38d-fcaa-44e7-a029-38861073d044.jpg",
+    "urbanc": "shopify:\/\/shop_images\/urban_camo.jpg",
+    "marmalade": "shopify:\/\/shop_images\/marmalade_240x240_308c09e6-abb4-42f7-9f1d-371549b1787d.jpg",
+    "silver-lin": "",
+    "egreen": "shopify:\/\/shop_images\/earth_green.jpg",
+    "ggrey": "shopify:\/\/shop_images\/galaxy_grey.jpg",
+    "hblue": "shopify:\/\/shop_images\/halo_blue.jpg",
+    "cbprint": "shopify:\/\/shop_images\/craft_blue_print.jpg",
+    "sailorp": "shopify:\/\/shop_images\/sailor_print.jpg",
+    "activeg": "shopify:\/\/shop_images\/active_grey.jpg",
+    "rosewood": "shopify:\/\/shop_images\/rosewood.jpg",
+    "mlavender": "shopify:\/\/shop_images\/misty_lavender_100bc385-2db9-45c5-8c4f-4e93cede1609.jpg",
+    "vineyard": "shopify:\/\/shop_images\/vineyard_wine.jpg",
+    "onight": "shopify:\/\/shop_images\/Olive_Night_block.jpg",
+    "wcraftprint": "shopify:\/\/shop_images\/winter_craft_print.jpg",
+    "aebony": "shopify:\/\/shop_images\/active_ebony.jpg",
+    "fig": "shopify:\/\/shop_images\/fig.jpg",
+    "tandoorir": "shopify:\/\/shop_images\/tandoori_red.jpg",
+    "igate": "shopify:\/\/shop_images\/iron_gate.jpg",
+    "stylishg": "shopify:\/\/shop_images\/stylish_grey.jpg",
+    "ppink": "shopify:\/\/shop_images\/powder_pink_block.jpg",
+    "scarabg": "shopify:\/\/shop_images\/scarab_green.jpg",
+    "marsr": "shopify:\/\/shop_images\/mars_red.jpg",
+    "lunarr": "shopify:\/\/shop_images\/lunar_rock.jpg",
+    "spicedc": "shopify:\/\/shop_images\/spiced_coral.jpg",
+    "cashmb": "shopify:\/\/shop_images\/cashmere_beige.jpg",
+    "lindene": "shopify:\/\/shop_images\/linden_essence.jpg",
+    "mossp": "shopify:\/\/shop_images\/moss_print.jpg",
+    "bamboop": "shopify:\/\/shop_images\/bamboo_print.jpg",
+    "elegantb": "shopify:\/\/shop_images\/elegant_blue.jpg",
+    "blackstr": "shopify:\/\/shop_images\/hgah_black.jpg",
+    "mustardo": "shopify:\/\/shop_images\/mustard_olive.jpg",
+    "denimb": "shopify:\/\/shop_images\/denim_blue.jpg",
+    "salsar": "shopify:\/\/shop_images\/salsa_red.jpg",
+    "bamboom": "shopify:\/\/shop_images\/bamboo_mix.jpg",
+    "classicm": "shopify:\/\/shop_images\/classic_mix.jpg",
+    "coktailm": "shopify:\/\/shop_images\/coktail_mix.jpg",
+    "floralpr": "shopify:\/\/shop_images\/floral_pattern.jpg",
+    "slvr": "shopify:\/\/shop_images\/silvery.jpg",
+    "copper": "shopify:\/\/shop_images\/copper.jpg",
+    "cometb": "shopify:\/\/shop_images\/comet_beige.jpg",
+    "lavar": "shopify:\/\/shop_images\/lavar.jpg",
+    "malachiteg": "shopify:\/\/shop_images\/malachite.jpg",
+    "neptuneb": "shopify:\/\/shop_images\/neptuneb.jpg",
+    "saffron": "shopify:\/\/shop_images\/saffron.jpg",
+    "sienna": "shopify:\/\/shop_images\/sienna.jpg",
+    "auberginap": "shopify:\/\/shop_images\/aubergina.jpg",
+    "ebirch": "shopify:\/\/shop_images\/essbirch.jpg",
+    "essmix": "shopify:\/\/shop_images\/essentials_mix.jpg",
+    "toscansun": "shopify:\/\/shop_images\/toscan.jpg",
+    "cosmicm": "shopify:\/\/shop_images\/cosmic_mix.jpg",
+    "smokeym": "shopify:\/\/shop_images\/smokey_mauve.jpg",
+    "bikingr": "shopify:\/\/shop_images\/biking_red.jpg",
+    "cabernet": "shopify:\/\/shop_images\/cabernet.jpg",
+    "hed-slideshowlink": "shopify:\/\/collections\/great-american-heritage",
+    "hed-videolink": "shopify:\/\/collections\/midway",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "right",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "dark-grey": "shopify:\/\/shop_images\/dark_grey.jpg",
+    "chili-pepper": "",
+    "purple-passion": "shopify:\/\/shop_images\/purple_passion.jpg",
+    "castle-rock": "",
+    "blue-ripple-print": "",
+    "sepia-brown": "shopify:\/\/shop_images\/sepia.jpg",
+    "falcon-grey": "",
+    "pink-jungle": "",
+    "parisian-night-blue": "",
+    "tornado-grey": "shopify:\/\/shop_images\/tornado_grey.jpg",
+    "deep-lavander": "",
+    "color_advert_text": "#ffffff",
+    "chinois-green": "",
+    "stormy-sea": "",
+    "ecru-olive": "",
+    "astro-print": "",
+    "black-grey": "",
+    "rose-ripple-print": "",
+    "sunset-gold": "",
+    "rooibos-tea": "",
+    "mega_image": "shopify:\/\/shop_images\/Banner_40f453f3-340f-4686-b63d-58fd90e70996.jpg",
+    "emberglow-coral": "",
+    "woven-print": "",
+    "black-red": "",
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "mlvedaACS_positionTop": "10px",
+    "baked-apple": "",
+    "ermine-off-white": "",
+    "sun-dried-tomato": "shopify:\/\/shop_images\/sun_dried_tomato.jpg",
+    "navy-peony": "shopify:\/\/shop_images\/navy_peony.jpg",
+    "purple-logica": "",
+    "dark-blue-woven-print": "",
+    "black-green": "",
+    "cube-print": "shopify:\/\/shop_images\/cube_print.jpg",
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "EUR",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "mlvedaACS_position": "hide",
+    "mlvedaACS_enable": true,
+    "mlvedaACS_supportedCurrencies": "EUR",
+    "special-black": "shopify:\/\/shop_images\/special_black.jpg",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "color_advert_bg": "#6988a1",
+    "mlvedaACS_displayFlag": false,
+    "mlvedaACS_autoSwitch": false,
+    "camo-print": "",
+    "golden-olive": "",
+    "blue-bird": "",
+    "blue-logica": "",
+    "dolphin-blue": "",
+    "mlvedaACS_isCustomized": true,
+    "silver-red": "",
+    "tango-red": "",
+    "mlvedaACS_borderLook": false,
+    "color_hero_menu_text": "#333",
+    "dark-denim": "shopify:\/\/shop_images\/dark_denim.jpg",
+    "graphic-attack": "",
+    "grey-blue": "",
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_flagStyle": "circle",
+    "mlvedaACS_isMessageDisplay": true,
+    "citadel-blue": "",
+    "mlvedaACS_messageColor": "inherit",
+    "dress-blue": "shopify:\/\/shop_images\/dress_blue.jpg",
+    "malibu-blue": "",
+    "mlvedaACS_roundDecimal": false,
+    "legion-blue": "shopify:\/\/shop_images\/legion_blue.jpg",
+    "red-silver": "",
+    "rhubarb-off-white": "",
+    "apricot-brandy-off-white": "",
+    "blue-sapphire": "",
+    "nautical-blue": "shopify:\/\/shop_images\/nautical_blue.jpg",
+    "mlvedaACS_positionRight": "10px",
+    "mega_menu1": "Collections",
+    "mlvedaACS_positionBottom": "10px",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_backgroundColor": "inherit",
+    "mlvedaACS_textHoverColor": "inherit",
+    "ocean-print": "",
+    "mlvedaACS_hideDecimal": false,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "mlvedaACS_borderLineColor": "inherit",
+    "light-grey": "shopify:\/\/shop_images\/light_grey.jpg",
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "footer_newsletter_description": ""
+            }
+          },
+          "footer-1": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "LINKS",
+              "footer_linklist": "customer-services"
+            }
+          },
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "HEDGREN",
+              "richtext": "<p><\/p><p>Hedgren began designing bags in 1993 with one simple philosophy in mind: make bags that serve the functional needs of everyday life, and make them look good while doing it. Over the years we’ve grown to realize that functionality isn’t determined by the number of compartments, or pockets, or zippers a bag has. Functionality is defined by the experience someone has while using our bags. <\/p>"
+            }
+          },
+          "1539263598884": {
+            "type": "social",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2",
+          "1539263598884"
+        ],
+        "settings": {
+          "footer_text": "",
+          "show_methods_of_payment": true,
+          "show_wetheme": false,
+          "alignment": "left"
+        }
+      },
+      "video": {
+        "type": "video",
+        "settings": {
+          "colors": "light",
+          "title": "",
+          "richtext": "",
+          "width_classes": 75,
+          "url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "autoplay": false,
+          "loop": true,
+          "mute": false,
+          "image": "",
+          "video_overlay_opacity": 50
+        }
+      },
+      "1553000707606": {
+        "type": "image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/0220HED007_FreeTotebags-header2_dadcf83c-be70-4901-ab61-fd6861f04816.jpg",
+          "image_height": "original",
+          "image_overlay_opacity": 0,
+          "parallax": false,
+          "title": "",
+          "text": "",
+          "colors": "white",
+          "textPosition": "center",
+          "textAlignment": "center",
+          "button_label": "",
+          "button_link": "shopify:\/\/collections"
+        }
+      },
+      "1559914942880": {
+        "type": "tie-in",
+        "blocks": {
+          "3d79d023-5d84-407f-b19e-31dcbb5247ee": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Back_to_school_1.png",
+              "title": "",
+              "text": "",
+              "button_label": "SHOP",
+              "button_link": "shopify:\/\/collections\/great-american-heritage",
+              "caption-background": "rgba(0,0,0,0)",
+              "caption-text": "#000000",
+              "button-text": "#000000",
+              "button-background": "#d6a519",
+              "captionHorizontal": "right",
+              "captionAlignment": "left"
+            }
+          }
+        },
+        "block_order": [
+          "3d79d023-5d84-407f-b19e-31dcbb5247ee"
+        ],
+        "settings": {
+          "slider-animation": "fade",
+          "slider-width": "full-width",
+          "slider-slide-time": 5,
+          "caption-heading-size": 56,
+          "caption-subheading-size": 18,
+          "caption-button-size": 14,
+          "show-slide-dots": false,
+          "show-slide-arrows": false
+        }
+      },
+      "1582637039519": {
+        "type": "custom-html",
+        "blocks": {
+          "1582637039519-0": {
+            "type": "html",
+            "settings": {
+              "code": "<br>\n<h2 class=\"homepage-sections--title\">Share your style with #Hedgren for a chance to get featured on our Instagram account @Hedgren_Global<\/h2>\n<div id=\"insta-feed\"><\/div>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "1582637039519-0"
+        ],
+        "settings": {
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_blog_tags": false,
+          "show_recent_posts": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_tags": false,
+          "show_collections": false,
+          "show_type": false,
+          "show_vendor": false,
+          "show_sku": false,
+          "show_smart_checkout": true,
+          "enable_image_zoom": true,
+          "cart-button-location": "above",
+          "images-position": "left",
+          "image-display": "full-size",
+          "thumbnail_changes_variant": false,
+          "show_reviews": true,
+          "enable_related_products": false,
+          "related_products_title": "You may also like...",
+          "quick_shop_enable": false,
+          "match-height": false,
+          "enable_social_sharing": true,
+          "social_sharing_title": "Share the love",
+          "social_sharing_facebook": true,
+          "social_sharing_twitter": true,
+          "social_sharing_pinterest": true
+        }
+      },
+      "home-hero": {
+        "type": "home-hero",
+        "blocks": {
+          "text-1": {
+            "type": "text",
+            "settings": {
+              "hero-menu-heading": "Title",
+              "hero-menu-subheading": "Link to any collection, product or page",
+              "hero-menu-link": "",
+              "featured_image": "",
+              "featured_image_size": "medium",
+              "hero-menu-image": ""
+            }
+          },
+          "text-0": {
+            "type": "text",
+            "settings": {
+              "hero-menu-heading": "Title",
+              "hero-menu-subheading": "Link to any collection, product or page",
+              "hero-menu-link": "",
+              "featured_image": "",
+              "featured_image_size": "medium",
+              "hero-menu-image": ""
+            }
+          }
+        },
+        "block_order": [
+          "text-0",
+          "text-1"
+        ],
+        "settings": {
+          "homepage-hero-featured-content": "homepage-hero-image-selection",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "homepage-hero-video-autoplay": true,
+          "homepage-hero-video-loop": true,
+          "homepage-hero-video-mute": false,
+          "home-page-hero-image": "",
+          "image_overlay_opacity": 0,
+          "homepage-hero-image-heading": "",
+          "homepage-hero-image-description": "",
+          "homepage-hero-image-button-label": "",
+          "homepage-hero-image-link": "",
+          "zoom_on_hover": true
+        }
+      },
+      "1550836660723": {
+        "type": "video",
+        "disabled": true,
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "width_classes": 100,
+          "url": "",
+          "autoplay": false,
+          "loop": false,
+          "mute": false,
+          "image": "shopify:\/\/shop_images\/Banner_Community_copy.jpg",
+          "video_overlay_opacity": 0
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+        }
+      },
+      "1538130863656": {
+        "type": "image-bar",
+        "blocks": {
+          "1538130863656-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FREEDOM_of_movement.png",
+              "link": "shopify:\/\/pages\/hedgrenism",
+              "title": "",
+              "description": ""
+            }
+          },
+          "1538130863656-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FREEDOM_of_movement_4.png",
+              "link": "shopify:\/\/blogs\/blog\/corona-essentials",
+              "title": "",
+              "description": ""
+            }
+          },
+          "1597413317794": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FREEDOM_of_movement_5.png",
+              "link": "shopify:\/\/collections\/spring-summer-2021-new-arrivals",
+              "title": "",
+              "description": ""
+            }
+          }
+        },
+        "block_order": [
+          "1597413317794",
+          "1538130863656-2",
+          "1538130863656-0"
+        ],
+        "settings": {
+          "colors": "white"
+        }
+      },
+      "1550836582129": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1550836582129-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner_Community_copy.jpg",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/products\/advance-2-way-backpack-shoulder-bag-black",
+              "caption-background": "rgba(0,0,0,0)",
+              "caption-text": "#000000",
+              "button-text": "#000000",
+              "button-background": "#ffffff",
+              "captionHorizontal": "right",
+              "captionAlignment": "left"
+            }
+          }
+        },
+        "block_order": [
+          "1550836582129-0"
+        ],
+        "settings": {
+          "slider-animation": "slide",
+          "slider-width": "full-width",
+          "slider-slide-time": 5,
+          "caption-heading-size": 30,
+          "caption-subheading-size": 16,
+          "caption-button-size": 14,
+          "show-slide-dots": false,
+          "show-slide-arrows": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "1538842915532": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "1538842915532"
+        ],
+        "settings": {
+          "show_options": "selected",
+          "show_title": true,
+          "banner_image": "",
+          "layout": "grid",
+          "items_per_row": 4,
+          "match-height": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "enable_announcement_bar": false,
+          "message_text": "<p><em>Dear customers, we are currently moving our warehouse in Belgium to a new location in Antwerp. <br\/>This may cause some delays in the delivery of your orders. We apologize for this inconvenience which should only last a few days. <br\/>Thank you for your understanding. <br\/>The Hedgren team<\/em>  <\/p>",
+          "message_link": "",
+          "notification-bar--background-colour": "#b8b2b2",
+          "notification-bar--text-colour": "#ffffff",
+          "enable_social_icons": false
+        }
+      },
+      "text-with-image-overlay3": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Banner_Community_Esohe_Groen_copy.jpg",
+          "image_height": "original",
+          "image_overlay_opacity": 0,
+          "parallax": false,
+          "title": "Become part of our community",
+          "text": "<p>#WeAreHedgrenists<\/p>",
+          "colors": "white",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "button_label": "JOIN",
+          "button_link": "shopify:\/\/pages\/community"
+        }
+      },
+      "1538055007737": {
+        "type": "image-bar",
+        "blocks": {
+          "1538055007737-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Women_Esohe.jpg",
+              "link": "shopify:\/\/pages\/women",
+              "title": "",
+              "description": ""
+            }
+          },
+          "1538055007737-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/men_Dieter_copy.jpg",
+              "link": "shopify:\/\/pages\/men",
+              "title": "",
+              "description": ""
+            }
+          }
+        },
+        "block_order": [
+          "1538055007737-0",
+          "1538055007737-1"
+        ],
+        "settings": {
+          "colors": "white"
+        }
+      },
+      "text-with-image-overlay2": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Lineo_Website.jpg",
+          "image_height": "original",
+          "image_overlay_opacity": 0,
+          "parallax": false,
+          "title": "CROSSING THE LINE",
+          "text": "<p>Introducing the LINEO travel line<\/p>",
+          "colors": "white",
+          "textPosition": "right",
+          "textAlignment": "left",
+          "button_label": "DISCOVER THE COLLECTION",
+          "button_link": "shopify:\/\/pages\/lineo"
+        }
+      },
+      "text-with-image-overlay1": {
+        "type": "image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Lineo_Website.jpg",
+          "image_height": "original",
+          "image_overlay_opacity": 10,
+          "parallax": false,
+          "title": "CROSSING THE LINE",
+          "text": "<p>Discover our new Travel Line collection<\/p>",
+          "colors": "white",
+          "textPosition": "left",
+          "textAlignment": "right",
+          "button_label": "Discover Lineo",
+          "button_link": "shopify:\/\/collections\/lineo"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection-layout": "sidebar",
+          "collection-show-sort-by": true,
+          "tags_enable": true,
+          "collection-products-per-row": "3",
+          "collection-products-per-page": 6,
+          "enable_infinite_scrolling": false,
+          "quick_shop_enable": true,
+          "hover-effect": true,
+          "show-vendor": false,
+          "match-height": false,
+          "show_reviews": false
+        }
+      },
+      "1597413428992": {
+        "type": "featured-products",
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "collection": "great-american-heritage",
+          "grid-desktop": 3,
+          "grid-mobile": 1,
+          "rows": 1,
+          "quick_shop_enable": true,
+          "hover-effect": false,
+          "show-vendor": false,
+          "match-height": false,
+          "show_reviews": false
+        }
+      },
+      "text-adverts": {
+        "type": "text-adverts",
+        "blocks": {
+          "advert-2": {
+            "type": "text",
+            "settings": {
+              "heading": "DELIVERY",
+              "subheading": "3-9 Working days",
+              "link": "",
+              "image": "shopify:\/\/shop_images\/Delivery.jpg"
+            }
+          },
+          "advert-1": {
+            "type": "text",
+            "settings": {
+              "heading": "SHIPPING",
+              "subheading": "24-7 Hours",
+              "link": "",
+              "image": "shopify:\/\/shop_images\/shipping.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "advert-1",
+          "advert-2"
+        ],
+        "settings": {
+          "colors": "white"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "colors": "white",
+          "image": "",
+          "parallax": true,
+          "layout": "full-width",
+          "image_height": "40vw",
+          "title": "Share brand or product details",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "image-1": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "link": "",
+              "title": "",
+              "description": ""
+            }
+          },
+          "image-0": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "link": "",
+              "title": "",
+              "description": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-0",
+          "image-1"
+        ],
+        "settings": {
+          "colors": "white"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Hedgren_Black_Logo_1.png",
+          "logo_max_width": 150,
+          "logo_padding": 5,
+          "main_linklist": "menu",
+          "sticky_header": true,
+          "overlay_header": false,
+          "enable_search": true,
+          "logo-placement": "left",
+          "dropdown_alignment": "left"
+        }
+      },
+      "1550167735415": {
+        "type": "custom-html",
+        "disabled": true,
+        "blocks": {
+          "1550167735415-0": {
+            "type": "html",
+            "settings": {
+              "code": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }<\/style><div class=\"embed-container\"><iframe src=\"https:\/\/player.vimeo.com\/video\/317245824\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"><\/iframe><\/div>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "1550167735415-0"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+      "1550167735415",
+      "1559914942880",
+      "1597413428992",
+      "text-with-image-overlay1",
+      "1538055007737",
+      "1553000707606",
+      "1550836582129",
+      "1550836660723",
+      "text-with-image-overlay2",
+      "1538130863656",
+      "text-with-image-overlay3",
+      "1582637039519",
+      "text-adverts"
+    ]
+  },
+  "presets": {
+    "Byron": {
+      "color_body_bg_secondary": "#f8f8f8",
+      "type_navigation_font": "roboto_n5",
+      "color_secondary_navigation": "#333333",
+      "color_advert_text": "#ffffff",
+      "header_font_size": 13,
+      "color_primary_button_background_hover": "#9f9f9f",
+      "color_body_text": "#333333",
+      "color_footer_bg": "#ffffff",
+      "color_primary_navigation": "#000000",
+      "typography-body-font-size": 15,
+      "color_primary_button_text": "#ffffff",
+      "color_footer_text": "#636363",
+      "header-border-color": "#ffffff",
+      "button_font_size": 14,
+      "button_font_style": "bold",
+      "color_primary_button_text_hover": "#eeeeee",
+      "header-underline": false,
+      "header-text-size": 24,
+      "color_primary": "#000000",
+      "type_base_font": "roboto_n4",
+      "sections": {
+        "newsletter": {
+          "settings": {
+            "colors": "dark"
+          },
+          "type": "newsletter"
+        },
+        "announcement-bar": {
+          "settings": {
+            "notification-bar--text-colour": "#858282",
+            "message_text": "<p>Announce something here.<\/p>",
+            "enable_social_icons": false,
+            "message_link": "",
+            "notification-bar--background-colour": "#f9f9f9",
+            "enable_announcement_bar": true
+          },
+          "type": "announcement-bar"
+        },
+        "footer": {
+          "settings": {
+          },
+          "blocks": {
+            "footer-2": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "footer-1": {
+              "settings": {
+              },
+              "type": "menu"
+            },
+            "footer-0": {
+              "settings": {
+              },
+              "type": "text"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ]
+        },
+        "featured-blog": {
+          "settings": {
+            "colors": "white"
+          },
+          "type": "featured-blog"
+        },
+        "instagram": {
+          "settings": {
+            "instagram-homepage-width": "full-width",
+            "grid": 5,
+            "rows": 2,
+            "colors": "white"
+          },
+          "type": "instagram"
+        },
+        "video": {
+          "settings": {
+            "width_classes": 75,
+            "colors": "light"
+          },
+          "type": "video"
+        },
+        "text-with-image-overlay3": {
+          "settings": {
+            "image_height": "40vw",
+            "textPosition": "center",
+            "parallax": true,
+            "textAlignment": "center",
+            "button_label": "Shop now",
+            "image_overlay_opacity": 0,
+            "colors": "dark"
+          },
+          "type": "image-with-text-overlay"
+        },
+        "text-with-image-overlay2": {
+          "settings": {
+            "image_height": "40vw",
+            "textPosition": "center",
+            "parallax": true,
+            "textAlignment": "center",
+            "button_label": "Shop now",
+            "image_overlay_opacity": 0,
+            "colors": "dark"
+          },
+          "type": "image-with-text-overlay"
+        },
+        "text-with-image-overlay1": {
+          "settings": {
+            "image_height": "50vw",
+            "textPosition": "right",
+            "parallax": true,
+            "textAlignment": "right",
+            "button_label": "Shop now",
+            "image_overlay_opacity": 0,
+            "colors": "dark"
+          },
+          "type": "image-with-text-overlay"
+        },
+        "featured-products-2": {
+          "settings": {
+            "grid-desktop": 4,
+            "rows": 1
+          },
+          "type": "featured-products"
+        },
+        "text-adverts": {
+          "settings": {
+            "colors": "dark"
+          },
+          "blocks": {
+            "advert-0": {
+              "settings": {
+                "heading": "Free Delivery Worldwide",
+                "subheading": "Click here for more info"
+              },
+              "type": "text"
+            },
+            "advert-2": {
+              "settings": {
+                "heading": "Promotional Link 3",
+                "subheading": "Link to a collection, product, blog post..."
+              },
+              "type": "text"
+            },
+            "advert-1": {
+              "settings": {
+                "heading": "Final Clearance Sale",
+                "subheading": "Up to 70% off"
+              },
+              "type": "text"
+            }
+          },
+          "type": "text-adverts",
+          "block_order": [
+            "advert-0",
+            "advert-1",
+            "advert-2"
+          ]
+        },
+        "home-hero": {
+          "settings": {
+          },
+          "blocks": {
+            "text-1": {
+              "settings": {
+                "hero-menu-heading": "Title",
+                "hero-menu-subheading": "Link to any collection, product or page"
+              },
+              "type": "text"
+            },
+            "text-0": {
+              "settings": {
+                "hero-menu-heading": "Title",
+                "hero-menu-subheading": "Link to any collection, product or page"
+              },
+              "type": "text"
+            }
+          },
+          "type": "home-hero",
+          "block_order": [
+            "text-0",
+            "text-1"
+          ]
+        },
+        "feature-row": {
+          "settings": {
+            "layout": "full-width",
+            "colors": "white"
+          },
+          "type": "feature-row"
+        },
+        "image-bar": {
+          "settings": {
+            "colors": "white"
+          },
+          "blocks": {
+            "image-1": {
+              "settings": {
+              },
+              "type": "image"
+            },
+            "image-0": {
+              "settings": {
+              },
+              "type": "image"
+            }
+          },
+          "type": "image-bar",
+          "block_order": [
+            "image-0",
+            "image-1"
+          ]
+        },
+        "rich-text": {
+          "settings": {
+          },
+          "type": "rich-text"
+        },
+        "header": {
+          "settings": {
+            "logo-placement": "center",
+            "logo_padding": 5,
+            "sticky_header": true,
+            "enable_search": true
+          },
+          "type": "header"
+        },
+        "featured-products": {
+          "settings": {
+            "grid-desktop": 4,
+            "rows": 1
+          },
+          "type": "featured-products"
+        },
+        "indiv-product": {
+          "settings": {
+          },
+          "type": "indiv-product"
+        },
+        "collection-list": {
+          "settings": {
+          },
+          "blocks": {
+            "collection-0": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            },
+            "collection-1": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            },
+            "collection-2": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            }
+          },
+          "type": "collection-list",
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ]
+        },
+        "map": {
+          "settings": {
+          },
+          "type": "map"
+        }
+      },
+      "header-bg-color": "#ffffff",
+      "color_body_bg": "#fff",
+      "content_for_index": [
+        "text-with-image-overlay1",
+        "rich-text",
+        "featured-products",
+        "text-with-image-overlay2",
+        "collection-list",
+        "featured-products-2",
+        "text-with-image-overlay3",
+        "indiv-product",
+        "newsletter",
+        "featured-blog",
+        "map",
+        "instagram",
+        "text-adverts"
+      ],
+      "color_advert_bg": "#6988a1",
+      "color_primary_button_background": "#3e3e3e",
+      "type_header_font": "roboto_n7",
+      "color_hero_menu_text": "#333"
+    },
+    "Cannes": {
+      "color_body_bg_secondary": "#efefef",
+      "type_navigation_font": "harmonia_sans_n7",
+      "color_advert_text": "#ffffff",
+      "header_font_size": 15,
+      "color_secondary_navigation": "#ffffff",
+      "color_primary_button_background_hover": "#9f9f9f",
+      "homepage-sections-accent-primary-color": "#000000",
+      "color_body_text": "#000000",
+      "homepage-sections-accent-secondary-color": "#ffffff",
+      "color_footer_bg": "#ffffff",
+      "typography-body-font-size": 16,
+      "color_primary_navigation": "#ffffff",
+      "color_primary_button_text": "#ffffff",
+      "color_footer_text": "#636363",
+      "header-border-color": "#282828",
+      "button_style": "rounded",
+      "button_font_size": 14,
+      "button_font_style": "bold",
+      "color_primary_button_text_hover": "#eeeeee",
+      "header-text-size": 22,
+      "sale_badge_color": "#000000",
+      "color_primary": "#000000",
+      "type_base_font": "nunito_n4",
+      "sections": {
+        "newsletter": {
+          "settings": {
+            "colors": "dark"
+          },
+          "type": "newsletter"
+        },
+        "footer": {
+          "settings": {
+          },
+          "blocks": {
+            "footer-2": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "footer-1": {
+              "settings": {
+              },
+              "type": "menu"
+            },
+            "footer-0": {
+              "settings": {
+              },
+              "type": "text"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ]
+        },
+        "featured-blog": {
+          "settings": {
+            "post_limit": 3
+          },
+          "type": "featured-blog"
+        },
+        "indiv-product-1": {
+          "settings": {
+          },
+          "type": "indiv-product"
+        },
+        "instagram": {
+          "settings": {
+            "rows": 2,
+            "colors": "dark"
+          },
+          "type": "instagram"
+        },
+        "video": {
+          "settings": {
+            "colors": "dark"
+          },
+          "type": "video"
+        },
+        "text-adverts": {
+          "settings": {
+            "colors": "light"
+          },
+          "blocks": {
+            "advert-0": {
+              "settings": {
+                "heading": "Free Delivery Worldwide",
+                "subheading": "Click here for more info"
+              },
+              "type": "text"
+            },
+            "advert-2": {
+              "settings": {
+                "heading": "Promotional Link 3",
+                "subheading": "Link to a collection, product, blog post..."
+              },
+              "type": "text"
+            },
+            "advert-1": {
+              "settings": {
+                "heading": "Final Clearance Sale",
+                "subheading": "Up to 70% off"
+              },
+              "type": "text"
+            }
+          },
+          "type": "text-adverts",
+          "block_order": [
+            "advert-0",
+            "advert-1",
+            "advert-2"
+          ]
+        },
+        "home-hero": {
+          "settings": {
+            "homepage-hero-image-heading": "Title",
+            "homepage-hero-image-description": "Link to any collection, product or page",
+            "image_overlay_opacity": 20
+          },
+          "blocks": {
+            "text-1": {
+              "settings": {
+                "hero-menu-heading": "Title",
+                "hero-menu-subheading": "Link to any collection, product or page"
+              },
+              "type": "text"
+            },
+            "text-0": {
+              "settings": {
+                "hero-menu-heading": "Title",
+                "hero-menu-subheading": "Link to any collection, product or page"
+              },
+              "type": "text"
+            }
+          },
+          "type": "home-hero",
+          "block_order": [
+            "text-0",
+            "text-1"
+          ]
+        },
+        "feature-row": {
+          "settings": {
+          },
+          "type": "feature-row"
+        },
+        "image-bar": {
+          "settings": {
+            "colors": "light"
+          },
+          "blocks": {
+            "image-1": {
+              "settings": {
+              },
+              "type": "image"
+            },
+            "image-0": {
+              "settings": {
+              },
+              "type": "image"
+            }
+          },
+          "type": "image-bar",
+          "block_order": [
+            "image-0",
+            "image-1"
+          ]
+        },
+        "products-block": {
+          "settings": {
+          },
+          "type": "products-block"
+        },
+        "rich-text": {
+          "settings": {
+          },
+          "type": "rich-text"
+        },
+        "header": {
+          "settings": {
+            "logo-placement": "left"
+          },
+          "type": "header"
+        },
+        "featured-products": {
+          "settings": {
+            "rows": 1
+          },
+          "type": "featured-products"
+        },
+        "collection-list": {
+          "settings": {
+          },
+          "blocks": {
+            "collection-0": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            },
+            "collection-1": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            },
+            "collection-2": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            }
+          },
+          "type": "collection-list",
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ]
+        },
+        "text-with-image-overlay": {
+          "settings": {
+            "image_height": "50vw",
+            "textPosition": "left",
+            "parallax": true,
+            "textAlignment": "left",
+            "button_label": "Shop now",
+            "image_overlay_opacity": 0,
+            "colors": "dark"
+          },
+          "type": "image-with-text-overlay"
+        }
+      },
+      "header-bg-color": "#ffffff",
+      "color_body_bg": "#edeef0",
+      "content_for_index": [
+        "home-hero",
+        "featured-products",
+        "newsletter",
+        "text-with-image-overlay",
+        "indiv-product-1",
+        "featured-blog",
+        "video",
+        "instagram"
+      ],
+      "color_primary_navigation_hover": "#bfbfbf",
+      "color_advert_bg": "#000000",
+      "color_primary_button_background": "#528901",
+      "type_header_font": "neue_haas_unica_n6",
+      "color_hero_menu_text": "#543131"
+    },
+    "Queenstown": {
+      "color_body_bg_secondary": "#f8f8f8",
+      "type_navigation_font": "neuzeit_office_soft_rounded_n7",
+      "color_secondary_navigation": "#363a44",
+      "color_advert_text": "#ffffff",
+      "header_font_size": 14,
+      "color_primary_button_background_hover": "#9f9f9f",
+      "color_body_text": "#333333",
+      "color_footer_bg": "#f2f2f2",
+      "color_primary_navigation": "#303339",
+      "typography-body-font-size": 14,
+      "color_primary_button_text": "#ffffff",
+      "color_footer_text": "#636363",
+      "header-border-color": "#ffffff",
+      "color_primary_button_text_hover": "#eeeeee",
+      "header-underline": false,
+      "header-text-size": 28,
+      "color_primary": "#333333",
+      "type_base_font": "neuzeit_office_n4",
+      "sections": {
+        "text-with-image-overlay-2": {
+          "settings": {
+            "image_height": "30vw",
+            "textPosition": "left",
+            "parallax": true,
+            "textAlignment": "left",
+            "button_label": "Shop now",
+            "image_overlay_opacity": 35,
+            "colors": "dark"
+          },
+          "type": "image-with-text-overlay"
+        },
+        "announcement-bar": {
+          "settings": {
+            "notification-bar--text-colour": "#f0f0f0",
+            "message_text": "<p>Announce something here<\/p>",
+            "notification-bar--background-colour": "#363a44",
+            "enable_announcement_bar": true
+          },
+          "type": "announcement-bar"
+        },
+        "footer": {
+          "settings": {
+          },
+          "blocks": {
+            "footer-2": {
+              "settings": {
+              },
+              "type": "newsletter"
+            },
+            "footer-1": {
+              "settings": {
+              },
+              "type": "menu"
+            },
+            "footer-0": {
+              "settings": {
+              },
+              "type": "text"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ]
+        },
+        "text-with-image-overlay-1": {
+          "settings": {
+            "image_height": "40vw",
+            "textPosition": "center",
+            "parallax": true,
+            "textAlignment": "center",
+            "button_label": "Shop now",
+            "image_overlay_opacity": 35,
+            "colors": "white"
+          },
+          "type": "image-with-text-overlay"
+        },
+        "feature-row-2": {
+          "settings": {
+          },
+          "type": "feature-row"
+        },
+        "featured-blog": {
+          "settings": {
+            "post_limit": 3
+          },
+          "type": "featured-blog"
+        },
+        "instagram": {
+          "settings": {
+            "rows": 1,
+            "colors": "dark"
+          },
+          "type": "instagram"
+        },
+        "video": {
+          "settings": {
+            "colors": "light"
+          },
+          "type": "video"
+        },
+        "text-adverts": {
+          "settings": {
+            "colors": "dark"
+          },
+          "blocks": {
+            "advert-0": {
+              "settings": {
+                "heading": "Free Delivery Worldwide",
+                "subheading": "Click here for more info"
+              },
+              "type": "text"
+            },
+            "advert-2": {
+              "settings": {
+                "heading": "Promotional Link 3",
+                "subheading": "Link to a collection, product, blog post..."
+              },
+              "type": "text"
+            },
+            "advert-1": {
+              "settings": {
+                "heading": "Final Clearance Sale",
+                "subheading": "Up to 70% off"
+              },
+              "type": "text"
+            }
+          },
+          "type": "text-adverts",
+          "block_order": [
+            "advert-0",
+            "advert-1",
+            "advert-2"
+          ]
+        },
+        "product-template": {
+          "settings": {
+            "image-display": "thumbnails"
+          },
+          "type": "product-template"
+        },
+        "home-hero": {
+          "settings": {
+          },
+          "blocks": {
+            "text-1": {
+              "settings": {
+                "hero-menu-heading": "Title",
+                "hero-menu-subheading": "Link to any collection, product or page"
+              },
+              "type": "text"
+            },
+            "text-0": {
+              "settings": {
+                "hero-menu-heading": "Title",
+                "hero-menu-subheading": "Link to any collection, product or page"
+              },
+              "type": "text"
+            }
+          },
+          "type": "home-hero",
+          "block_order": [
+            "text-0",
+            "text-1"
+          ]
+        },
+        "products-block": {
+          "settings": {
+          },
+          "type": "products-block"
+        },
+        "rich-text": {
+          "settings": {
+          },
+          "type": "rich-text"
+        },
+        "header": {
+          "settings": {
+            "overlay_header": true,
+            "logo-placement": "center",
+            "logo_padding": 15
+          },
+          "type": "header"
+        },
+        "featured-products": {
+          "settings": {
+            "grid-desktop": 3,
+            "rows": 2
+          },
+          "type": "featured-products"
+        },
+        "collection-list": {
+          "settings": {
+          },
+          "blocks": {
+            "collection-0": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            },
+            "collection-1": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            },
+            "collection-2": {
+              "settings": {
+              },
+              "type": "featured_collection"
+            }
+          },
+          "type": "collection-list",
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ]
+        },
+        "text-with-image-overlay": {
+          "settings": {
+            "image_height": "50vw",
+            "textPosition": "right",
+            "parallax": true,
+            "textAlignment": "right",
+            "button_label": "Shop now",
+            "image_overlay_opacity": 35,
+            "colors": "white"
+          },
+          "type": "image-with-text-overlay"
+        }
+      },
+      "header-bg-color": "#ffffff",
+      "color_body_bg": "#fff",
+      "content_for_index": [
+        "text-with-image-overlay",
+        "rich-text",
+        "feature-row-2",
+        "featured-products",
+        "text-with-image-overlay-1",
+        "featured-blog",
+        "text-with-image-overlay-2",
+        "instagram",
+        "text-adverts"
+      ],
+      "color_advert_bg": "#000000",
+      "color_primary_button_background": "#3e3e3e",
+      "type_header_font": "neuzeit_office_soft_rounded_n7",
+      "color_hero_menu_text": "#333"
+    }
+  }
+}
