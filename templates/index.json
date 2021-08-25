@@ -96,12 +96,52 @@
         "button_label": "DISCOVER THE COLLECTION",
         "button_link": "shopify:\/\/pages\/lineo"
       }
+    },
+    "162989051622b1fbe1": {
+      "type": "image-bar",
+      "blocks": {
+        "162989051622b1fbe1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FREEDOM_of_movement_5.png",
+            "link": "shopify:\/\/collections\/spring-summer-2021-new-arrivals",
+            "title": "",
+            "description": ""
+          }
+        },
+        "162989051622b1fbe1-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FREEDOM_of_movement_4.png",
+            "link": "shopify:\/\/blogs\/blog\/corona-essentials",
+            "title": "",
+            "description": ""
+          }
+        },
+        "162989051622b1fbe1-2": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "162989051622b1fbe1-0",
+        "162989051622b1fbe1-1",
+        "162989051622b1fbe1-2"
+      ],
+      "settings": {
+        "colors": "white"
+      }
     }
   },
   "order": [
     "1629889722ed1e0231",
     "162989029920ed30b2",
     "162989032889c7cbde",
-    "1629890403277e86eb"
+    "1629890403277e86eb",
+    "162989051622b1fbe1"
   ]
 }
