@@ -277,11 +277,11 @@ $baseFontSize: 13px; // Henceforth known as 1em
 
 @font-face {
   font-family: 'icons';
-  src: url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/icons.eot?v=1282853167238755370');
-  src: url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/icons.eot?v=1282853167238755370#iefix') format("embedded-opentype"),
-       url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/icons.woff?v=10710159224347271237') format("woff"),
-       url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/icons.ttf?v=10972512194721268217') format("truetype"),
-       url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/icons.svg?v=8467965197933775822#timber-icons') format("svg");
+  src: url('//cdn.shopify.com/s/files/1/1882/4247/t/22/assets/icons.eot?v=1282853167238755370');
+  src: url('//cdn.shopify.com/s/files/1/1882/4247/t/22/assets/icons.eot?v=1282853167238755370#iefix') format("embedded-opentype"),
+       url('//cdn.shopify.com/s/files/1/1882/4247/t/22/assets/icons.woff?v=10710159224347271237') format("woff"),
+       url('//cdn.shopify.com/s/files/1/1882/4247/t/22/assets/icons.ttf?v=10972512194721268217') format("truetype"),
+       url('//cdn.shopify.com/s/files/1/1882/4247/t/22/assets/icons.svg?v=8467965197933775822#timber-icons') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1877,7 +1877,7 @@ select {
           appearance: none;
   background-position: right center;
   background: {
-    image: url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/ico-select.svg?v=1079480033811815570');
+    image: url('//cdn.shopify.com/s/files/1/1882/4247/t/22/assets/ico-select.svg?v=1686168240517253357');
     repeat: no-repeat;
     position: right 10px center;
     color: transparent;
@@ -5670,12 +5670,12 @@ form#contact_form .btn, .btn--secondary,
 }
 
 .flex-direction-nav a.flex-prev {
-    background: url("//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/slider-arrows.png?v=14684077936139380672") repeat scroll 0 0;
+    background: url("//cdn.shopify.com/s/files/1/1882/4247/t/22/assets/slider-arrows.png?v=14684077936139380672") repeat scroll 0 0;
     margin: 0 0 0 -40px;
     left: -55px;
 }
 .flex-direction-nav a.flex-next {
-    background: url("//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/slider-arrows.png?v=14684077936139380672") repeat scroll 0 100%;
+    background: url("//cdn.shopify.com/s/files/1/1882/4247/t/22/assets/slider-arrows.png?v=14684077936139380672") repeat scroll 0 100%;
     margin: 0 -40px 0 0;
     right: -55px;
 }
