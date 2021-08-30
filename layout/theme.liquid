@@ -270,25 +270,25 @@ window.lazySizesConfig.rias.widths = [150, 300, 600, 900, 1200, 1500, 1800, 2100
 
 
               {% comment %}
-{% include 'easypopup' %}
-{{ 'https://lookbook.teathemes.net/public/shop-libs/nitro-lookbook.js' | script_tag }}
-              
+              {% include 'easypopup' %}
+              {{ 'https://lookbook.teathemes.net/public/shop-libs/nitro-lookbook.js' | script_tag }}
+
               {% endcomment %}
 
-{% include 'swymSnippet' %}
+              {% include 'swymSnippet' %}
 
-	{{ shop.metafields.loox["global_html_body"] }}
- {% include 'smile-initializer' %}
+              {{ shop.metafields.loox["global_html_body"] }}
+              {% include 'smile-initializer' %}
 
-{% if mlveda_code_flag == true %}
-  	{% if template != 'cart' %}
-		{% include 'mlveda-multipricing-updateprice' %}
-  	{% else %}
-        <script>mlvedaFlagCalled = true;</script>
-  	{% endif %}
-  {% else %}
-		<script>mlvedaFlagCalled = true;</script>
-  {% endif %}
+              {% if mlveda_code_flag == true %}
+              {% if template != 'cart' %}
+              {% include 'mlveda-multipricing-updateprice' %}
+              {% else %}
+              <script>mlvedaFlagCalled = true;</script>
+              {% endif %}
+              {% else %}
+              <script>mlvedaFlagCalled = true;</script>
+              {% endif %}
               {% comment %}
               {% include 'mlveda-currencies-switcher' %}{% include 'mlveda-currencies' %}{% include 'mlveda-currencies-style' %}{% include 'mlveda-flag' %}
               {% endcomment %}
