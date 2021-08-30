@@ -1,3 +1,7 @@
+{% if section.settings.collection-hero-image and collection.image %}
+	{% include 'responsive-image' with collection.image, alt: collection.title, class: 'large--one-whole homepage-content--image homepage-content--text-with-image-overlay1 hed-col-bot' %}
+{% endif %}
+
 {% assign display-total-collection-products-number-rows = section.settings.collection-products-per-row %}
 {% assign display-total-collection-products-per-row = section.settings.collection-products-per-page %}
 
@@ -793,6 +797,12 @@
 	    }
 	  ],
 	  "default": "sidebar"
+	},
+	{
+		"type": "checkbox",
+		"id": "collection-hero-image",
+		"label": "Enable Collection hero image",
+		"default": true
 	},
 	{
 		"type": "checkbox",
