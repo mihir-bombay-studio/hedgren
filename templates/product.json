@@ -3,6 +3,28 @@
     "product-template": {
       "type": "product-template",
       "settings": {
+        "show_quantity_selector": true,
+        "show_tags": false,
+        "show_collections": false,
+        "show_type": false,
+        "show_vendor": false,
+        "show_sku": false,
+        "show_smart_checkout": true,
+        "enable_image_zoom": true,
+        "cart-button-location": "above",
+        "images-position": "left",
+        "image-display": "full-size",
+        "thumbnail_changes_variant": false,
+        "show_reviews": true,
+        "enable_related_products": false,
+        "related_products_title": "You may also like...",
+        "quick_shop_enable": false,
+        "match-height": false,
+        "enable_social_sharing": true,
+        "social_sharing_title": "Share the love",
+        "social_sharing_facebook": true,
+        "social_sharing_twitter": true,
+        "social_sharing_pinterest": true
       }
     }
   },
