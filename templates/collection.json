@@ -14,7 +14,7 @@
         "hover-effect": true,
         "show-vendor": false,
         "match-height": false,
-        "show_reviews": false,
+        "show_reviews": true,
         "collection-shogun": true
       }
     }
