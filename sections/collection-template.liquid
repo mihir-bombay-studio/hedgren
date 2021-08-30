@@ -1,3 +1,8 @@
+{% if section.settings.collection-shogun %}
+  {% include 'shogun-products', content: collection %}
+  {{collection.metafields.shogun.above}}
+{% endif %}
+
 {% if section.settings.collection-hero-image and collection.image %}
 	{% include 'responsive-image' with collection.image, alt: collection.title, class: 'large--one-whole homepage-content--image homepage-content--text-with-image-overlay1 hed-col-bot' %}
 {% endif %}
@@ -774,6 +779,10 @@
 
 {% endpaginate %}
 
+{% if section.settings.collection-shogun %}
+  {{collection.metafields.shogun.below}}
+{% endif %}
+
 {% schema %}
 {
   "name": "Collection pages",
@@ -893,6 +902,12 @@
 	{
 		"type": "paragraph",
 		"content": "You will need to install Shopify's [Product Reviews app](https://apps.shopify.com/product-reviews) before enabling this option."
+	},
+	{
+		"type": "checkbox",
+		"id": "collection-shogun",
+		"label": "Enable Shogun elements",
+		"default": false
 	}
   ]
 }
