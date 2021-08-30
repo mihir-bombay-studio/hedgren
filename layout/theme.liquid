@@ -1,4 +1,4 @@
-{% include 'buildify-global' %}<!doctype html>
+<!doctype html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
@@ -65,7 +65,6 @@
   {{ rel="stylesheet" "owl.carousel.min.css" | asset_url | script_tag }}
 {{rel="stylesheet" "owl.theme.default.min.css" | asset_url | script_tag }}
   {{ "owl.carousel.min.js" | asset_url | script_tag }}
-{% include 'buildify-head' %}  
 
 	{{ shop.metafields.loox["global_html_head"] }}
   <meta name="google-site-verification" content="IDztGAlVFm4jSzXcxBCj137mC65bbg13rzJVcp9dZrI" />
@@ -176,7 +175,7 @@ window.ml_money_format = "{{ shop.money_format }}";
 
 		{% endif %}
 
-		{% capture BUILDIFY_CONTENT_FOR_LAYOUT %}{% if mlveda_code_flag == false %}
+		{% if mlveda_code_flag == false %}
           	{{ content_for_layout }}	
           {% endif %}
 
@@ -188,7 +187,7 @@ window.ml_money_format = "{{ shop.money_format }}";
           	{% include 'mlveda-multipricing-selectBox' %}
 
           	{% include 'mlveda-multipricing-selectors' %}
-          {% endif %}{% endcapture %}{% include 'buildify-variables', BUILDIFY_CONTENT_FOR_LAYOUT: BUILDIFY_CONTENT_FOR_LAYOUT %}
+          {% endif %}
 
 		</div>
 
@@ -275,8 +274,6 @@ window.lazySizesConfig.rias.widths = [150, 300, 600, 900, 1200, 1500, 1800, 2100
 
 {% include 'swymSnippet' %}
 
-
-{% include 'buildify-assets' %}
 	{{ shop.metafields.loox["global_html_body"] }}
  {% include 'smile-initializer' %}
 
