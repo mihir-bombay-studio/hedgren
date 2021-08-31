@@ -36,7 +36,7 @@
     {{ content_for_header }}
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    {{ 'modernizr.min.js' | asset_url | script_tag }}
+    {{defer 'modernizr.min.js' | asset_url | script_tag }}
     {% comment %}
     If you store has customer accounts disabled, you can remove the following JS file
     {% endcomment %}
@@ -65,127 +65,127 @@
     {% render 'shogun-head' %}
   </head>
 
-{% comment %}
-  Add the page template as a class for easy page or template specific styling.
-{% endcomment %}
-<body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% unless settings.animations_enabled %} animations-disabled{% endunless %}{% if settings.color_body_bg == settings.header-bg-color %} white--match{% endif %}" >
   {% comment %}
-  Cart Drawer might be also used by 'Quick Shop' and 'LogIn'
+  Add the page template as a class for easy page or template specific styling.
   {% endcomment %}
-  <div id="CartDrawer" class="drawer drawer--right">
-    <div class="drawer__header sitewide--title-wrapper">
-      <div class="drawer__close js-drawer-close">
-        <button type="button" class="icon-fallback-text">
-          <i class="fa fa-times fa-lg" aria-hidden="true"></i>
-          <span class="fallback-text">{{ 'cart.general.close_cart' | t | json }}</span>
-        </button>
-      </div>
-      <div class="drawer__title h2 page--title " id="CartTitle">{{ 'cart.general.title' | t }}</div>
-      <div class="drawer__title h2 page--title hide" id="ShopNowTitle">{{ 'products.product.quick_shop' | t }}</div>
-      <div class="drawer__title h2 page--title hide" id="LogInTitle">{{ 'customer.login.title' | t }}</div>
-      <div class="drawer__title h2 page--title hide" id="SearchTitle">{{ 'general.search.title' | t }}</div>
-    </div>
-    <div id="CartContainer"></div>
-    <div id="ShopNowContainer" class="hide"></div>
-    <div id="SearchContainer" class="hide">
-      <div class="wrapper search-drawer">
-        <div class="input-group">
-          <input type="search" name="q" id="search-input" placeholder="Search our store" class="input-group-field" aria-label="Search our store" autocomplete="off" />
-          <span class="input-group-btn">
-            <button type="submit" class="btn icon-fallback-text">
-              <i class="fa fa-search"></i>
-              <span class="fallback-text">Search</span>
-            </button>
-          </span>
+  <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% unless settings.animations_enabled %} animations-disabled{% endunless %}{% if settings.color_body_bg == settings.header-bg-color %} white--match{% endif %}" >
+    {% comment %}
+    Cart Drawer might be also used by 'Quick Shop' and 'LogIn'
+    {% endcomment %}
+    <div id="CartDrawer" class="drawer drawer--right">
+      <div class="drawer__header sitewide--title-wrapper">
+        <div class="drawer__close js-drawer-close">
+          <button type="button" class="icon-fallback-text">
+            <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+            <span class="fallback-text">{{ 'cart.general.close_cart' | t | json }}</span>
+          </button>
         </div>
-        {% include 'live-search-result' %}
-        <script type="text/javascript">
+        <div class="drawer__title h2 page--title " id="CartTitle">{{ 'cart.general.title' | t }}</div>
+        <div class="drawer__title h2 page--title hide" id="ShopNowTitle">{{ 'products.product.quick_shop' | t }}</div>
+        <div class="drawer__title h2 page--title hide" id="LogInTitle">{{ 'customer.login.title' | t }}</div>
+        <div class="drawer__title h2 page--title hide" id="SearchTitle">{{ 'general.search.title' | t }}</div>
+      </div>
+      <div id="CartContainer"></div>
+      <div id="ShopNowContainer" class="hide"></div>
+      <div id="SearchContainer" class="hide">
+        <div class="wrapper search-drawer">
+          <div class="input-group">
+            <input type="search" name="q" id="search-input" placeholder="Search our store" class="input-group-field" aria-label="Search our store" autocomplete="off" />
+            <span class="input-group-btn">
+              <button type="submit" class="btn icon-fallback-text">
+                <i class="fa fa-search"></i>
+                <span class="fallback-text">Search</span>
+              </button>
+            </span>
+          </div>
+          {% include 'live-search-result' %}
+          <script type="text/javascript">
             var SearchTranslations = {
-                no_results_html: {{ 'general.search.no_results_html' | t | json }},
-                results_for_html: {{ 'general.search.results_for_html' | t | json }},
-                products: {{ 'general.search.products' | t | json }},
-                pages: {{ 'general.search.pages' | t | json }},
-                articles: {{ 'general.search.articles' | t | json }}
+              no_results_html: {{ 'general.search.no_results_html' | t | json }},
+              results_for_html: {{ 'general.search.results_for_html' | t | json }},
+              products: {{ 'general.search.products' | t | json }},
+              pages: {{ 'general.search.pages' | t | json }},
+              articles: {{ 'general.search.articles' | t | json }}
             };
-        </script>
-        <div id="search-results" class="grid-uniform">
-          <!-- here will be the search results -->
+          </script>
+          <div id="search-results" class="grid-uniform">
+            <!-- here will be the search results -->
+          </div>
+          <a id="search-show-more" href="#" class="btn hide">{{ 'collections.general.see_more' | t }}</a>
         </div>
-        <a id="search-show-more" href="#" class="btn hide">{{ 'collections.general.see_more' | t }}</a>
       </div>
+      <div id="LogInContainer" class="hide"></div>
     </div>
-    <div id="LogInContainer" class="hide"></div>
-  </div>
-  <div id="DrawerOverlay"></div>
+    <div id="DrawerOverlay"></div>
 
-<div id="PageContainer">
+    <div id="PageContainer">
 
-	{% section 'announcement-bar' %}
+      {% section 'announcement-bar' %}
 
-	{% section 'header' %}
+      {% section 'header' %}
 
-		
 
-  <div {% if template == 'index' %}class="flow-homepage"{% elsif template == 'collection' %}class="flow-homepage"{% else %}class="wrapper main-content"{% endif %}>
 
-    {{ content_for_layout }}
+      <div {% if template == 'index' %}class="flow-homepage"{% elsif template == 'collection' %}class="flow-homepage"{% else %}class="wrapper main-content"{% endif %}>
 
-  </div>
+        {{ content_for_layout }}
 
-	{% section 'footer' %}
+      </div>
 
-</div>
+      {% section 'footer' %}
 
-<script type="text/javascript">
-window.lazySizesConfig = window.lazySizesConfig || {};
-window.lazySizesConfig.rias = window.lazySizesConfig.rias || {};
+    </div>
 
-// configure available widths to replace with the {width} placeholder
-window.lazySizesConfig.rias.widths = [150, 300, 600, 900, 1200, 1500, 1800, 2100];
-</script>
+    <script type="text/javascript">
+      window.lazySizesConfig = window.lazySizesConfig || {};
+      window.lazySizesConfig.rias = window.lazySizesConfig.rias || {};
 
-  {{ 'fastclick.min.js' | asset_url | script_tag }}
-  {{ 'plugins.js' | asset_url | script_tag }}
-  {{ 'timber.js' | asset_url | script_tag }}
+      // configure available widths to replace with the {width} placeholder
+      window.lazySizesConfig.rias.widths = [150, 300, 600, 900, 1200, 1500, 1800, 2100];
+    </script>
 
-  {% if template == 'product' %}
+    {{ 'fastclick.min.js' | asset_url | script_tag }}
+    {{ 'plugins.js' | asset_url | script_tag }}
+    {{ 'timber.js' | asset_url | script_tag }}
 
-  <script>
-  document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-  </script>
+    {% if template == 'product' %}
 
-  {% endif %}
+    <script>
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script>
 
-  {{ 'custom.js' | asset_url | script_tag }}
+    {% endif %}
 
-  {% include 'popup' %}
+    {{ 'custom.js' | asset_url | script_tag }}
 
-  {% if settings.show_multiple_currencies %}
+    {% include 'popup' %}
+
+    {% if settings.show_multiple_currencies %}
     {% include 'currencies' %}
-  {% else %}
+    {% else %}
     <script type="text/javascript">
       window.default_currency_format = {{ shop.money_format | json }};
     </script>
-  {% endif %}
+    {% endif %}
 
-  {% comment %}
+    {% comment %}
     Template-specific js
-  {% endcomment %}
-  <script>
-    {% if resetPassword %}
+    {% endcomment %}
+    <script>
+      {% if resetPassword %}
       $(function() {
         timber.resetPasswordSuccess();
       });
-    {% endif %}
-  </script>
+      {% endif %}
+    </script>
 
-  {% comment %}
+    {% comment %}
     Ajaxify your cart with this plugin.
     Documentation:
-      - http://shopify.com/timber#ajax-cart
-  {% endcomment %}
-  {% if settings.ajax_cart_method == "drawer" %}
-  {{ 'handlebars.min.js' | asset_url | script_tag }}
+    - http://shopify.com/timber#ajax-cart
+    {% endcomment %}
+    {% if settings.ajax_cart_method == "drawer" %}
+    {{ 'handlebars.min.js' | asset_url | script_tag }}
     {% include 'ajax-cart-template' %}
     {{ 'ajax-cart.js' | asset_url | script_tag }}
     <script>
@@ -206,13 +206,13 @@ window.lazySizesConfig.rias.widths = [150, 300, 600, 900, 1200, 1500, 1800, 2100
         timber.RightDrawer.open();
       });
     </script>
-  {% endif %}
+    {% endif %}
 
 
 
-              {% include 'swymSnippet' %}
+    {% include 'swymSnippet' %}
 
-              {{ shop.metafields.loox["global_html_body"] }}
-              {% include 'smile-initializer' %}
-</body>
+    {{ shop.metafields.loox["global_html_body"] }}
+    {% include 'smile-initializer' %}
+  </body>
 </html>
