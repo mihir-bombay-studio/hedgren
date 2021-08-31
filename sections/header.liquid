@@ -236,7 +236,7 @@
 					{% endif %}
                     {% if section.settings.enable_search %}
 					<li>
-						<a href="/search" class="search-button">
+						<a href="/search" class="search-button" aria-label="Search">
 							<i class="fa fa-search fa-lg"></i>
 						</a>
 					</li>
@@ -262,7 +262,7 @@
 
 
 					<li>
-						<a href="/cart" class="site-header__cart-toggle{% if settings.ajax_cart_method == "drawer" %} js-drawer-open-right-link{% endif %}" aria-controls="CartDrawer" aria-expanded="false">
+						<a href="/cart" class="site-header__cart-toggle{% if settings.ajax_cart_method == "drawer" %} js-drawer-open-right-link{% endif %}" aria-controls="CartDrawer" aria-expanded="false" aria-label="Cart">
 							<i class="fa fa-shopping-cart fa-lg"></i>
               <span class="site-header__cart-indicator {% if cart.item_count == 0 %}hide{% endif %}"></span>
 						</a>
