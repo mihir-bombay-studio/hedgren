@@ -6554,12 +6554,10 @@ $item-max-width: 160px;
 
 @media (max-width: $medium) {
   .mobile-nav-bar-wrapper {
-    display: flex !important;
+    display: flex!important;
     align-items: center;
-    min-height: 27.2px;
-  }
-  .no-js .mobile-nav-bar-wrapper {
-    height: 48.2125px;
+    min-height: 48.2125px !important;
+    max-height: 48.2125px !important;
   }
 }
 
