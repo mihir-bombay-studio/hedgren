@@ -12,7 +12,6 @@
 
 			<div class="row">
 				<div class="flexslider-container col-md-12">
-                  <a href="{{ settings.hed-slideshowlink }}">
 					<div class="flexslider flexslider-homepage" data-slider-id="{{ section.id }}" data-slider-slide-time="{{ section.settings.slider-slide-time }}000" data-slider-animation="{{ section.settings.slider-animation }}">
 						<ul class="slides" style="width: {% if section.settings.slider-animation == 'slide' %}{{ section.blocks | size | times:100 }}%{% else %}100%{% endif %};">
 							{% assign number_of_slides_float = section.blocks | size | times:1.0 %}
@@ -101,7 +100,6 @@
 
 			        	</ul>
 				    </div>
-                  </a>
 					<div class="custom-navigation">
 					  <a href="#" class="flex-prev">
 						<i class="fa fa-2x fa-arrow-left" aria-hidden="true"></i>
