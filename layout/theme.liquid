@@ -64,8 +64,8 @@
   {% endif %}
 {% include 'hedgren-mega' %}
     
-  {{ rel="stylesheet" "owl.carousel.min.css" | asset_url | script_tag }}
-{{rel="stylesheet" "owl.theme.default.min.css" | asset_url | script_tag }}
+  {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+  {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
   {{ "owl.carousel.min.js" | asset_url | script_tag }}
 
 	{{ shop.metafields.loox["global_html_head"] }}
