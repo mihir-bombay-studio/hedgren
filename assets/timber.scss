@@ -2757,7 +2757,7 @@ header:not(.overlay-header) .site-header__logo-overlay-link {
   background: $colorHeader;
   color: #333333;
   border-bottom: 1px solid $headerBorder;
-  display: flex;
+  display: flex !important;
   align-items: center;
 }
 
