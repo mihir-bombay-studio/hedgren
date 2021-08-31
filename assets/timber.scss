@@ -6556,6 +6556,7 @@ $item-max-width: 160px;
   .mobile-nav-bar-wrapper {
     display: flex !important;
     align-items: center;
+    min-height: 47.5px;
   }
 }
 
