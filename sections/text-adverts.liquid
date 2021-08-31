@@ -40,7 +40,7 @@
                     {% if block.settings.image != blank %}
                         <!-- HC - Add an image to Delivery columns - 9 Oct 18 -->
                         <!-- {{ block.settings.image | img_url: '100x' | img_tag }} -->
-                        <img src="{{ block.settings.image | img_url: '100x' }}" />
+                        <img src="{{ block.settings.image | img_url: '100x' }}" {% if block.settings.image.alt != blank %}alt="{{ block.settings.image.alt | escape }}"{% else %}alt="{{block.settings.image | replace: "files/","" | escape}}"{% endif %} />
                     {% endif %}
                     <span class="text-advert-section--header h5">{{ block.settings.heading | escape }}</span>
                 {% endif %}
