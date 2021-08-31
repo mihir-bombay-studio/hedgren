@@ -238,8 +238,8 @@ window.lazySizesConfig.rias.widths = [150, 300, 600, 900, 1200, 1500, 1800, 2100
     Documentation:
       - http://shopify.com/timber#ajax-cart
   {% endcomment %}
-  {{ 'handlebars.min.js' | asset_url | script_tag }}
   {% if settings.ajax_cart_method == "drawer" %}
+  {{ 'handlebars.min.js' | asset_url | script_tag }}
     {% include 'ajax-cart-template' %}
     {{ 'ajax-cart.js' | asset_url | script_tag }}
     <script>
