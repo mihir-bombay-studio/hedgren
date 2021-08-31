@@ -165,35 +165,28 @@ window.ml_money_format = "{{ shop.money_format }}";
 
 	{% section 'header' %}
 
-		{% if template == 'index' %}
+		
 
-			<div class="flow-homepage">
-              
-        {% elsif template == 'collection' %} 
-              
-              <div class="flow-homepage">
+  <div {% if template == 'index' %}class="flow-homepage"{% elsif template == 'collection' %}class="flow-homepage"{% else %}class="wrapper main-content"{% endif %}>
 
-		{% else %}
 
-			<div class="wrapper main-content">
 
-		{% endif %}
 
-		{% if mlveda_code_flag == false %}
-          	{{ content_for_layout }}	
-          {% endif %}
+    {% if mlveda_code_flag == false %}
+    {{ content_for_layout }}	
+    {% endif %}
 
-          {% if mlveda_code_flag == true %}
-          <div class="mlvedaform">
-            {{ content_for_layout }}
-            {% include 'mlveda-multipricing-options' %}
-          </div>
-          	{% include 'mlveda-multipricing-selectBox' %}
+    {% if mlveda_code_flag == true %}
+    <div class="mlvedaform">
+      {{ content_for_layout }}
+      {% include 'mlveda-multipricing-options' %}
+    </div>
+    {% include 'mlveda-multipricing-selectBox' %}
 
-          	{% include 'mlveda-multipricing-selectors' %}
-          {% endif %}
+    {% include 'mlveda-multipricing-selectors' %}
+    {% endif %}
 
-		</div>
+  </div>
 
 	{% section 'footer' %}
 
