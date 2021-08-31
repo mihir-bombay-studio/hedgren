@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  {{"https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/bars/preview_bar_injector-1e3a713add37dacb26a2846054e5bf73c968340c06cb4dbaa8b985dce031f4cd.js" | script_tag}}
+ 
   <head>
     <!-- Basic page needs ================================================== -->
     <meta charset="utf-8">
@@ -35,7 +35,7 @@
 
     <!-- Header hook for plugins ================================================== -->
     {{ content_for_header }}
-
+{{"https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/bars/preview_bar_injector-1e3a713add37dacb26a2846054e5bf73c968340c06cb4dbaa8b985dce031f4cd.js" | script_tag}}
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     {{ 'modernizr.min.js' | asset_url | script_tag }}
     {% comment %}
