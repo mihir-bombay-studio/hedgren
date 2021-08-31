@@ -54,7 +54,7 @@
     {% if responsive-image.alt %}
         alt="{{ responsive-image.alt | escape }}"
     {% else %}
-     	alt="{{responsive-image}}"
+     	alt="{{responsive-image | escape}}ty"
     {% endif %}
     {{ props }}
 />
