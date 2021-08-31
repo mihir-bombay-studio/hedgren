@@ -51,9 +51,6 @@
 
     {{ shop.metafields.loox["global_html_head"] }}
     <meta name="google-site-verification" content="IDztGAlVFm4jSzXcxBCj137mC65bbg13rzJVcp9dZrI" />
-    {% comment %}
-    {% include "loyaltylion" %}
-    {% endcomment %}
     <!-- Hotjar Tracking Code for www.hedgren.com -->
     <script>
       (function(h,o,t,j,a,r){
@@ -65,25 +62,6 @@
         a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-    {% if mlveda_code_flag == true %}
-    {% if template != 'cart' %}
-    <script>
-      $m("<style type='text/css'>.selector-wrapper,span.money{ display: none; }</style>").appendTo("head");
-
-      {% if template contains 'product' %}
-      $m("<style type='text/css'>button[name='add']{visibility : hidden;}</style>").appendTo("head");
-      {% endif %}
-
-    </script>
-    {% endif %}
-    {% endif %}
-    <script>
-      window.mlvedaShopCurrency = "{{ shop.currency }}";
-      window.shopCurrency = "{{ shop.currency }}";
-      window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
-      window.ml_money_format = "{{ shop.money_format }}";
-    </script>
-
     {% render 'shogun-head' %}
   </head>
 
@@ -150,19 +128,7 @@
 
   <div {% if template == 'index' %}class="flow-homepage"{% elsif template == 'collection' %}class="flow-homepage"{% else %}class="wrapper main-content"{% endif %}>
 
-    {% if mlveda_code_flag == false %}
-    {{ content_for_layout }}	
-    {% endif %}
-
-    {% if mlveda_code_flag == true %}
-    <div class="mlvedaform">
-      {{ content_for_layout }}
-      {% include 'mlveda-multipricing-options' %}
-    </div>
-    {% include 'mlveda-multipricing-selectBox' %}
-
-    {% include 'mlveda-multipricing-selectors' %}
-    {% endif %}
+    {{ content_for_layout }}
 
   </div>
 
