@@ -54,7 +54,7 @@
     {% if responsive-image.alt != blank %}
         alt="{{ responsive-image.alt | escape }}"
     {% else %}
-     	alt="{{responsive-image | replace: "files/","" | escape}}"
+     	alt="{{responsive-image | replace: "files/","" | split: "." | first | escape}}"
     {% endif %}
     {{ props }}
 />
