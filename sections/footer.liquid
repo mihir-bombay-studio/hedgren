@@ -179,9 +179,9 @@
           {% unless enabled_payment_types == empty %}
             <ul class="inline-list payment-icons">
 
-							{% for type in shop.enabled_payment_types %}
-								{{ type | payment_type_svg_tag: class:'payment-icon' }}
-							{% endfor %}
+              {% for type in shop.enabled_payment_types %}
+              <li>{{ type | payment_type_svg_tag: class:'payment-icon' }}</li>
+              {% endfor %}
 
             </ul>
           {% endunless %}
