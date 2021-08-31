@@ -36,7 +36,27 @@
     {{ content_for_header }}
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+    {% comment %}<script src="{{ "modernizr.min.js" | asset_url }}"></script>{% endcomment %}
+    <script>
+      (function() {
+        function asyncLoad() {
+          var urls = ["//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/modernizr.min.js?v=13761751527417730222"];
+          for (var i = 0; i < urls.length; i++) {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = urls[i];
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        };
+        if(window.attachEvent) {
+          window.attachEvent('onload', asyncLoad);
+        } else {
+          window.addEventListener('load', asyncLoad, false);
+        }
+      })();
+    </script>
     {% comment %}
     If you store has customer accounts disabled, you can remove the following JS file
     {% endcomment %}
