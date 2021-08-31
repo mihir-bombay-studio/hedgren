@@ -36,7 +36,7 @@
         class="{{ class }}"
         src="{{ responsive-image | img_url: '1000x1000' }}"
         data-sizes="auto"
-        {% if responsive-image.alt %}
+        {% if responsive-image.alt != blank %}
             alt="{{ responsive-image.alt | escape }}"
         {% else %}
             alt="{{responsive-image | escape}}"
@@ -51,10 +51,10 @@
     data-src="{{ responsive_img_url }}"
     data-sizes="auto"
     data-aspectratio="{{ responsive-image.aspect_ratio }}"
-    {% if responsive-image.alt %}
+    {% if responsive-image.alt != blank %}
         alt="{{ responsive-image.alt | escape }}"
     {% else %}
-     	alt="{{responsive-image | escape}}ty"
+     	alt="{{responsive-image | escape}}"
     {% endif %}
     {{ props }}
 />
