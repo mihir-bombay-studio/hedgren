@@ -6560,6 +6560,11 @@ $item-max-width: 160px;
     max-height: 48.2125px !important;
   }
 }
+@media (min-width: $large) and (max-width: $extralarge) {
+  .top-links--icon-links {
+  	margin-right: 0;
+  }
+}
 
 .helper-note .h3{
     color: #fff;
