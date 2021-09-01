@@ -30,7 +30,7 @@
     "color_footer_bg": "#4c4c4c",
     "color_footer_text": "#b9b9b9",
     "type_header_font": "cabin_n7",
-    "header-text-size": 17,
+    "header-text-size": 28,
     "header-underline": false,
     "type_base_font": "cabin_n4",
     "typography-body-font-size": 13,
@@ -358,10 +358,11 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-2": {
-            "type": "newsletter",
+          "footer-0": {
+            "type": "text",
             "settings": {
-              "footer_newsletter_description": ""
+              "title": "HEDGREN",
+              "richtext": "<p><\/p><p>Hedgren began designing bags in 1993 with one simple philosophy in mind: make bags that serve the functional needs of everyday life, and make them look good while doing it. Over the years we’ve grown to realize that functionality isn’t determined by the number of compartments, or pockets, or zippers a bag has. Functionality is defined by the experience someone has while using our bags. <\/p>"
             }
           },
           "footer-1": {
@@ -371,11 +372,10 @@
               "footer_linklist": "customer-services"
             }
           },
-          "footer-0": {
-            "type": "text",
+          "footer-2": {
+            "type": "newsletter",
             "settings": {
-              "title": "HEDGREN",
-              "richtext": "<p><\/p><p>Hedgren began designing bags in 1993 with one simple philosophy in mind: make bags that serve the functional needs of everyday life, and make them look good while doing it. Over the years we’ve grown to realize that functionality isn’t determined by the number of compartments, or pockets, or zippers a bag has. Functionality is defined by the experience someone has while using our bags. <\/p>"
+              "footer_newsletter_description": ""
             }
           },
           "1539263598884": {
