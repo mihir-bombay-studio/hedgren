@@ -1,7 +1,30 @@
+<div class="grid error-page--wrapper">
+	<div class="grid__item large--two-thirds push--large--one-sixth">
+	<div class="sitewide--title-wrapper">
+		<h1 class="page--title">{{ section.settings.heaing }}</h1>
+	</div>
+		<p>{{ section.settings.text }}</p>
+	</div>
+</div>
+
+
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "settings": [
+		{
+          "type": "text",
+          "id": "heading",
+          "default": "404 page heading",
+          "label": "t:general.404.title"
+        },
+		{
+          "type": "html",
+          "id": "text",
+          "default": "404 page text",
+          "label": "t:general.404.subtext_html"
+        }
+	]
   }
 {% endschema %}
 
