@@ -1,5 +1,22 @@
 {
   "sections": {
+    "163057213382ab16bd": {
+      "type": "images-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Back_to_school_1.png",
+        "image2": "shopify:\/\/shop_images\/banner-ACTION.jpg",
+        "image_height": "50vw",
+        "image_overlay_opacity": 0,
+        "parallax": true,
+        "title": "Image with Text Overlay",
+        "text": "<p>Show large text over a featured image<\/p>",
+        "colors": "white",
+        "textPosition": "right",
+        "textAlignment": "right",
+        "button_label": "shop",
+        "button_link": "shopify:\/\/collections\/charm"
+      }
+    },
     "1629889722ed1e0231": {
       "type": "tie-in",
       "blocks": {
@@ -202,6 +219,7 @@
     }
   },
   "order": [
+    "163057213382ab16bd",
     "1629889722ed1e0231",
     "162989029920ed30b2",
     "162989032889c7cbde",
