@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "page-shogun": {
+      "type": "page-shogun",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "page-shogun"
+  ]
+}
