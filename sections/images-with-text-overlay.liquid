@@ -98,6 +98,16 @@
       background-size: cover;
     }
   {% endif %}
+  {% if section.settings.image2 != blank %}
+    {% capture selector2 %}.homepage-content--{{ section.id }}2 .img{% endcapture %}
+    {% include 'responsive-background-image' with section.settings.image, selector: selector2 %}
+
+    .homepage-content--{{ section.id }} .img {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  {% endif %}
 
   {% if section.settings.image_overlay_opacity != 0 %}
     .image-with-text-overlay-wrapper .homepage-content--{{ section.id }}.homepage-content--image::before {
@@ -125,7 +135,7 @@
 <div>
 
 <div class="homepage-indiv-section-wrapper grid--full homepage-featured-content-wrapper">
-
+{% if section.settings.image2 == blank %}
 	{% capture image_layout %}
 		<div class="large--one-whole homepage-content--image homepage-content--{{ section.id }}">
 		    <div class="{% if section.settings.parallax %} parallax parallax--{{ section.id }}{% endif %}">
@@ -139,6 +149,32 @@
 		    </div>
 		</div>
 	{% endcapture %}
+  {% else %}
+  {% capture image_layout %}
+		<div class="large--one-half homepage-content--image homepage-content--{{ section.id }}">
+		    <div class="{% if section.settings.parallax %} parallax parallax--{{ section.id }}{% endif %}">
+			{% if section.settings.image != blank %}
+			    <div id="rellax--{{ section.id }}" class="img{% if section.settings.parallax %} rellax{% endif %}" data-rellax-percentage="0.5"></div>
+			{% else %}
+			    <div id="rellax--{{ section.id }}" class="placeholder-background img{% if section.settings.parallax %} rellax{% endif %}" data-rellax-percentage="0.5">
+				        {{ 'lifestyle-1' | placeholder_svg_tag: 'icon icon--placeholder' }}
+			    </div>
+			{% endif %}
+		    </div>
+		</div>
+		<div class="large--one-half homepage-content--image homepage-content--{{ section.id }}2">
+		    <div class="{% if section.settings.parallax %} parallax parallax--{{ section.id }}{% endif %}">
+			{% if section.settings.image2 != blank %}
+			    <div id="rellax--{{ section.id }}" class="img{% if section.settings.parallax %} rellax{% endif %}" data-rellax-percentage="0.5"></div>
+			{% else %}
+			    <div id="rellax--{{ section.id }}" class="placeholder-background img{% if section.settings.parallax %} rellax{% endif %}" data-rellax-percentage="0.5">
+				        {{ 'lifestyle-1' | placeholder_svg_tag: 'icon icon--placeholder' }}
+			    </div>
+			{% endif %}
+		    </div>
+		</div>
+	{% endcapture %}
+  {% endif %}
 
 	{{ image_layout }}
 
