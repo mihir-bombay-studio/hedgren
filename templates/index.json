@@ -4,6 +4,7 @@
       "type": "images-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/Back_to_school_1.png",
+        "bg_color": "#4c4c4c",
         "image2": "shopify:\/\/shop_images\/banner-ACTION.jpg",
         "image_height": "50vw",
         "image_overlay_opacity": 0,
