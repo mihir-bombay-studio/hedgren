@@ -13,7 +13,7 @@
         "text": "<p>Show large text over a featured image<\/p>",
         "colors": "white",
         "textPosition": "right",
-        "textAlignment": "right",
+        "textAlignment": "center",
         "button_label": "SHOP",
         "button_link": "shopify:\/\/collections\/charm"
       }
