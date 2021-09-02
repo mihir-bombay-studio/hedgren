@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "page-map": {
+      "type": "page-map",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "page-map"
+  ]
+}
