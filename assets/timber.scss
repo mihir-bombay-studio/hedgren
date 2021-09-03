@@ -7061,7 +7061,7 @@ input#newsletter_submit[type="submit"]{
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 8px 18px;
   width: 100%;
   text-align: left;
   border: none;
@@ -7073,6 +7073,7 @@ input#newsletter_submit[type="submit"]{
 
 .active, .accordion:hover {
   background-color: #ccc;
+  margin-bottom: 0;
 }
 
 .panel {
