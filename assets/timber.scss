@@ -7073,7 +7073,6 @@ input#newsletter_submit[type="submit"]{
 
 .active, .accordion:hover {
   background-color: #ccc;
-  margin-bottom: 0;
 }
 
 .panel {
@@ -7097,6 +7096,7 @@ input#newsletter_submit[type="submit"]{
 
 .accordion p {
   display: inline-block;
+  margin-bottom: 0;
 }
 
 .hed-col-bot{
