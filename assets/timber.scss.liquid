@@ -250,6 +250,13 @@ $baseFontSize: {{ settings.typography-body-font-size }}px; // Henceforth known a
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Hedgren-Shift';
+  src: url('{{ "Hedgren-Shift_1.otf" | asset_url }}');
+  src: url('{{ "Hedgren-Shift_1.otf" | asset_url }}') format("opentype-font");
+  font-weight: bold;
+  font-style: normal;
+}
 $socialIconFontStack: 'icons';
 
 
