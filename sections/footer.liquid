@@ -44,11 +44,33 @@
 						{% endfor %}
 					</ul>
 				</div>
-          
+          {% assign menu2 = linklists[block.settings.footer_linklist2] %}
           <div class="grid__item large--one-sixth medium--one-half small--one-whole links-footer">
-					<div class="h3 footer-header">{{ linklists.policies.title }}</div>
+					<div class="h3 footer-header">{{ block.settings.menu_title2 | escape }}</div>
 					<ul class="footer-content">
-						{% for link in linklists.policies.links %}
+						{% for link in menu2.links %}
+							{% if link.links != blank %}
+								<li>
+									<a href="{{ link.url }}" class="footer--has-dropdown-title">{{ link.title }}</a>
+									<ul class="footer--level-2">
+										{% for sub_link in link.links %}
+												<li><a href="{{ sub_link.url }}">{{ sub_link.title | escape }}</a></li>
+										{% endfor %}
+									</ul>
+								</li>
+							{% else %}
+								<li>
+									<a href="{{ link.url }}">{{ link.title }}</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</div>
+          {% assign menu3 = linklists[block.settings.footer_linklist3] %}
+          <div class="grid__item large--one-sixth medium--one-half small--one-whole links-footer">
+					<div class="h3 footer-header">{{ block.settings.menu_title3 | escape }}</div>
+					<ul class="footer-content">
+						{% for link in menu3.links %}
 							{% if link.links != blank %}
 								<li>
 									<a href="{{ link.url }}" class="footer--has-dropdown-title">{{ link.title }}</a>
@@ -266,6 +288,32 @@
           "type": "link_list",
           "id": "footer_linklist",
           "label": "Menu",
+          "default": "footer",
+					"info": "This menu has limited support for dropdown items"
+        },
+        {
+          "type": "text",
+          "id": "menu_title2",
+          "label": "Heading 2",
+          "default": "Links"
+        },
+        {
+          "type": "link_list",
+          "id": "footer_linklist2",
+          "label": "Menu 2",
+          "default": "footer",
+					"info": "This menu has limited support for dropdown items"
+        },
+        {
+          "type": "text",
+          "id": "menu_title3",
+          "label": "Heading 3",
+          "default": "Links"
+        },
+        {
+          "type": "link_list",
+          "id": "footer_linklist3",
+          "label": "Menu 3",
           "default": "footer",
 					"info": "This menu has limited support for dropdown items"
         }
