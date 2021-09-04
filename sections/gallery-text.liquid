@@ -22,7 +22,7 @@
     color: #fff;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: 300;
   }
   .image-text-gallery-wrapper a {
@@ -69,7 +69,7 @@
 {% for block in section.blocks %}
   {%- assign img_url = '' -%}
   <div class="grid__item {{ column_size }}" {{ block.shopify_attributes }}>
-    <div class="card-wrapper" style="{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color }};{% else %}background-color: #000;{% endif %}">
+    <div class="card-wrapper" style="{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color | divided_by: 10 }};{% else %}background-color: #000;{% endif %}">
       {% if block.settings.title != blank %}
       <h3 class="image-bar--title glitch-font" style="font-size: {{block.settings.font_size}}px;">{{ block.settings.title }}</h3>
       {% endif %}
@@ -154,10 +154,10 @@
         {
         "type": "range",
         "id": "font_size",
-        "min": 24,
+        "min": 10,
         "max": 120,
         "step": 2,
-        "unit": "px",
+        "unit": "vw",
         "label": "Font size",
         "default": 24
         },
