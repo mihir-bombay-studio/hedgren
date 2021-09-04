@@ -132,19 +132,19 @@
           "type": "image",
           "settings": {
             "bg_color": "",
-            "link": "",
-            "title": "",
+            "link": "shopify:\/\/products\/app-vertical-crossover-black",
+            "title": "Stay Safe",
             "font_size": 16,
-            "description": ""
+            "description": "<p>#coronaessentials<\/p>"
           }
         },
         "16307376579af32ee3-2": {
           "type": "image",
           "settings": {
-            "bg_color": "",
+            "bg_color": "#21634b",
             "link": "",
-            "title": "",
-            "font_size": 16,
+            "title": "HED Gren Ism",
+            "font_size": 46,
             "description": ""
           }
         }
