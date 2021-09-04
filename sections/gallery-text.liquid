@@ -1,3 +1,9 @@
+<style>
+  .image-text-gallery-wrapper h3.image-bar--title {
+  color: #fff;
+    
+  }
+</style>
 {% case section.settings.colors %}
   {% when 'white' %}
     <div class="homepage-sections-wrapper homepage-sections-wrapper--white">
@@ -28,7 +34,7 @@
   <div class="grid__item {{ column_size }}" {{ block.shopify_attributes }}>
     <div style="{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color }};{% else %}background-color: #000;{% endif %}">
       {% if block.settings.title != blank %}
-      <h3 class="image-bar--title" style="font-size: {{block.settings.font_size}}px;">{{ block.settings.title }}</h3>
+      <h3 class="image-bar--title glitch-font" style="font-size: {{block.settings.font_size}}px;">{{ block.settings.title }}</h3>
       {% endif %}
 
       {% if block.settings.description != blank %}
@@ -58,7 +64,7 @@
 {% schema %}
 {
   "name": "Gallery with text",
-  "class": "image-gallery-wrapper",
+  "class": "image-text-gallery-wrapper",
   "max_blocks": 4,
   "settings": [
     {
