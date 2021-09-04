@@ -32,7 +32,7 @@
 {% for block in section.blocks %}
   {%- assign img_url = '' -%}
   <div class="grid__item {{ column_size }}" {{ block.shopify_attributes }}>
-    <div style="{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color }};{% else %}background-color: #000;{% endif %}">
+    <div class="card-wrapper" style="{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color }};{% else %}background-color: #000;{% endif %}">
       {% if block.settings.title != blank %}
       <h3 class="image-bar--title glitch-font" style="font-size: {{block.settings.font_size}}px;">{{ block.settings.title }}</h3>
       {% endif %}
