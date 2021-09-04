@@ -5,7 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/New_arrivals_4e224245-d040-40cf-ae5a-26a41148a5fe.jpg",
         "bg_color": "#4c4c4c",
-        "image2": "shopify:\/\/shop_images\/banner-ACTION.jpg",
+        "halfcol": true,
         "image_height": "50vw",
         "image_overlay_opacity": 0,
         "parallax": false,
@@ -113,6 +113,49 @@
         "textAlignment": "left",
         "button_label": "DISCOVER THE COLLECTION",
         "button_link": "shopify:\/\/pages\/lineo"
+      }
+    },
+    "1630737657a3acc00f": {
+      "type": "gallery-text",
+      "blocks": {
+        "16307376579af32ee3-0": {
+          "type": "image",
+          "settings": {
+            "bg_color": "#f26c4f",
+            "link": "shopify:\/\/pages\/boost",
+            "title": "fdghdfghfdfg",
+            "font_size": 22,
+            "description": "<p>fdgh hh <\/p>"
+          }
+        },
+        "16307376579af32ee3-1": {
+          "type": "image",
+          "settings": {
+            "bg_color": "",
+            "link": "",
+            "title": "",
+            "font_size": 16,
+            "description": ""
+          }
+        },
+        "16307376579af32ee3-2": {
+          "type": "image",
+          "settings": {
+            "bg_color": "",
+            "link": "",
+            "title": "",
+            "font_size": 16,
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "16307376579af32ee3-0",
+        "16307376579af32ee3-1",
+        "16307376579af32ee3-2"
+      ],
+      "settings": {
+        "colors": "white"
       }
     },
     "162989051622b1fbe1": {
@@ -225,6 +268,7 @@
     "162989029920ed30b2",
     "162989032889c7cbde",
     "1629890403277e86eb",
+    "1630737657a3acc00f",
     "162989051622b1fbe1",
     "1629891012f15b85d6",
     "16298912105c8306e9",
