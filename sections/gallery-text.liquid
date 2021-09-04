@@ -25,23 +25,23 @@
 
 {% for block in section.blocks %}
   {%- assign img_url = '' -%}
-  <div class="grid__item {{ column_size }}" {{ block.shopify_attributes }} style="{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color }};{% else %}background-color: #000;{% endif %}">
-
-    {% if block.settings.title != blank %}
+  <div class="grid__item {{ column_size }}" {{ block.shopify_attributes }}>
+    <div style="{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color }};{% else %}background-color: #000;{% endif %}">
+      {% if block.settings.title != blank %}
       <h3 class="image-bar--title" style="font-size: {{block.settings.font_size}};">{{ block.settings.title }}</h3>
-    {% endif %}
+      {% endif %}
 
-    {% if block.settings.description != blank %}
+      {% if block.settings.description != blank %}
       <div class="image-bar--description">{{ block.settings.description }}</div>
-    {% endif %}
-    
-    
-    {% if block.settings.link != blank %}
-      <a href="{{ block.settings.link }}">Shop</a>
-    {% endif %}
+      {% endif %}
 
+
+      {% if block.settings.link != blank %}
+      <a href="{{ block.settings.link }}">Shop</a>
+      {% endif %}
+    </div>
   </div>
-{% endfor %}
+  {% endfor %}
 
 {% if section.blocks.size == 0 %}
 <div class="placeholder-noblocks">
