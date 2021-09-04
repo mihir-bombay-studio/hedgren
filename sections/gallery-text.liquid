@@ -40,6 +40,11 @@
     font-size: 22px;
     margin-top: 32px;
 }
+  @media(max-width: 767px) {
+    .image-text-gallery-wrapper .image-bar.grid {
+      flex-wrap: wrap;
+    }
+  }
 </style>
 {% case section.settings.colors %}
   {% when 'white' %}
