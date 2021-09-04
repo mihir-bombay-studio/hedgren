@@ -124,7 +124,7 @@
             "bg_color": "#d3152c",
             "link": "shopify:\/\/pages\/boost",
             "title": "New",
-            "font_size": 42,
+            "font_size": 92,
             "description": "<p>Arrivals<\/p>"
           }
         },
@@ -134,7 +134,7 @@
             "bg_color": "#40789a",
             "link": "shopify:\/\/products\/app-vertical-crossover-black",
             "title": "Stay Safe",
-            "font_size": 16,
+            "font_size": 48,
             "description": "<p>#coronaessentials<\/p>"
           }
         },
@@ -144,7 +144,7 @@
             "bg_color": "#375d54",
             "link": "",
             "title": "HED Gren Ism",
-            "font_size": 46,
+            "font_size": 92,
             "description": ""
           }
         }
