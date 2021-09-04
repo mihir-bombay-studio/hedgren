@@ -160,6 +160,7 @@
     },
     "162989051622b1fbe1": {
       "type": "image-bar",
+      "disabled": true,
       "blocks": {
         "162989051622b1fbe1-0": {
           "type": "image",
