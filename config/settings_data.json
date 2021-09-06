@@ -44,7 +44,7 @@
     "product_page_font_size": 24,
     "product_page_font_case": "normal",
     "logo_font_size": 18,
-    "ajax_cart_method": "page",
+    "ajax_cart_method": "drawer",
     "cart_vendor_enable": false,
     "cart_notes_enable": false,
     "share_image": "",
@@ -369,7 +369,11 @@
             "type": "menu",
             "settings": {
               "menu_title": "LINKS",
-              "footer_linklist": "customer-services"
+              "footer_linklist": "customer-services",
+              "menu_title2": "Links",
+              "footer_linklist2": "footer",
+              "menu_title3": "Links",
+              "footer_linklist3": "footer"
             }
           },
           "footer-2": {

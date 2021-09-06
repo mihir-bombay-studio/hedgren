@@ -228,6 +228,8 @@ timber.drawersInit = function () {
   if (!timber.RightDrawer) {
     timber.RightDrawer = new timber.Drawers('CartDrawer', 'right', {
       
+        'onDrawerOpen': ajaxCart.load
+      
     });
   } else {
     timber.RightDrawer.init();
