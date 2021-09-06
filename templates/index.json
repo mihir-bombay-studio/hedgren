@@ -118,6 +118,7 @@
     },
     "1630737657a3acc00f": {
       "type": "gallery-text",
+      "disabled": true,
       "blocks": {
         "16307376579af32ee3-0": {
           "type": "image",
@@ -161,7 +162,6 @@
     },
     "162989051622b1fbe1": {
       "type": "image-bar",
-      "disabled": true,
       "blocks": {
         "162989051622b1fbe1-0": {
           "type": "image",
