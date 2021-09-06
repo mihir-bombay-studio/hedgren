@@ -20,6 +20,7 @@
     },
     "1629889722ed1e0231": {
       "type": "tie-in",
+      "disabled": true,
       "blocks": {
         "1629889722ed1e0231-0": {
           "type": "image",
