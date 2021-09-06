@@ -10,7 +10,7 @@
         "image_overlay_opacity": 0,
         "parallax": false,
         "title": "Back to school",
-        "text": "<p>Show large text over a featured image<\/p>",
+        "text": "",
         "colors": "white",
         "textPosition": "right",
         "textAlignment": "center",
