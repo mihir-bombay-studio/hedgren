@@ -4,7 +4,7 @@
       "type": "images-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/New_arrivals_4e224245-d040-40cf-ae5a-26a41148a5fe.jpg",
-        "bg_color": "#4c4c4c",
+        "bg_color": "#375d54",
         "halfcol": true,
         "image_height": "50vw",
         "image_overlay_opacity": 0,
