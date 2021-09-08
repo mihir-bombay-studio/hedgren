@@ -68,6 +68,13 @@
         a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    
+    <script>
+      window.mlvedaShopCurrency = "{{ shop.currency }}";
+      window.shopCurrency = "{{ shop.currency }}";
+      window.supported_currencies = "{{ settings.mlvedaACS_supportedCurrencies }}";
+      window.ml_money_format = "{{ shop.money_format }}";
+    </script>
     {% render 'shogun-head' %}
   </head>
 
