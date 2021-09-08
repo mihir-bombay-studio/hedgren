@@ -1,3 +1,31 @@
+<style>
+  .grid__item.large--five-twelfths.product-info-col {
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+/* width */
+.grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+.grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+
 <div class="mlvedaform">
   <div itemscope itemtype="http://schema.org/Product">
     {% if product.metafields.loox.num_reviews %}
