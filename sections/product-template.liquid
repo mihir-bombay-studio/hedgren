@@ -357,23 +357,7 @@
 
               {% if section.settings.cart-button-location == 'above' %}
 
-              <!-- HC - Accordion added - 04 Oct Sep '18aa -->
-              <script>
-                var acc = document.getElementsByClassName("accordion");
-                var i;
-
-                for (i = 0; i < acc.length; i++) {
-                  acc[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                      panel.style.display = "none";
-                    } else {
-                      panel.style.display = "block";
-                    }
-                  });
-                }
-              </script>
+              <!-- HC - Accordion added - 04 Oct Sep '18 -->              
               <div class="product-description rte" itemprop="description">
                 {% if product.description contains '<!-- split -->' %}
                 {% assign row = product.description | split: '<!-- split -->' %}
@@ -692,7 +676,22 @@ Pinterest get data from the same Open Graph meta tags Facebook uses
     {{ product | json }}
   </script>
   {% endunless %}
-  
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
   </div>
 
   {% schema %}
