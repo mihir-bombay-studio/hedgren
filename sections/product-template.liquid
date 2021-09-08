@@ -398,6 +398,23 @@
                 {{ product.description }}
 
                 {% endif %}
+
+                <script>
+                  var acc = document.getElementsByClassName("accordion");
+                  var i;
+
+                  for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                      } else {
+                        panel.style.display = "block";
+                      }
+                    });
+                  }
+                </script>
               </div>
               {% endif %}
               {% if template contains 'article' or template contains 'blog' %}
@@ -863,26 +880,6 @@ Pinterest get data from the same Open Graph meta tags Facebook uses
   ]
   }
   {% endschema %}
-
-  <!-- HC - Accordion added - 04 Oct Sep '18 -->
-
-
-  <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-    }
-  </script>
 
   <!-- HC - First accordion always open - 5 Oct '18 -->
   <script>
