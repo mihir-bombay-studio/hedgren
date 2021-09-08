@@ -264,6 +264,22 @@
               {% endif %}
 
             </div>
+            <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+            </script>
             {% endif %}
 
             <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="product-details--form-wrapper{% if product.available %} product-details--form-wrapper---in-stock{% else %} product-details--form-wrapper---out-of-stock{% endif %}">
@@ -676,22 +692,7 @@ Pinterest get data from the same Open Graph meta tags Facebook uses
     {{ product | json }}
   </script>
   {% endunless %}
-  <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-    }
-  </script>
+  
   </div>
 
   {% schema %}
