@@ -178,11 +178,9 @@
           <ul class="bottom--footer---links">
             <li><a href="/">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name }}</a></li>
             {% if section.settings.show_wetheme %}<li><a href="http://www.wetheme.com" title="Designed by WeTheme">{{ 'layout.footer.designed_by' | t }}</a></li>{% endif %}
-            {% assign menu4 = linklists[section.settings.footer_policy_linklist] %}{{menu4}}
-            {% for link in menu4.links %}{{link}}
-            {% if link.links != blank %}
+            {% assign menu4 = linklists[section.settings.footer_policy_linklist] %}
+            {% for link in menu4.links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
             {% endfor %}
           </ul>
 
