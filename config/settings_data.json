@@ -398,7 +398,8 @@
           "footer_text": "",
           "show_methods_of_payment": true,
           "show_wetheme": false,
-          "alignment": "left"
+          "alignment": "left",
+          "footer_policy_linklist": "policies"
         }
       },
       "video": {
