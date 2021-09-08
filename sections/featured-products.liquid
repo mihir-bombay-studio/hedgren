@@ -120,7 +120,7 @@
 
             {% if section.settings.quick_shop_enable %}
               <div class="shop-now-wrapper">
-                <a class="shop-now-button" href="{{ product.url | within: collection }}">{{ 'products.product.quick_shop' | t }}</a>
+                <a class="shop-now-button" href="{{ product.url | within: collection }}"  onclick="return false;">{{ 'products.product.quick_shop' | t }}</a>
               </div>
             {% endif %}
           </div>
