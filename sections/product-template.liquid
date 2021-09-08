@@ -5,10 +5,12 @@
     overflow-y: auto;
     position: relative;
   }
+  .product-info-col-wrapper {
+  padding-right: 8px;
+  }
 /* width */
 .grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar {
   width: 8px;
-  margin-right: -8px;
 }
 
 /* Track */
@@ -208,7 +210,7 @@
 
       <div class="grid__item large--five-twelfths product-info-col">
 
-        <div class="">
+        <div class="product-info-col-wrapper">
 
           <div class="product-page--sale-badge{% unless product.compare_at_price_max > current_variant.price %} hide{% endunless %}">{{ 'products.product.on_sale' | t }}</div>
 
