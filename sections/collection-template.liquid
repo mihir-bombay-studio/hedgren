@@ -81,8 +81,8 @@
   {% for i in cat_array %}
   <!-- ignore if tag category is empty -->  
   {% unless i == '' %}
-  <h5 class="accordion1" style="font-size:14px;font-weight:300;color:#888">{{ i | remove:"1." | remove:"2." | remove:"3." | remove:"4." | remove:"5." | remove:"6." }}<span></span></h5>
-  <ul class="fpr-nav container" style="display:block;color:#888 !important;">
+  <h5 class="accordion1" style="font-size:14px;font-weight:300;color:#585858">{{ i | remove:"1." | remove:"2." | remove:"3." | remove:"4." | remove:"5." | remove:"6." }}<span></span></h5>
+  <ul class="fpr-nav container" style="display:block;color:#585858 !important;">
     <!-- loop through collection tags -->  
 	  {% for t in collection.all_tags %}
 	  <!-- if tag contains the category title -->
