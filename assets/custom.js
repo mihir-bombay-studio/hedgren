@@ -1444,7 +1444,7 @@ function ShopNow(url) {
         dataType: 'html'
     })
         .done(this.page_loaded.bind(this))
-        .error(function (error) {
+        .fail(function (error) {
             // FIXME: handle error correctly
             alert(error);
         });
@@ -1529,7 +1529,7 @@ function LogInDrawer(url) {
         dataType: 'html'
     })
         .done(this.page_loaded.bind(this))
-        .error(function (error) {
+        .fail(function (error) {
             // FIXME: handle error correctly
             alert(error);
         });
