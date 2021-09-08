@@ -1,3 +1,36 @@
+<style>
+  @media (min-width: 769px) {
+    .grid__item.large--five-twelfths.product-info-col {
+      max-height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+      transition: .2s ease;
+    }
+    .product-info-col-wrapper {
+    }
+  }
+/* width */
+.grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+.grid__item.large--five-twelfths.product-info-col::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+
 <div class="mlvedaform">
   <div itemscope itemtype="http://schema.org/Product">
     {% if product.metafields.loox.num_reviews %}
@@ -178,7 +211,7 @@
 
       <div class="grid__item large--five-twelfths product-info-col">
 
-        <div class="">
+        <div class="product-info-col-wrapper">
 
           <div class="product-page--sale-badge{% unless product.compare_at_price_max > current_variant.price %} hide{% endunless %}">{{ 'products.product.on_sale' | t }}</div>
 
@@ -837,10 +870,10 @@ Pinterest get data from the same Open Graph meta tags Facebook uses
 
   <!-- HC - First accordion always open - 5 Oct '18 -->
   <script>
-    $("document").ready(function() {
-      setTimeout(function() {
-        $("div.product-description.rte > div:nth-child(1)").trigger('click');
-      },10);
-    });
+//     $("document").ready(function() {
+//       setTimeout(function() {
+//         $("div.product-description.rte > div:nth-child(1)").trigger('click');
+//       },10);
+//     });
   </script>
 
