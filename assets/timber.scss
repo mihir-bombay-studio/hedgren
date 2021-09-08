@@ -115,7 +115,7 @@ $videoButton: #ed2628; //add global setting?
 $colorLink: $colorPrimary;
 
 // Text colors
-$colorTextBody: #888888;
+$colorTextBody: #585858;
 
 // Backgrounds
 $colorBody: #fff;
@@ -123,7 +123,7 @@ $colorHeader: #ffffff;
 $colorBodySecondary: #f8f8f8;
 
 // Border colors
-$colorBorder: lighten(#888888, 50%);
+$colorBorder: lighten(#585858, 50%);
 $headerBorder: #ffffff;
 
 // Color Schemes
@@ -2240,7 +2240,7 @@ header{
     }
 
     .top-links .site-nav__dropdown a {
-      color: #7b7b7b;
+      color: #585858;
     }
 
     .site-header__logo-image, .site-header__logo-link {
@@ -2426,7 +2426,7 @@ header:not(.overlay-header) .site-header__logo-overlay-link {
 .top-links a:visited,
 .site-header__logo-link,
 .site-header__logo-link:visited{
-	color: #7b7b7b;
+	color: #585858;
 }
 
 .top-links a:hover,
@@ -2508,7 +2508,7 @@ header:not(.overlay-header) .site-header__logo-overlay-link {
     &:active,
     &:focus {
       background-color: darken($colorNav, 10%);
-      color: darken(#7b7b7b, 10%)
+      color: darken(#585858, 10%)
     }
   }
 
@@ -2523,7 +2523,7 @@ header:not(.overlay-header) .site-header__logo-overlay-link {
       padding-top: 17px;
       padding-bottom: 15px;
       padding-right: 10px;
-      color: #7b7b7b;
+      color: #585858;
       top: -2px;
     }
 
@@ -2561,7 +2561,7 @@ header:not(.overlay-header) .site-header__logo-overlay-link {
     &:active,
     &:focus {
       background-color: darken($colorNav, 10%);
-      color: darken(#7b7b7b, 10%)
+      color: darken(#585858, 10%)
     }
   }
 }
@@ -4428,7 +4428,7 @@ h3.homepage-blog--title{
 }
 
 .homepage-featured-grid-item-details a{
-	color: #888888;
+	color: #585858;
 }
 
 .homepage-featured-grid-item-details .product-grid--price{

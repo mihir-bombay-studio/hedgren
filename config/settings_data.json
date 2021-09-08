@@ -1,6 +1,6 @@
 {
   "current": {
-    "color_body_text": "#888888",
+    "color_body_text": "#585858",
     "color_primary": "#000000",
     "color_body_bg": "#fff",
     "color_body_bg_secondary": "#f8f8f8",
@@ -8,7 +8,7 @@
     "sold_out_badge_color": "#000000",
     "cart_color": "#f68e56",
     "sliderArrowColor": "#a4a4a4",
-    "color_primary_navigation": "#7b7b7b",
+    "color_primary_navigation": "#585858",
     "color_primary_navigation_hover": "#595959",
     "color_secondary_navigation": "#333333",
     "header-bg-color": "#ffffff",
