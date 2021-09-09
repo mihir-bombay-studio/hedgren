@@ -291,6 +291,24 @@ $baseFontSize: 13px; // Henceforth known as 1em
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Circular';
+  src: url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/CircularStd-Black.otf?v=1788260448349139717');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular';
+  src: url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/CircularStd-BookItalic.otf?v=7230358823627651128');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Circular';
+  src: url('//cdn.shopify.com/s/files/1/1882/4247/t/21/assets/CircularStd-Book.otf?v=4741522943740660913');
+  font-weight: 500;
+  font-style: normal;
+}
 $socialIconFontStack: 'icons';
 
 
