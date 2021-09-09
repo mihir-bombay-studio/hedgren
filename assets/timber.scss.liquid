@@ -230,7 +230,7 @@ $zindexDrawer: 1500;
 {% assign header_font.family = "Circular" %}
 {% assign base_font.family = "Circular" %}
 {% assign navigation_font.family = "Circular" %}
-/* end */
+
 $font-weight-normal: {{ base_font.weight | default: 400 }};
 $font-weight-bold: {{ base_font_bold.weight | default: 700 }};
 $font-weight-header-bold: {{ header_font_bold.weight | default: 700 }};
@@ -245,6 +245,22 @@ $bodyFontStyle: {{ base_font.style }};
 
 $navigationFontStack: {{ navigation_font.family }}, {{ navigation_font.fallback_families }};
 $navigationFontWeight: {{ navigation_font.weight }};
+$navigationFontStyle: {{ navigation_font.style }};
+/* end */
+$font-weight-normal: 500;
+$font-weight-bold: 800;
+$font-weight-header-bold: 800;
+
+$headerFontStack: "Circular", {{ header_font.fallback_families }};
+$headerFontWeight: 500;
+$headerFontStyle: {{ header_font.style }};
+
+$bodyFontStack: "Circular", {{ base_font.fallback_families }};
+$bodyFontWeight: 500;
+$bodyFontStyle: {{ base_font.style }};
+
+$navigationFontStack: "Circular", {{ navigation_font.fallback_families }};
+$navigationFontWeight: 500;
 $navigationFontStyle: {{ navigation_font.style }};
 
 $baseFontSize: {{ settings.typography-body-font-size }}px; // Henceforth known as 1em
