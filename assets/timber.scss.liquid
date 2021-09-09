@@ -221,7 +221,16 @@ $zindexDrawer: 1500;
 {% if base_font_bold_italic %}
   {{ base_font_bold_italic | font_face }}
 {% endif %}
-
+/* custom settings*/
+{%assign base_font.weight = 500 %}
+{%assign header_font.weight = 500 %}
+{%assign navigation_font.weight = 500 %}
+{%assign base_font_bold.weight = 800 %}
+{%assign header_font_bold.weight = 800 %}
+{% assign header_font.family = "Circular" %}
+{% assign base_font.family = "Circular" %}
+{% assign navigation_font.family = "Circular" %}
+/* end */
 $font-weight-normal: {{ base_font.weight | default: 400 }};
 $font-weight-bold: {{ base_font_bold.weight | default: 700 }};
 $font-weight-header-bold: {{ header_font_bold.weight | default: 700 }};
