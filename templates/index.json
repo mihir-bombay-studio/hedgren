@@ -2,6 +2,7 @@
   "sections": {
     "163057213382ab16bd": {
       "type": "images-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/New_arrivals_4e224245-d040-40cf-ae5a-26a41148a5fe.jpg",
         "bg_color": "#375d54",
@@ -20,7 +21,6 @@
     },
     "1629889722ed1e0231": {
       "type": "tie-in",
-      "disabled": true,
       "blocks": {
         "1629889722ed1e0231-0": {
           "type": "image",
@@ -118,6 +118,7 @@
     },
     "1630737657a3acc00f": {
       "type": "gallery-text",
+      "disabled": true,
       "blocks": {
         "16307376579af32ee3-0": {
           "type": "image",
