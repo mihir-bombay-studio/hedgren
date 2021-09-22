@@ -92,7 +92,7 @@
 
 
       {% if block.settings.link != blank %}
-      <a href="{{ block.settings.link }}" style="{% if block.settings.bg_color != blank %}color: {{ block.settings.bg_color }};{% else %}color: #000;{% endif %}">Shop</a>
+      <a href="{{ block.settings.link }}" style="{% if block.settings.bg_color != blank %}color: {{ block.settings.bg_color }};{% else %}color: #000;{% endif %}">{{ block.settings.btn_text }}</a>
       {% endif %}
     </div>
   </div>
@@ -177,6 +177,12 @@
           "type": "richtext",
           "id": "description",
           "label": "Description",
+          "info": "Optional"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text",
           "info": "Optional"
         },
         {
