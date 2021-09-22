@@ -127,6 +127,7 @@
             "title": "New",
             "font_size": 64,
             "description": "<p>Arrivals<\/p>",
+            "btn_text": "Discover",
             "vertical_align": "flex-end"
           }
         },
@@ -138,6 +139,7 @@
             "title": "Stay Safe",
             "font_size": 64,
             "description": "<p>#coronaessentials<\/p>",
+            "btn_text": "Shop",
             "vertical_align": "flex-end"
           }
         },
@@ -149,6 +151,7 @@
             "title": "HED Gren Ism",
             "font_size": 64,
             "description": "",
+            "btn_text": "",
             "vertical_align": "center"
           }
         }
