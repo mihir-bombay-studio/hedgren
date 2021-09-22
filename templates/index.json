@@ -126,7 +126,8 @@
             "link": "shopify:\/\/pages\/boost",
             "title": "New",
             "font_size": 86,
-            "description": "<p>Arrivals<\/p>"
+            "description": "<p>Arrivals<\/p>",
+            "vertical_align": "flex-end"
           }
         },
         "16307376579af32ee3-1": {
@@ -136,7 +137,8 @@
             "link": "shopify:\/\/products\/app-vertical-crossover-black",
             "title": "Stay Safe",
             "font_size": 36,
-            "description": "<p>#coronaessentials<\/p>"
+            "description": "<p>#coronaessentials<\/p>",
+            "vertical_align": "flex-end"
           }
         },
         "16307376579af32ee3-2": {
@@ -146,7 +148,8 @@
             "link": "",
             "title": "HED Gren Ism",
             "font_size": 68,
-            "description": ""
+            "description": "",
+            "vertical_align": "center"
           }
         }
       },
