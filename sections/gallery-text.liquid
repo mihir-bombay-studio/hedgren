@@ -81,7 +81,7 @@
 {% for block in section.blocks %}
   {%- assign img_url = '' -%}
   <div class="grid__item {{ column_size }}" {{ block.shopify_attributes }}>
-    <div class="card-wrapper" style="{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color }};{% else %}background-color: #000;{% endif %}">
+    <div class="card-wrapper" style="justify-content: {{block.settings.vertical_align}};{% if block.settings.bg_color != blank %}background-color: {{ block.settings.bg_color }};{% else %}background-color: #000;{% endif %}">
       {% if block.settings.title != blank %}
       <h3 class="image-bar--title glitch-font" style="font-size: {{block.settings.font_size | divided_by: 10}}vw;">{{ block.settings.title }}</h3>
       {% endif %}
@@ -178,6 +178,26 @@
           "id": "description",
           "label": "Description",
           "info": "Optional"
+        },
+        {
+          "type": "select",
+          "id": "vertical_align",
+          "label": "Vertical Align",
+          "default": "flex-end",
+          "options": [
+            {
+              "value": "flex-end",
+              "label": "End"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "flex-start",
+              "label": "Start"
+            }
+          ]
         }
       ]
     }
