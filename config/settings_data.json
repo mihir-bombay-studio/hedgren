@@ -368,11 +368,11 @@
           "footer-1": {
             "type": "menu",
             "settings": {
-              "menu_title": "LINKS",
+              "menu_title": "Products",
               "footer_linklist": "customer-services",
-              "menu_title2": "Links",
+              "menu_title2": "Explore",
               "footer_linklist2": "footer",
-              "menu_title3": "Links",
+              "menu_title3": "Support",
               "footer_linklist3": "footer"
             }
           },
