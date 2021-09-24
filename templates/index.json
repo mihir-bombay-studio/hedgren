@@ -228,7 +228,7 @@
         "16298912105c8306e9-0": {
           "type": "html",
           "settings": {
-            "code": "<br>\n<h2 class=\"homepage-sections--title\">Share your style with #Hedgren for a chance to get featured on our Instagram account @Hedgren_Global<\/h2>",
+            "code": "<br>\n<h2 class=\"homepage-sections--title\">Share your style with #Hedgren for a chance to get featured on our Instagram account @Hedgren_Global<\/h2>\n<div id=\"insta-feed\"><\/div>",
             "width": "100%"
           }
         }
