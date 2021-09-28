@@ -1,6 +1,16 @@
-<!doctype html>
+{% include 'buildify-global' %}<!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    {% assign mlveda_code_flag = true %}
+    
+  {% if mlveda_code_flag == true %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script>
+      	$m = $.noConflict(true);
+	 window.pattern = /^(do|sv|ee|fi|fr|gd|gp|gg|hu|is|im|il|kz|ke|kg|la|mo|mk|mh|mq|ms|ma|nl|ne|ng|no|pw|py|pl|pt|kn|st|sc|sg|sk|za|sr|sj|th|to|tm|tc|uz|vu|vn|zm|af|al|as|ao|ai|an|ag|ar|as|bb|by|aq|bm|bq|bv|au|vg|bs|cv|bh|cf|bd|cn|be|co|ba|ci|bw|dk|bn|dm|bi|cd|cm|ec|ca|eg|td|gq|cx|er|cc|et|cr|eu|ga|gh|cy|gi|dj|gu|eu|gt|fk|gn|fo|gw|gf|hm|pf|hn|gm|iq|ge|ie|de|jm|gr|jp|in|ki|id|lr|je|mw|lv|my|ly|mu|li|yt|mv|mx|mc|mn|mz|nr|np|ni|nu|nf|pk|na|ph|oc|pn|om|qa|pg|re|pr|sh|ro|ru|rw|sm|bl|rs|pm|sx|vc|gs|sa|sd|sl|se|si|tj|tz|sb|tt|sa|tn|es|gb|lk|va|ch|zw|sy|tw|tl|tg|tr|um|vi|ug|us|uy|ve|af|ax|dz|ad|am|aw|at|az|bz|bj|bt|bo|br|io|bg|bf|kh|ky|cl|km|cg|ck|hr|cu|cw|cz|fj|tf|gl|gy|ht|hk|ir|it|jo|kw|lb|ls|lt|lu|mg|ml|mt|mr|fm|md|me|mm|na|nc|nz|kp|mp|ps|pa|pe|lc|mf|ws|sn|so|kr|ss|sz|tk|tv|ua|ae|wf|eh|ye|intl)$/;
+      </script>
+
+  {% endif %}
     <!-- Basic page needs ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +22,7 @@
     {% if settings.favicon != blank %}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
     {% endif %}
+    {{ 'https://conditional-redirect.spicegems.com/js/scripttags/hedgrenstore/static/country-redirect.js?shop=hedgrenstore' | script_tag }}
     <!-- Title and description ================================================== -->
     <title>
       {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
@@ -28,6 +39,7 @@
 
     <!-- CSS ================================================== -->
     
+    {{ 'plugins.css' | asset_url | stylesheet_tag }}
     {{ 'timber.scss.css' | asset_url | stylesheet_tag }}
     <script type='text/javascript'>
       //<![CDATA[ 
@@ -54,9 +66,11 @@
     {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
     {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
     {{ "owl.carousel.min.js" | asset_url | script_tag }}
+{% include 'buildify-head' %}  
 
     {{ shop.metafields.loox["global_html_head"] }}
     <meta name="google-site-verification" content="IDztGAlVFm4jSzXcxBCj137mC65bbg13rzJVcp9dZrI" />
+  {% include "loyaltylion" %}
     <!-- Hotjar Tracking Code for www.hedgren.com -->
     <script>
       (function(h,o,t,j,a,r){
@@ -68,7 +82,18 @@
         a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-    
+    {% if mlveda_code_flag == true %}
+  	{% if template != 'cart' %}
+		<script>
+		  $m("<style type='text/css'>.selector-wrapper,span.money{ display: none; }</style>").appendTo("head");
+          
+          {% if template contains 'product' %}
+            $m("<style type='text/css'>button[name='add']{visibility : hidden;}</style>").appendTo("head");
+          {% endif %}
+          
+		</script>
+	{% endif %}
+  {% endif %}
     <script>
       window.mlvedaShopCurrency = "{{ shop.currency }}";
       window.shopCurrency = "{{ shop.currency }}";
@@ -141,7 +166,20 @@
 
       <div {% if template == 'index' %}class="flow-homepage"{% elsif template == 'collection' %}class="flow-homepage"{% else %}class="wrapper main-content"{% endif %}>
 
-        {{ content_for_layout }}
+        {% capture BUILDIFY_CONTENT_FOR_LAYOUT %}{% if mlveda_code_flag == false %}
+          	{{ content_for_layout }}	
+          {% endif %}
+
+          {% if mlveda_code_flag == true %}
+          <div class="mlvedaform">
+            {{ content_for_layout }}
+            {% include 'mlveda-multipricing-options' %}
+          </div>
+          	{% include 'mlveda-multipricing-selectBox' %}
+
+          	{% include 'mlveda-multipricing-selectors' %}
+          {% endif %}{% endcapture %}
+        {% include 'buildify-variables', BUILDIFY_CONTENT_FOR_LAYOUT: BUILDIFY_CONTENT_FOR_LAYOUT %}
 
       </div>
 
@@ -223,9 +261,29 @@
 
 
 
+{% include 'easypopup' %}
+{{ 'https://lookbook.teathemes.net/public/shop-libs/nitro-lookbook.js' | script_tag }}
+
+
+
     {% include 'swymSnippet' %}
 
-    {{ shop.metafields.loox["global_html_body"] }}
-    {% include 'smile-initializer' %}
+
+{% include 'buildify-assets' %}
+	{{ shop.metafields.loox["global_html_body"] }}
+ {% include 'smile-initializer' %}
+
+{% if mlveda_code_flag == true %}
+  	{% if template != 'cart' %}
+		{% include 'mlveda-multipricing-updateprice' %}
+  	{% else %}
+        <script>mlvedaFlagCalled = true;</script>
+  	{% endif %}
+  {% else %}
+		<script>mlvedaFlagCalled = true;</script>
+  {% endif %}
+
+{% include 'mlveda-currencies-switcher' %}{% include 'mlveda-currencies' %}{% include 'mlveda-currencies-style' %}{% include 'mlveda-flag' %}
+
   </body>
 </html>
