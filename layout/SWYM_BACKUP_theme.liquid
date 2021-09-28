@@ -76,7 +76,9 @@
       window.ml_money_format = "{{ shop.money_format }}";
     </script>
     {% render 'shogun-head' %}
-  </head>
+  {% render 'weglot_hreftags' %}
+{% render 'weglot_switcher' %}
+</head>
 
   {% comment %}
   Add the page template as a class for easy page or template specific styling.
