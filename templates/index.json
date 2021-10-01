@@ -25,11 +25,11 @@
         "1629889722ed1e0231-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Back_to_school_1.png",
+            "image": "shopify:\/\/shop_images\/banner-ACTION.jpg",
             "title": "",
             "text": "",
-            "button_label": "SHOP",
-            "button_link": "shopify:\/\/collections\/great-american-heritage",
+            "button_label": "",
+            "button_link": "",
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#000000",
             "button-text": "#000000",
