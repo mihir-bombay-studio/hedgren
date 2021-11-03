@@ -25,15 +25,15 @@
         "1629889722ed1e0231-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HOPE_5417_x_2083_px.png",
+            "image": "shopify:\/\/shop_images\/Commute-FB-cover-1.jpg",
             "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/inner-city",
+            "text": "<p>NEW COLLECTION<\/p>",
+            "button_label": "DISCOVER",
+            "button_link": "shopify:\/\/collections\/commute",
             "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#000000",
-            "button-text": "#000000",
-            "button-background": "#d6a519",
+            "caption-text": "#375d54",
+            "button-text": "#ffffff",
+            "button-background": "#375d54",
             "captionHorizontal": "right",
             "captionAlignment": "left"
           }
