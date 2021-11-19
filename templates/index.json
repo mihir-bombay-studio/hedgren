@@ -25,15 +25,15 @@
         "1629889722ed1e0231-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Commute-FB-cover-1.jpg",
+            "image": "shopify:\/\/shop_images\/Hedgren_website_banner_5417_x_2083_A_1.jpg",
             "title": "",
-            "text": "<p>NEW COLLECTION<\/p>",
-            "button_label": "DISCOVER",
-            "button_link": "shopify:\/\/collections\/commute",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify:\/\/collections\/outlet",
             "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#375d54",
+            "caption-text": "#d3142b",
             "button-text": "#ffffff",
-            "button-background": "#375d54",
+            "button-background": "#d3142b",
             "captionHorizontal": "right",
             "captionAlignment": "left"
           }
