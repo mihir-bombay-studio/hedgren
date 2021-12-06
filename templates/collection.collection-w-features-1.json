@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "collection-template": {
+      "type": "collection-template",
+      "settings": {
+        "collection-layout": "sidebar",
+        "collection-hero-image": true,
+        "collection-show-sort-by": true,
+        "tags_enable": true,
+        "collection-products-per-row": "3",
+        "collection-products-per-page": 6,
+        "enable_infinite_scrolling": false,
+        "quick_shop_enable": true,
+        "hover-effect": true,
+        "show-vendor": false,
+        "match-height": false,
+        "show_reviews": false,
+        "collection-shogun": true
+      }
+    }
+  },
+  "order": [
+    "collection-template"
+  ]
+}
