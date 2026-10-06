@@ -62,7 +62,7 @@
 					{% capture id %}overlay-block-{{ block.id }}{% endcapture %}
 					{% capture selector %}#{{ id }}{% endcapture %}
 					<style>
-					{% include 'responsive-background-image' with block.settings.hero-menu-image, selector=selector %}
+					{% include 'responsive-background-image' with block.settings.hero-menu-image %}
 					</style>
 					<div class="homepage-hero-content-overlay homepage-hero-content-overlay-menu-item" id="{{ id }}"></div>
 				{% endif %}
@@ -380,3 +380,15 @@
 	}]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'responsive-background-image' with block.settings.hero-menu-image,
+    selector=selector %}"
+  to: "{% include 'responsive-background-image' with block.settings.hero-menu-image
+    %}"
+  position: 2562..2641
+{% endcomment %}

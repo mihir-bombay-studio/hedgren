@@ -261,7 +261,7 @@
       {% endif %}
 
       {% capture alt %}{{ section.settings.blog-sidebar-image.alt | default: shop.name }}{% endcapture %}
-      {% include 'responsive-image' with section.settings.blog-sidebar-image, class='blog-sidebar-image', alt: alt %}
+      {% include 'responsive-image' with section.settings.blog-sidebar-image, alt: alt %}
 
       {% if section.settings.blog-sidebar-link %}
         </a>
@@ -333,3 +333,15 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'responsive-image' with section.settings.blog-sidebar-image, class='blog-sidebar-image',
+    alt: alt %}"
+  to: "{% include 'responsive-image' with section.settings.blog-sidebar-image, alt:
+    alt %}"
+  position: 9770..9853
+{% endcomment %}

@@ -53,8 +53,8 @@
 
 {% include 'hedgren-mega' %}
     
-  {{ rel="stylesheet" "owl.carousel.min.css" | asset_url | script_tag }}
-{{rel="stylesheet" "owl.theme.default.min.css" | asset_url | script_tag }}
+  {{ rel.stylesheet | asset_url | script_tag }}
+{{ rel.stylesheet | asset_url | script_tag }}
   {{ "owl.carousel.min.js" | asset_url | script_tag }}
 {% include 'buildify-head' %}
   {% render 'shogun-head' %}
@@ -71,3 +71,16 @@
 <div class="pagefly-container">{{ content_for_layout }}</div>
 </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{{ rel="stylesheet" "owl.carousel.min.css" | asset_url | script_tag }}'
+  to: "{{ rel.stylesheet | asset_url | script_tag }}"
+  position: 2340..2385
+- from: '{{rel="stylesheet" "owl.theme.default.min.css" | asset_url | script_tag }}'
+  to: "{{ rel.stylesheet | asset_url | script_tag }}"
+  position: 2386..2431
+{% endcomment %}
